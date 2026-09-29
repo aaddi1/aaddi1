@@ -11,7 +11,7 @@
   </a>
 
   <p align="center">
-    <strong>📍 Pune, Maharashtra, India 🇮🇳 &bull; 🌐 Global Remote &bull; 🚀 Available for High-Impact Roles & Contracts</strong>
+    <strong>📍 Tundla, Uttar Pradesh, India 🇮🇳 &bull; 🌐 Global Remote &bull; 🚀 Available for High-Impact Roles & Contracts</strong>
   </p>
 
   <!-- SOCIAL & DIRECT CONNECT MATRIX -->
@@ -46,7 +46,7 @@
 identity:
   name: "Aryan Sharma"
   title: "3D Designer & Creative Full-Stack Engineer"
-  location: "Pune, Maharashtra, India 🇮🇳"
+  location: "Tundla, Uttar Pradesh, India 🇮🇳"
   email: "aaddisharmarkczw@gmail.com"
   core_domain: "3D Spatial Web, Full-Stack Architecture, Polyglot Engineering & Agentic AI"
   design_paradigm: "Apple Clear Liquid Glass UI • High-Performance WebGL • Reactive Systems"
