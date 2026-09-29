@@ -1,16 +1,303 @@
-## Hi there 👋
+<div align="center">
 
-<!--
-**aaddi1/aaddi1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+  <!-- DYNAMIC TYPING SVG HEADER -->
+  <a href="https://aaddi1.github.io/My-Portfolio/">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Space+Grotesk&weight=700&size=30&duration=3500&pause=1000&color=00F2FE&center=true&vCenter=true&multiline=true&width=850&height=110&lines=%E2%9A%A1+HI%2C+I'M+ARYAN+SHARMA+%E2%9A%A1;3D+Creative+Engineer+%E2%80%A2+Full-Stack+Architect;Crafting+Futuristic+Web+Experiences+%26+Intelligent+Systems" alt="Aryan Sharma - Typist Header" />
+  </a>
 
-Here are some ideas to get you started:
+  <p align="center">
+    <strong>📍 Pune, India &bull; 🌐 Global Remote &bull; 🚀 Available for High-Impact Roles & Projects</strong>
+  </p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  <!-- STATUS & IDENTITY BADGES -->
+  <p align="center">
+    <img src="https://img.shields.io/badge/STATUS-AVAILABLE_FOR_WORK-00F2FE?style=for-the-badge&logo=statuspage&logoColor=black" alt="Status Available" />
+    <img src="https://img.shields.io/badge/PORTFOLIO-3D_EXPERIENCE-4FACFE?style=for-the-badge&logo=three.js&logoColor=white" alt="Portfolio Badge" />
+    <img src="https://img.shields.io/badge/CERTIFICATIONS-17+_VERIFIED-6C5CE7?style=for-the-badge&logo=credly&logoColor=white" alt="17+ Certifications" />
+    <img src="https://img.shields.io/badge/ROLE-CREATIVE_ENGINEER-FF007A?style=for-the-badge&logo=codewars&logoColor=white" alt="Role Badge" />
+  </p>
+
+  <!-- SOCIAL CONNECT MATRIX -->
+  <p align="center">
+    <a href="https://www.linkedin.com/in/aryan-sharma11/" target="_blank">
+      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    </a>
+    <a href="https://x.com/aryan56710" target="_blank">
+      <img src="https://img.shields.io/badge/X_(Twitter)-000000?style=for-the-badge&logo=x&logoColor=white" alt="X / Twitter" />
+    </a>
+    <a href="https://www.instagram.com/aryansharma.dev/" target="_blank">
+      <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+    </a>
+    <a href="https://github.com/aaddi1" target="_blank">
+      <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+    </a>
+    <a href="https://aaddi1.github.io/My-Portfolio/" target="_blank">
+      <img src="https://img.shields.io/badge/3D_Portfolio-00F2FE?style=for-the-badge&logo=safari&logoColor=black" alt="3D Portfolio" />
+    </a>
+  </p>
+
+</div>
+
+---
+
+### 🛰️ SYSTEM OVERVIEW // ABOUT ME
+
+```yaml
+identity:
+  name: "Aryan Sharma"
+  title: "3D Designer & Creative Full-Stack Engineer"
+  location: "Pune, Maharashtra, India 🇮🇳"
+  core_domain: "3D Spatial Web, Full-Stack Architecture, Agentic AI & Human-Interface Systems"
+  architecture_style: "Apple Clear Liquid Glass UI • High-Performance WebGL • Reactive Microservices"
+  status: "Ready for high-velocity engineering, contract innovation & ambitious builds"
+```
+
+I am a certified creative engineer and web developer bridging the frontier between **hyper-aesthetic 3D interaction design** and **scalable enterprise engineering**. I don't just build websites; I engineer memorable digital ecosystems—ranging from luxury spatial 3D experiences with custom WebGL shaders to data-intensive business intelligence backends.
+
+* **🎨 3D & Creative Engineering:** Specializing in Three.js, WebGL canvas rendering, spatial UX, Liquid Glass aesthetics, and smooth scroll kinematics.
+* **⚙️ Full-Stack Systems:** End-to-end platform design with Node.js, PostgreSQL, Python analytics acceleration, and modern C++.
+* **🤖 AI & Agentic Orchestration:** Certified across Anthropic Claude Code, Prompt Engineering, and IBM AI Fundamentals for autonomous development workflows.
+* **💼 Business Driven:** Engineering digital solutions that elevate brand valuation, convert users effortlessly, and automate complex workflows.
+
+---
+
+### 📊 DEVELOPER TELEMETRY & LIFETIME STATS
+
+<div align="center">
+  <table border="0" style="border: none;">
+    <tr style="border: none;">
+      <td width="50%" align="center" style="border: none;">
+        <a href="https://github.com/aaddi1">
+          <img src="https://github-readme-stats.vercel.app/api?username=aaddi1&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=00F2FE&icon_color=4FACFE&text_color=E2E8F0" alt="Aryan's GitHub Lifetime Stats" width="100%" />
+        </a>
+      </td>
+      <td width="50%" align="center" style="border: none;">
+        <a href="https://github.com/aaddi1">
+          <img src="https://github-readme-streak-stats.herokuapp.com/?user=aaddi1&theme=tokyonight&hide_border=true&background=0D1117&ring=00F2FE&fire=4FACFE&currStreakLabel=00F2FE" alt="Aryan's GitHub Streak" width="100%" />
+        </a>
+      </td>
+    </tr>
+  </table>
+
+  <!-- TOP LANGUAGES & ACTIVITY -->
+  <table border="0" style="border: none;">
+    <tr style="border: none;">
+      <td width="50%" align="center" style="border: none;">
+        <a href="https://github.com/aaddi1">
+          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aaddi1&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F2FE&text_color=E2E8F0" alt="Top Languages" width="100%" />
+        </a>
+      </td>
+      <td width="50%" align="center" style="border: none;">
+        <a href="https://github.com/aaddi1">
+          <img src="https://github-readme-activity-graph.vercel.app/graph?username=aaddi1&bg_color=0D1117&color=00F2FE&line=4FACFE&point=00F2FE&area=true&hide_border=true" alt="Contribution Graph" width="100%" />
+        </a>
+      </td>
+    </tr>
+  </table>
+
+  <!-- GITHUB TROPHIES -->
+  <p align="center">
+    <a href="https://github.com/aaddi1">
+      <img src="https://github-profile-trophy.vercel.app/?username=aaddi1&theme=tokyonight&no-frame=true&no-bg=true&margin_w=6&column=6" alt="GitHub Trophies" />
+    </a>
+  </p>
+</div>
+
+---
+
+### 🛠️ TECHNICAL ARSENAL & SKILLS MATRIX
+
+<table>
+  <tr>
+    <th width="28%" align="left">DOMAIN</th>
+    <th width="72%" align="left">TECHNOLOGIES & TOOLING</th>
+  </tr>
+  <tr>
+    <td><strong>🌐 3D & Creative Tech</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=three.js&logoColor=white" />
+      <img src="https://img.shields.io/badge/WebGL-990000?style=flat-square&logo=webgl&logoColor=white" />
+      <img src="https://img.shields.io/badge/HTML5_Canvas-E34F26?style=flat-square&logo=html5&logoColor=white" />
+      <img src="https://img.shields.io/badge/Liquid_Glass_UI-00F2FE?style=flat-square&logo=apple&logoColor=black" />
+      <img src="https://img.shields.io/badge/Blender-E87D0D?style=flat-square&logo=blender&logoColor=white" />
+      <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" />
+    </td>
+  </tr>
+  <tr>
+    <td><strong>⚡ Core Languages</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/JavaScript_(ESNext)-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+      <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" />
+      <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
+      <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
+      <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
+    </td>
+  </tr>
+  <tr>
+    <td><strong>🚀 Full-Stack & Backend</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" />
+      <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" />
+      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+      <img src="https://img.shields.io/badge/RESTful_APIs-00F2FE?style=flat-square&logo=postman&logoColor=black" />
+      <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
+      <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white" />
+    </td>
+  </tr>
+  <tr>
+    <td><strong>🤖 AI & Agentic Tooling</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/Anthropic_Claude-D97706?style=flat-square&logo=anthropic&logoColor=white" />
+      <img src="https://img.shields.io/badge/Claude_Code_CLI-000000?style=flat-square&logo=gnubash&logoColor=white" />
+      <img src="https://img.shields.io/badge/OpenAI_API-412991?style=flat-square&logo=openai&logoColor=white" />
+      <img src="https://img.shields.io/badge/Prompt_Architecture-6C5CE7?style=flat-square&logo=probot&logoColor=white" />
+      <img src="https://img.shields.io/badge/IBM_AI_Foundations-1F70C1?style=flat-square&logo=ibm&logoColor=white" />
+    </td>
+  </tr>
+  <tr>
+    <td><strong>☁️ Cloud & Infrastructure</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/AWS_Cloud-232F3E?style=flat-square&logo=amazon-aws&logoColor=white" />
+      <img src="https://img.shields.io/badge/Google_Play_Systems-414141?style=flat-square&logo=google-play&logoColor=white" />
+      <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
+      <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" />
+      <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" />
+      <img src="https://img.shields.io/badge/Linux_CLI-FCC624?style=flat-square&logo=linux&logoColor=black" />
+    </td>
+  </tr>
+</table>
+
+---
+
+### 🚀 FEATURED FLAGSHIP PROJECTS
+
+<div align="center">
+  <table>
+    <tr>
+      <td width="50%" valign="top">
+        <h3 align="center">🏢 NEXUS Platform</h3>
+        <p align="center"><strong>Enterprise Business Intelligence & Operations</strong></p>
+        <p>Full-stack business management platform featuring real-time CRM, multi-warehouse inventory tracking, automated invoicing, and predictive BI driven by Python & C++ backend analytics.</p>
+        <p align="center">
+          <code>Node.js</code> • <code>PostgreSQL</code> • <code>Python</code> • <code>C++</code> • <code>REST API</code>
+        </p>
+        <p align="center">
+          <a href="https://github.com/aaddi1/NEXUS">
+            <img src="https://img.shields.io/badge/Explore_Repository-00F2FE?style=for-the-badge&logo=github&logoColor=black" />
+          </a>
+        </p>
+      </td>
+      <td width="50%" valign="top">
+        <h3 align="center">🏨 Cinder House</h3>
+        <p align="center"><strong>Luxury Boutique Hotel 3D Experience</strong></p>
+        <p>Immersive 3D boutique hotel website engineered with Three.js, WebGL canvas rendering, responsive spatial visuals, fluid parallax micro-animations, and liquid glass styling.</p>
+        <p align="center">
+          <code>Three.js</code> • <code>WebGL</code> • <code>Liquid Glass UI</code> • <code>JavaScript</code> • <code>3D Graphics</code>
+        </p>
+        <p align="center">
+          <a href="https://github.com/aaddi1/Cinder-House">
+            <img src="https://img.shields.io/badge/Explore_Repository-FF007A?style=for-the-badge&logo=github&logoColor=white" />
+          </a>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td width="50%" valign="top">
+        <h3 align="center">✨ Interactive 3D Portfolio</h3>
+        <p align="center"><strong>24fps Scroll Canvas Engine & UI Suite</strong></p>
+        <p>High-performance interactive 3D web experience with Apple-inspired Clear Liquid Glass UI architecture, dynamic credential viewer, and live interaction pipelines.</p>
+        <p align="center">
+          <code>Three.js</code> • <code>HTML5 Canvas</code> • <code>Modern CSS</code> • <code>Spatial UX</code>
+        </p>
+        <p align="center">
+          <a href="https://aaddi1.github.io/My-Portfolio/">
+            <img src="https://img.shields.io/badge/Live_Demo-4FACFE?style=for-the-badge&logo=safari&logoColor=white" />
+          </a>
+          <a href="https://github.com/aaddi1/My-Portfolio">
+            <img src="https://img.shields.io/badge/Repo-181717?style=for-the-badge&logo=github&logoColor=white" />
+          </a>
+        </p>
+      </td>
+      <td width="50%" valign="top">
+        <h3 align="center">⚖️ Advocate Web Platform</h3>
+        <p align="center"><strong>Modern Legal Tech & Client Portal</strong></p>
+        <p>Professional law firm and advocate web platform designed to establish high-trust client relationships, streamline intake flows, and facilitate direct legal consultations.</p>
+        <p align="center">
+          <code>HTML5</code> • <code>CSS3</code> • <code>JavaScript</code> • <code>Responsive Architecture</code>
+        </p>
+        <p align="center">
+          <a href="https://github.com/aaddi1/Advocate-webpage">
+            <img src="https://img.shields.io/badge/Explore_Repository-6C5CE7?style=for-the-badge&logo=github&logoColor=white" />
+          </a>
+        </p>
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
+### 🎖️ VERIFIED CREDENTIALS & INDUSTRY HONORS
+
+<div align="center">
+  <p>Official certifications and completion credentials awarded to <strong>Aryan Sharma</strong>. Click on any credential to inspect the verified asset.</p>
+</div>
+
+| Category | Credential & Specialization | Issuing Body / Organization | Verification Link |
+| :--- | :--- | :--- | :---: |
+| 🤖 **AI & Agentic** | **Claude Code in Action** | Claude Academy (Anthropic PBC) | [Inspect Badge ↗](https://github.com/aaddi1/My-Portfolio/blob/main/certificates/claude_code_in_action.png) |
+| 🤖 **AI & Agentic** | **Claude Code 101** | Claude Academy (Anthropic PBC) | [Inspect Badge ↗](https://github.com/aaddi1/My-Portfolio/blob/main/certificates/claude_code_101.png) |
+| 🤖 **AI & Agentic** | **Claude 101 Certification** | Claude Academy (Anthropic PBC) | [Inspect Badge ↗](https://github.com/aaddi1/My-Portfolio/blob/main/certificates/claude_101.png) |
+| 🤖 **AI & Agentic** | **AI Fundamentals** (ID: ea9a30e3) | IBM SkillsBuild | [Inspect Credential ↗](https://github.com/aaddi1/My-Portfolio/blob/main/certificates/ibm_ai_fundamentals.pdf) |
+| 🤖 **AI & Strategy** | **GenAI Job Simulation** | Boston Consulting Group (BCG X) | [Inspect Credential ↗](https://github.com/aaddi1/My-Portfolio/blob/main/certificates/bcgx_certificate.pdf) |
+| 🤖 **AI & Logic** | **Critical Thinking in the Age of AI** | HP LIFE | [Inspect Credential ↗](https://github.com/aaddi1/My-Portfolio/blob/main/certificates/critical_thinking_ai.pdf) |
+| ☁️ **Cloud & Mobile** | **Google Play Store Listing Certificate** | Google Play Academy (ID: 194626223) | [Inspect Credential ↗](https://github.com/aaddi1/My-Portfolio/blob/main/certificates/google_play_store_listing.pdf) |
+| ☁️ **Cloud & DevOps**| **AWS Developer Learning Plan** | Amazon Web Services (AWS) | [Inspect Credential ↗](https://github.com/aaddi1/My-Portfolio/blob/main/certificates/aws_training.pdf) |
+| ☁️ **Cloud & DevOps**| **AWS Cloud Computing & Scaler** | Scaler Academy & AWS | [Inspect Credential ↗](https://github.com/aaddi1/My-Portfolio/blob/main/certificates/scaler_certificate.png) |
+| 🛰️ **Space & Remote**| **ISRO / IIRS Outreach Program** | Indian Space Research Organisation | [Inspect Credential ↗](https://github.com/aaddi1/My-Portfolio/blob/main/certificates/isro_edusat_outreach.pdf) |
+| ☕ **Software Eng**  | **Java Learning Explorer Badge** | Oracle University | [Inspect Badge ↗](https://github.com/aaddi1/My-Portfolio/blob/main/certificates/oracle_java_badge.png) |
+| 🛡️ **Cybersecurity** | **Cyber Security Job Simulation** | Deloitte | [Inspect Credential ↗](https://github.com/aaddi1/My-Portfolio/blob/main/certificates/deloitte_cyber_simulation.pdf) |
+| 📈 **Fintech & Quant**| **Global Markets Sales & Trading Analyst**| Bank of America | [Inspect Credential ↗](https://github.com/aaddi1/My-Portfolio/blob/main/certificates/bank_of_america_certificate.pdf) |
+| 💼 **Consulting**    | **Management Consulting Simulation** | Mastercard Advisors | [Inspect Credential ↗](https://github.com/aaddi1/My-Portfolio/blob/main/certificates/mastercard_advisors_consulting.pdf) |
+| 💻 **Full-Stack**    | **Full-Stack Development 101** | Accredited Program | [Inspect Credential ↗](https://github.com/aaddi1/My-Portfolio/blob/main/certificates/fullstack_development_101.pdf) |
+| 📊 **Data Science**  | **SQL for Data Science** | Enterprise Data Specialization | [Inspect Credential ↗](https://github.com/aaddi1/My-Portfolio/blob/main/certificates/sql_for_data_science.pdf) |
+| 🌐 **Modern Web**    | **Introduction to Blazor** | Microsoft Web Ecosystem | [Inspect SVG ↗](https://github.com/aaddi1/My-Portfolio/blob/main/certificates/intro_to_blazor.svg) |
+
+---
+
+### 💬 INITIATE COLLABORATION // CONTACT HUD
+
+<div align="center">
+  <p>Got an ambitious project, 3D experience, full-stack platform, or engineering role? Let's connect.</p>
+
+  <p align="center">
+    <a href="https://www.linkedin.com/in/aryan-sharma11/">
+      <img src="https://img.shields.io/badge/LinkedIn-Connect_with_Aryan-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+    </a>
+    <a href="https://x.com/aryan56710">
+      <img src="https://img.shields.io/badge/X-@aryan56710-000000?style=for-the-badge&logo=x&logoColor=white" />
+    </a>
+    <a href="https://www.instagram.com/aryansharma.dev/">
+      <img src="https://img.shields.io/badge/Instagram-@aryansharma.dev-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+    </a>
+    <a href="https://aaddi1.github.io/My-Portfolio/">
+      <img src="https://img.shields.io/badge/Visit-Interactive_3D_Portfolio-00F2FE?style=for-the-badge&logo=three.js&logoColor=black" />
+    </a>
+  </p>
+
+  <br />
+
+  <img src="https://komarev.com/ghpvc/?username=aaddi1&color=00F2FE&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views Counter" />
+
+  <br /><br />
+
+  <a href="https://github.com/aaddi1">
+    <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dynamic Tech Quote" />
+  </a>
+
+  <p align="center">
+    <sub>Crafted with ⚡ and precision by <strong>Aryan Sharma</strong></sub>
+  </p>
+</div>
