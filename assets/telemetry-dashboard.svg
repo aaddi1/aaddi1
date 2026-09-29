@@ -1,124 +1,91 @@
-<svg width="900" height="295" viewBox="0 0 900 295" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="280" viewBox="0 0 900 280" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Radial mesh glows -->
-    <radialGradient id="t-glow-1" cx="15%" cy="15%" r="60%">
-      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.25"/>
-      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="t-glow-2" cx="85%" cy="85%" r="60%">
-      <stop offset="0%" stop-color="#7928ca" stop-opacity="0.28"/>
-      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
-    </radialGradient>
-
-    <!-- Glass Gradients -->
-    <linearGradient id="t-glass-fill" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.1"/>
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.015"/>
-    </linearGradient>
-    <linearGradient id="t-glass-border" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.65"/>
-      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.2"/>
-      <stop offset="100%" stop-color="#7928ca" stop-opacity="0.5"/>
-    </linearGradient>
-
-    <pattern id="t-grid" width="20" height="20" patternUnits="userSpaceOnUse">
-      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="rgba(255,255,255,0.025)" stroke-width="1"/>
-    </pattern>
-
     <style>
-      .t-mono { font-family: 'JetBrains Mono', 'SF Mono', Consolas, monospace; }
-      .t-sans { font-family: -apple-system, BlinkMacSystemFont, 'Space Grotesk', 'Segoe UI', sans-serif; }
-      .t-num { font-family: -apple-system, BlinkMacSystemFont, 'Space Grotesk', sans-serif; font-weight: 800; }
-      .t-bold { font-family: -apple-system, BlinkMacSystemFont, 'Space Grotesk', sans-serif; font-weight: 700; }
+      .t-mono { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; }
+      .t-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+      .t-num { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 700; }
+      .t-bold { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 600; }
     </style>
   </defs>
 
   <!-- Deep Canvas Base -->
-  <rect width="900" height="295" rx="18" fill="#06080e"/>
-  <rect width="900" height="295" rx="18" fill="url(#t-glow-1)"/>
-  <rect width="900" height="295" rx="18" fill="url(#t-glow-2)"/>
-  <rect width="900" height="295" rx="18" fill="url(#t-grid)"/>
-  <rect width="900" height="295" rx="18" fill="none" stroke="url(#t-glass-border)" stroke-width="1.5"/>
+  <rect width="900" height="280" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
 
-  <!-- Top Glass Header Bar -->
-  <rect x="20" y="16" width="860" height="36" rx="10" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
-  <circle cx="38" cy="34" r="4" fill="#00f2fe"/>
-  <text x="50" y="38" fill="#00f2fe" class="t-mono" font-size="11" font-weight="700" letter-spacing="1">SYSTEM TELEMETRY // CORE ENGINEERING CAPABILITIES // ARYAN SHARMA</text>
-  <text x="730" y="38" fill="rgba(255,255,255,0.6)" class="t-mono" font-size="10.5">FULL-STACK CORE ⚡</text>
+  <!-- Top Header Bar -->
+  <rect x="20" y="16" width="860" height="34" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <circle cx="36" cy="33" r="4" fill="#238636"/>
+  <text x="48" y="37" fill="#c9d1d9" class="t-mono" font-size="11" font-weight="600">ENGINEERING OVERVIEW // ARYAN SHARMA</text>
+  <text x="735" y="37" fill="#8b949e" class="t-mono" font-size="10.5">FULL-STACK CORE</text>
 
-  <!-- 4 Stat Glass Cards (Grid) -->
-  <g transform="translate(20, 64)">
-    <!-- Stat Card 1: Verified Credentials -->
+  <!-- 4 Stat Cards -->
+  <g transform="translate(20, 60)">
+    <!-- Stat Card 1 -->
     <g transform="translate(0, 0)">
-      <rect width="205" height="100" rx="12" fill="url(#t-glass-fill)" stroke="rgba(0,242,254,0.35)" stroke-width="1"/>
-      <path d="M 6 2 L 199 2" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
-      <text x="16" y="28" fill="rgba(255,255,255,0.65)" class="t-mono" font-size="9.5" font-weight="600">CREDENTIALS VAULT</text>
-      <text x="16" y="65" fill="#00f2fe" class="t-num" font-size="32">17+</text>
-      <text x="16" y="85" fill="rgba(255,255,255,0.85)" class="t-sans" font-size="10.5">Verified Certifications</text>
+      <rect width="205" height="92" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+      <text x="16" y="26" fill="#8b949e" class="t-mono" font-size="9.5" font-weight="600">CREDENTIALS VAULT</text>
+      <text x="16" y="60" fill="#58a6ff" class="t-num" font-size="28">17+</text>
+      <text x="16" y="78" fill="#8b949e" class="t-sans" font-size="10.5">Verified Certifications</text>
     </g>
 
-    <!-- Stat Card 2: Enterprise Job Simulations -->
+    <!-- Stat Card 2 -->
     <g transform="translate(218, 0)">
-      <rect width="205" height="100" rx="12" fill="url(#t-glass-fill)" stroke="rgba(121,40,202,0.35)" stroke-width="1"/>
-      <path d="M 6 2 L 199 2" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
-      <text x="16" y="28" fill="rgba(255,255,255,0.65)" class="t-mono" font-size="9.5" font-weight="600">ENTERPRISE SIMS</text>
-      <text x="16" y="65" fill="#c084fc" class="t-num" font-size="32">4</text>
-      <text x="16" y="85" fill="rgba(255,255,255,0.85)" class="t-sans" font-size="10.5">BCG, Deloitte, BofA, MC</text>
+      <rect width="205" height="92" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+      <text x="16" y="26" fill="#8b949e" class="t-mono" font-size="9.5" font-weight="600">ENTERPRISE SIMS</text>
+      <text x="16" y="60" fill="#d2a8ff" class="t-num" font-size="28">4</text>
+      <text x="16" y="78" fill="#8b949e" class="t-sans" font-size="10.5">Deloitte, BCG, BofA, MC</text>
     </g>
 
-    <!-- Stat Card 3: Production Repositories -->
+    <!-- Stat Card 3 -->
     <g transform="translate(436, 0)">
-      <rect width="205" height="100" rx="12" fill="url(#t-glass-fill)" stroke="rgba(0,245,160,0.35)" stroke-width="1"/>
-      <path d="M 6 2 L 199 2" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
-      <text x="16" y="28" fill="rgba(255,255,255,0.65)" class="t-mono" font-size="9.5" font-weight="600">PRODUCTION BUILDS</text>
-      <text x="16" y="65" fill="#00f5a0" class="t-num" font-size="32">7+</text>
-      <text x="16" y="85" fill="rgba(255,255,255,0.85)" class="t-sans" font-size="10.5">Full-Stack &amp; 3D Apps</text>
+      <rect width="205" height="92" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+      <text x="16" y="26" fill="#8b949e" class="t-mono" font-size="9.5" font-weight="600">PRODUCTION APPS</text>
+      <text x="16" y="60" fill="#3fb950" class="t-num" font-size="28">7+</text>
+      <text x="16" y="78" fill="#8b949e" class="t-sans" font-size="10.5">Full-Stack &amp; 3D Builds</text>
     </g>
 
-    <!-- Stat Card 4: Architecture Standards -->
+    <!-- Stat Card 4 -->
     <g transform="translate(654, 0)">
-      <rect width="205" height="100" rx="12" fill="url(#t-glass-fill)" stroke="rgba(255,0,122,0.35)" stroke-width="1"/>
-      <path d="M 6 2 L 199 2" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
-      <text x="16" y="28" fill="rgba(255,255,255,0.65)" class="t-mono" font-size="9.5" font-weight="600">ENGINEERING SCOPE</text>
-      <text x="16" y="65" fill="#ff76ac" class="t-num" font-size="32">E2E</text>
-      <text x="16" y="85" fill="rgba(255,255,255,0.85)" class="t-sans" font-size="10.5">Design, Server, DB, Deploy</text>
+      <rect width="205" height="92" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+      <text x="16" y="26" fill="#8b949e" class="t-mono" font-size="9.5" font-weight="600">ENGINEERING SCOPE</text>
+      <text x="16" y="60" fill="#f0883e" class="t-num" font-size="28">E2E</text>
+      <text x="16" y="78" fill="#8b949e" class="t-sans" font-size="10.5">Server, DB, 3D, Deploy</text>
     </g>
   </g>
 
-  <!-- Lower Architectural Tiers Panel (Clean Concrete Systems - No Fake Percentages) -->
-  <g transform="translate(20, 178)">
-    <rect width="860" height="102" rx="12" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <!-- Lower Architectural Pillars -->
+  <g transform="translate(20, 164)">
+    <rect width="860" height="98" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
 
     <!-- Pillar 1: Custom Servers -->
-    <g transform="translate(20, 18)">
-      <rect width="195" height="66" rx="8" fill="rgba(0,242,254,0.06)" stroke="rgba(0,242,254,0.3)" stroke-width="1"/>
-      <text x="12" y="22" fill="#00f2fe" class="t-bold" font-size="11.5">🖥️ SERVER ENGINES</text>
-      <text x="12" y="40" fill="rgba(255,255,255,0.85)" class="t-mono" font-size="9">Node.js • Express</text>
-      <text x="12" y="54" fill="rgba(255,255,255,0.55)" class="t-mono" font-size="8.5">REST APIs • Microservices</text>
+    <g transform="translate(18, 16)">
+      <rect width="198" height="66" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+      <text x="12" y="22" fill="#58a6ff" class="t-bold" font-size="11.5">🖥️ SERVER ENGINES</text>
+      <text x="12" y="40" fill="#c9d1d9" class="t-mono" font-size="9">Node.js • Express</text>
+      <text x="12" y="54" fill="#8b949e" class="t-mono" font-size="8.5">REST APIs • Microservices</text>
     </g>
 
     <!-- Pillar 2: Relational SQL -->
-    <g transform="translate(230, 18)">
-      <rect width="195" height="66" rx="8" fill="rgba(0,245,160,0.06)" stroke="rgba(0,245,160,0.3)" stroke-width="1"/>
-      <text x="12" y="22" fill="#00f5a0" class="t-bold" font-size="11.5">🗄️ SQL &amp; SCHEMAS</text>
-      <text x="12" y="40" fill="rgba(255,255,255,0.85)" class="t-mono" font-size="9">PostgreSQL • Complex SQL</text>
-      <text x="12" y="54" fill="rgba(255,255,255,0.55)" class="t-mono" font-size="8.5">Relational DB Architecture</text>
+    <g transform="translate(230, 16)">
+      <rect width="198" height="66" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+      <text x="12" y="22" fill="#3fb950" class="t-bold" font-size="11.5">🗄️ SQL &amp; SCHEMAS</text>
+      <text x="12" y="40" fill="#c9d1d9" class="t-mono" font-size="9">PostgreSQL • Complex SQL</text>
+      <text x="12" y="54" fill="#8b949e" class="t-mono" font-size="8.5">Relational DB Architecture</text>
     </g>
 
     <!-- Pillar 3: C++ & Python Analytics -->
-    <g transform="translate(440, 18)">
-      <rect width="195" height="66" rx="8" fill="rgba(121,40,202,0.06)" stroke="rgba(121,40,202,0.3)" stroke-width="1"/>
-      <text x="12" y="22" fill="#c084fc" class="t-bold" font-size="11.5">⚡ C++ &amp; ANALYTICS</text>
-      <text x="12" y="40" fill="rgba(255,255,255,0.85)" class="t-mono" font-size="9">Compiled C++ Modules</text>
-      <text x="12" y="54" fill="rgba(255,255,255,0.55)" class="t-mono" font-size="8.5">Python Predictive Logic</text>
+    <g transform="translate(442, 16)">
+      <rect width="198" height="66" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+      <text x="12" y="22" fill="#d2a8ff" class="t-bold" font-size="11.5">⚡ C++ &amp; ANALYTICS</text>
+      <text x="12" y="40" fill="#c9d1d9" class="t-mono" font-size="9">Compiled C++ Modules</text>
+      <text x="12" y="54" fill="#8b949e" class="t-mono" font-size="8.5">Python Predictive Logic</text>
     </g>
 
-    <!-- Pillar 4: 3D Spatial & Liquid Glass -->
-    <g transform="translate(650, 18)">
-      <rect width="190" height="66" rx="8" fill="rgba(255,0,122,0.06)" stroke="rgba(255,0,122,0.3)" stroke-width="1"/>
-      <text x="12" y="22" fill="#ff76ac" class="t-bold" font-size="11.5">🌐 3D SPATIAL UI</text>
-      <text x="12" y="40" fill="rgba(255,255,255,0.85)" class="t-mono" font-size="9">Three.js • WebGL</text>
-      <text x="12" y="54" fill="rgba(255,255,255,0.55)" class="t-mono" font-size="8.5">Liquid Glass UI Shaders</text>
+    <!-- Pillar 4: 3D Spatial Graphics -->
+    <g transform="translate(654, 16)">
+      <rect width="190" height="66" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+      <text x="12" y="22" fill="#f0883e" class="t-bold" font-size="11.5">🌐 3D SPATIAL UI</text>
+      <text x="12" y="40" fill="#c9d1d9" class="t-mono" font-size="9">Three.js • WebGL</text>
+      <text x="12" y="54" fill="#8b949e" class="t-mono" font-size="8.5">Canvas &amp; Shaders Engine</text>
     </g>
   </g>
 </svg>

@@ -1,13 +1,13 @@
 <div align="center">
 
-  <!-- BESPOKE APPLE LIQUID GLASS HERO BANNER -->
+  <!-- BESPOKE GITHUB DARK HERO BANNER -->
   <a href="https://aaddi1.github.io/My-Portfolio/">
     <img src="./assets/hero-banner.svg" alt="Aryan Sharma - 3D Creative Engineer & Full-Stack Architect" width="100%" />
   </a>
 
-  <!-- DYNAMIC TYPING SUBHEADER -->
+  <!-- DYNAMIC TYPING SUBHEADER (GITHUB ACCENT) -->
   <a href="https://aaddi1.github.io/My-Portfolio/">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Space+Grotesk&weight=700&size=24&duration=3500&pause=1000&color=00F2FE&center=true&vCenter=true&multiline=true&width=850&height=75&lines=%E2%9A%A1+3D+Spatial+Web+Experiences+%E2%80%A2+Apple+Liquid+Glass+UI;%F0%9F%96%A5%EF%B8%8F+Custom+Node.js+Servers+%26+PostgreSQL+Architect;%E2%9A%99%EF%B8%8F+Compiled+C%2B%2B+Acceleration+%26+Full-Stack+Platforms" alt="Dynamic Typing Subheader" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=-apple-system,BlinkMacSystemFont,Segoe+UI,Helvetica,Arial,sans-serif&weight=600&size=22&duration=3500&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&width=850&height=75&lines=3D+Spatial+Web+Experiences+%E2%80%A2+Creative+Engineering;Custom+Node.js+Servers+%26+PostgreSQL+Database+Architecture;Compiled+C%2B%2B+Acceleration+%26+Full-Stack+Platforms" alt="Dynamic Typing Subheader" />
   </a>
 
   <p align="center">
@@ -20,7 +20,7 @@
       <img src="https://img.shields.io/badge/Direct_Email-aaddisharmarkczw%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Aryan Sharma" />
     </a>
     <a href="https://www.linkedin.com/in/aryan-sharma11/" target="_blank">
-      <img src="https://img.shields.io/badge/LinkedIn-Aryan_Sharma-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Profile" />
+      <img src="https://img.shields.io/badge/LinkedIn-Aryan_Sharma-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Profile" />
     </a>
     <a href="https://x.com/aryan56710" target="_blank">
       <img src="https://img.shields.io/badge/X_(Twitter)-@aryan56710-000000?style=for-the-badge&logo=x&logoColor=white" alt="X Profile" />
@@ -29,10 +29,10 @@
       <img src="https://img.shields.io/badge/Instagram-@aryansharma.dev-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram Profile" />
     </a>
     <a href="https://github.com/aaddi1" target="_blank">
-      <img src="https://img.shields.io/badge/GitHub-@aaddi1-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile" />
+      <img src="https://img.shields.io/badge/GitHub-@aaddi1-21262d?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile" />
     </a>
     <a href="https://aaddi1.github.io/My-Portfolio/" target="_blank">
-      <img src="https://img.shields.io/badge/3D_Portfolio-Experience_Live-00F2FE?style=for-the-badge&logo=three.js&logoColor=black" alt="3D Portfolio Live" />
+      <img src="https://img.shields.io/badge/3D_Portfolio-Experience_Live-238636?style=for-the-badge&logo=three.js&logoColor=white" alt="3D Portfolio Live" />
     </a>
   </p>
 
@@ -53,7 +53,7 @@ identity:
     - "Custom Backend Server Engines (Node.js / Express / Asynchronous REST APIs)"
     - "Relational Database Architecture (PostgreSQL / Complex SQL / Normalized Schemas)"
     - "High-Speed Computational Modules (Compiled C++ / Python Data Pipelines)"
-    - "Apple Clear Liquid Glass UI & Fluid Design Systems"
+    - "Apple-Inspired Liquid Glass UI & Fluid Design Systems"
   credentials_vault: "17+ Official Certifications & 4 Enterprise Job Simulations"
   status: "Open for high-velocity software engineering, full-stack systems & 3D builds"
 ```
@@ -74,40 +74,40 @@ Rather than relying on templates or pre-packaged abstractions, I build the core 
 
 <div align="center">
 
-  <!-- LIVE GITHUB STATS & STREAK CARDS -->
+  <!-- LIVE GITHUB STATS & STREAK (GITHUB DARK PALETTE) -->
   <p align="center">
     <a href="https://github.com/aaddi1">
-      <img src="https://github-readme-stats-fast.vercel.app/api?username=aaddi1&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=00F2FE&icon_color=4FACFE&text_color=E2E8F0" alt="Aryan Sharma's Live GitHub Stats" />
+      <img src="https://github-readme-stats-fast.vercel.app/api?username=aaddi1&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=3FB950&text_color=C9D1D9" alt="Aryan Sharma's Live GitHub Stats" />
     </a>
     <a href="https://github.com/aaddi1">
-      <img src="https://streak-stats.demolab.com/?user=aaddi1&theme=tokyonight&hide_border=true&background=0D1117&ring=00F2FE&fire=4FACFE&currStreakLabel=00F2FE" alt="Aryan Sharma's GitHub Streak" />
+      <img src="https://streak-stats.demolab.com/?user=aaddi1&theme=github-dark-dimmed&hide_border=true&background=0D1117&ring=3FB950&fire=58A6FF&currStreakLabel=3FB950" alt="Aryan Sharma's GitHub Streak" />
     </a>
   </p>
 
   <!-- LIVE TOP LANGUAGES CARD -->
   <p align="center">
     <a href="https://github.com/aaddi1">
-      <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=aaddi1&layout=compact&langs_count=10&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F2FE&text_color=E2E8F0" alt="Aryan Sharma's Live Most Used Languages" />
+      <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=aaddi1&layout=compact&langs_count=10&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" alt="Aryan Sharma's Live Most Used Languages" />
     </a>
   </p>
 
-  <!-- LIVE 365-DAY GITHUB CONTRIBUTION GRAPH -->
+  <!-- LIVE 365-DAY GITHUB CONTRIBUTION GRAPH (CLASSIC GITHUB GREEN) -->
   <h4>⚡ LIVE LIFETIME CONTRIBUTION ACTIVITY GRAPH</h4>
   <p align="center">
     <a href="https://github.com/aaddi1">
-      <img src="https://ghchart.rshah.org/00f2fe/aaddi1" alt="Aryan Sharma's Live GitHub Contribution Graph" width="100%" />
+      <img src="https://ghchart.rshah.org/2ea043/aaddi1" alt="Aryan Sharma's Live GitHub Contribution Graph" width="100%" />
     </a>
   </p>
 
   <br />
 
-  <!-- LIQUID GLASS DEVELOPER TELEMETRY DASHBOARD -->
+  <!-- GITHUB DARK TELEMETRY DASHBOARD -->
   <img src="./assets/telemetry-dashboard.svg" alt="Aryan Sharma Developer Telemetry Dashboard" width="100%" />
 
   <br /><br />
 
-  <!-- VERIFIED HONORS & LIQUID GLASS TROPHY VAULT -->
-  <img src="./assets/trophies-vault-glass.svg" alt="Liquid Glass Trophy Vault" width="100%" />
+  <!-- VERIFIED HONORS & TROPHY VAULT -->
+  <img src="./assets/trophies-vault-glass.svg" alt="GitHub Dark Trophy Vault" width="100%" />
 </div>
 
 ---
@@ -150,7 +150,7 @@ Rather than relying on templates or pre-packaged abstractions, I build the core 
       <a href="https://threejs.org/"><img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=three.js&logoColor=white" /></a>
       <a href="https://www.khronos.org/webgl/"><img src="https://img.shields.io/badge/WebGL-990000?style=flat-square&logo=webgl&logoColor=white" /></a>
       <img src="https://img.shields.io/badge/HTML5_Canvas_3D-E34F26?style=flat-square&logo=html5&logoColor=white" />
-      <img src="https://img.shields.io/badge/Liquid_Glass_UI-00F2FE?style=flat-square&logo=apple&logoColor=black" />
+      <img src="https://img.shields.io/badge/Liquid_Glass_UI-21262d?style=flat-square&logo=apple&logoColor=white" />
       <a href="https://www.blender.org/"><img src="https://img.shields.io/badge/Blender-E87D0D?style=flat-square&logo=blender&logoColor=white" /></a>
       <a href="https://www.figma.com/"><img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" /></a>
     </td>
@@ -213,7 +213,7 @@ Here is an architectural breakdown of major production platforms designed and de
         </p>
         <p align="center">
           <a href="https://github.com/aaddi1/NEXUS">
-            <img src="https://img.shields.io/badge/Explore_Repository-00F2FE?style=for-the-badge&logo=github&logoColor=black" />
+            <img src="https://img.shields.io/badge/Explore_Repository-21262d?style=for-the-badge&logo=github&logoColor=white" />
           </a>
         </p>
       </td>
@@ -223,18 +223,18 @@ Here is an architectural breakdown of major production platforms designed and de
         <p align="left">
           <strong>How It Was Built (100% Solo Engineering):</strong>
           <br />• <strong>3D Spatial Engine:</strong> Implemented <code>Three.js</code> and <code>WebGL</code> viewports with dynamic lighting, spatial camera transitions, and custom 3D model loaders.
-          <br />• <strong>Apple Liquid Glass UI:</strong> Crafted an immersive glassmorphic design system using CSS backdrop-filters, specular gradient borders, and responsive grid layouts.
+          <br />• <strong>Liquid Glass UI:</strong> Crafted an immersive glassmorphic design system using CSS backdrop-filters, specular borders, and responsive grid layouts.
           <br />• <strong>Micro-Interactions:</strong> Engineered high-precision scroll kinematics and zero-lag interactive room exploration without external UI bloat.
         </p>
         <p align="center">
           <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=three.js&logoColor=white" />
           <img src="https://img.shields.io/badge/WebGL-990000?style=flat-square&logo=webgl&logoColor=white" />
-          <img src="https://img.shields.io/badge/Liquid_Glass_UI-00F2FE?style=flat-square&logo=apple&logoColor=black" />
+          <img src="https://img.shields.io/badge/Liquid_Glass_UI-21262d?style=flat-square&logo=apple&logoColor=white" />
           <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
         </p>
         <p align="center">
           <a href="https://github.com/aaddi1/Cinder-House">
-            <img src="https://img.shields.io/badge/Explore_Repository-FF007A?style=for-the-badge&logo=github&logoColor=white" />
+            <img src="https://img.shields.io/badge/Explore_Repository-21262d?style=for-the-badge&logo=github&logoColor=white" />
           </a>
         </p>
       </td>
@@ -256,10 +256,10 @@ Here is an architectural breakdown of major production platforms designed and de
         </p>
         <p align="center">
           <a href="https://aaddi1.github.io/My-Portfolio/">
-            <img src="https://img.shields.io/badge/Live_Experience-4FACFE?style=for-the-badge&logo=safari&logoColor=white" />
+            <img src="https://img.shields.io/badge/Live_Experience-238636?style=for-the-badge&logo=safari&logoColor=white" />
           </a>
           <a href="https://github.com/aaddi1/My-Portfolio">
-            <img src="https://img.shields.io/badge/Repo-181717?style=for-the-badge&logo=github&logoColor=white" />
+            <img src="https://img.shields.io/badge/Repo-21262d?style=for-the-badge&logo=github&logoColor=white" />
           </a>
         </p>
       </td>
@@ -279,7 +279,7 @@ Here is an architectural breakdown of major production platforms designed and de
         </p>
         <p align="center">
           <a href="https://github.com/aaddi1/Advocate-webpage">
-            <img src="https://img.shields.io/badge/Explore_Repository-6C5CE7?style=for-the-badge&logo=github&logoColor=white" />
+            <img src="https://img.shields.io/badge/Explore_Repository-21262d?style=for-the-badge&logo=github&logoColor=white" />
           </a>
         </p>
       </td>
@@ -327,7 +327,7 @@ Here is an architectural breakdown of major production platforms designed and de
       <img src="https://img.shields.io/badge/Direct_Email-aaddisharmarkczw%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Aryan Sharma" />
     </a>
     <a href="https://www.linkedin.com/in/aryan-sharma11/">
-      <img src="https://img.shields.io/badge/LinkedIn-Connect_with_Aryan-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+      <img src="https://img.shields.io/badge/LinkedIn-Connect_with_Aryan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
     </a>
     <a href="https://x.com/aryan56710">
       <img src="https://img.shields.io/badge/X-@aryan56710-000000?style=for-the-badge&logo=x&logoColor=white" alt="X (Twitter)" />
@@ -336,17 +336,17 @@ Here is an architectural breakdown of major production platforms designed and de
       <img src="https://img.shields.io/badge/Instagram-@aryansharma.dev-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
     </a>
     <a href="https://aaddi1.github.io/My-Portfolio/">
-      <img src="https://img.shields.io/badge/Visit-Interactive_3D_Portfolio-00F2FE?style=for-the-badge&logo=three.js&logoColor=black" alt="3D Portfolio" />
+      <img src="https://img.shields.io/badge/Visit-3D_Portfolio-238636?style=for-the-badge&logo=three.js&logoColor=white" alt="3D Portfolio" />
     </a>
   </p>
 
   <br />
 
-  <img src="https://komarev.com/ghpvc/?username=aaddi1&color=00F2FE&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views Counter" />
+  <img src="https://komarev.com/ghpvc/?username=aaddi1&color=238636&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views Counter" />
 
   <br /><br />
 
   <p align="center">
-    <sub>Crafted with ⚡ and precision by <strong>Aryan Sharma</strong> &bull; Direct Contact: <strong><a href="mailto:aaddisharmarkczw@gmail.com">aaddisharmarkczw@gmail.com</a></strong></sub>
+    <sub>Crafted with precision by <strong>Aryan Sharma</strong> &bull; Direct Contact: <strong><a href="mailto:aaddisharmarkczw@gmail.com">aaddisharmarkczw@gmail.com</a></strong></sub>
   </p>
 </div>

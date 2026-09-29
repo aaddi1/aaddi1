@@ -1,193 +1,156 @@
-<svg width="900" height="285" viewBox="0 0 900 285" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="280" viewBox="0 0 900 280" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Background Gradient -->
-    <radialGradient id="tr-glow-1" cx="20%" cy="20%" r="60%">
-      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.22"/>
-      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="tr-glow-2" cx="80%" cy="80%" r="60%">
-      <stop offset="0%" stop-color="#7928ca" stop-opacity="0.25"/>
-      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
-    </radialGradient>
-
-    <!-- Glass Gradients -->
-    <linearGradient id="tr-glass-card" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.09"/>
-      <stop offset="30%" stop-color="#ffffff" stop-opacity="0.03"/>
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.01"/>
-    </linearGradient>
-
-    <linearGradient id="tr-border-outer" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.7"/>
-      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.2"/>
-      <stop offset="100%" stop-color="#ff007a" stop-opacity="0.6"/>
-    </linearGradient>
-
-    <pattern id="tr-grid-mesh" width="20" height="20" patternUnits="userSpaceOnUse">
-      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="rgba(255,255,255,0.025)" stroke-width="1"/>
-    </pattern>
-
     <style>
-      .tr-mono { font-family: 'JetBrains Mono', 'SF Mono', Consolas, monospace; }
-      .tr-title { font-family: -apple-system, BlinkMacSystemFont, 'Space Grotesk', sans-serif; font-weight: 800; letter-spacing: 0.5px; }
-      .tr-body { font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', sans-serif; }
+      .tr-mono { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; }
+      .tr-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 700; }
+      .tr-body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
     </style>
   </defs>
 
   <!-- Deep Canvas Base -->
-  <rect width="900" height="285" rx="18" fill="#06080e"/>
-  <rect width="900" height="285" rx="18" fill="url(#tr-glow-1)"/>
-  <rect width="900" height="285" rx="18" fill="url(#tr-glow-2)"/>
-  <rect width="900" height="285" rx="18" fill="url(#tr-grid-mesh)"/>
-  <rect width="900" height="285" rx="18" fill="none" stroke="url(#tr-border-outer)" stroke-width="1.5"/>
+  <rect width="900" height="280" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
 
-  <!-- Top Glass Title Bar -->
-  <rect x="20" y="14" width="860" height="34" rx="10" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
-  <circle cx="36" cy="31" r="4" fill="#00f2fe"/>
-  <text x="48" y="35" fill="#00f2fe" class="tr-mono" font-size="11" font-weight="700" letter-spacing="1">VERIFIED HONORS &amp; DISTINCTIONS // APPLE LIQUID GLASS VAULT</text>
-  <text x="740" y="35" fill="rgba(255,255,255,0.6)" class="tr-mono" font-size="10.5">ACCREDITED TIERS 🏆</text>
+  <!-- Top Title Bar -->
+  <rect x="20" y="14" width="860" height="34" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <circle cx="36" cy="31" r="4" fill="#3fb950"/>
+  <text x="48" y="35" fill="#c9d1d9" class="tr-mono" font-size="11" font-weight="600">VERIFIED CREDENTIALS &amp; DOMAIN SPECIALIZATIONS</text>
+  <text x="740" y="35" fill="#8b949e" class="tr-mono" font-size="10.5">HONORS VAULT</text>
 
   <!-- Row 1 Cards (Y = 58) -->
   <g transform="translate(20, 58)">
     <!-- Card 1: 3D Spatial Graphics -->
     <g transform="translate(0, 0)">
-      <rect width="275" height="102" rx="12" fill="url(#tr-glass-card)" stroke="rgba(0,242,254,0.4)" stroke-width="1.2"/>
-      <path d="M 6 2 L 269 2" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+      <rect width="275" height="100" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
       
       <!-- Icon Container -->
-      <rect x="14" y="14" width="42" height="42" rx="10" fill="rgba(0,242,254,0.12)" stroke="rgba(0,242,254,0.5)" stroke-width="1"/>
-      <text x="35" y="42" text-anchor="middle" font-size="20">🌐</text>
+      <rect x="14" y="14" width="38" height="38" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+      <text x="33" y="39" text-anchor="middle" font-size="18">🌐</text>
       
       <!-- Top Tag -->
-      <rect x="175" y="14" width="86" height="16" rx="8" fill="rgba(0,242,254,0.15)"/>
-      <text x="218" y="25" text-anchor="middle" fill="#00f2fe" class="tr-mono" font-size="8" font-weight="700">★ TIER-1 GRAPHICS</text>
+      <rect x="185" y="14" width="76" height="16" rx="4" fill="#21262d"/>
+      <text x="223" y="25" text-anchor="middle" fill="#58a6ff" class="tr-mono" font-size="8" font-weight="600">GRAPHICS</text>
       
       <!-- Title & Details -->
-      <text x="66" y="32" fill="#ffffff" class="tr-title" font-size="12">3D SPATIAL ENGINE</text>
-      <text x="66" y="48" fill="#00f2fe" class="tr-mono" font-size="9.5">Three.js • WebGL • Shaders</text>
+      <text x="62" y="30" fill="#f0f6fc" class="tr-title" font-size="12">3D SPATIAL ENGINE</text>
+      <text x="62" y="46" fill="#8b949e" class="tr-mono" font-size="9.5">Three.js • WebGL</text>
       
-      <!-- Bottom Status Pill -->
-      <line x1="14" y1="68" x2="261" y2="68" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
-      <circle cx="22" cy="84" r="3" fill="#00f2fe"/>
-      <text x="32" y="87" fill="rgba(255,255,255,0.75)" class="tr-mono" font-size="9">Real-Time Canvas Kinematics</text>
+      <!-- Bottom Status -->
+      <line x1="14" y1="64" x2="261" y2="64" stroke="#21262d" stroke-width="1"/>
+      <circle cx="20" cy="78" r="3" fill="#3fb950"/>
+      <text x="30" y="81" fill="#8b949e" class="tr-mono" font-size="9">Real-Time Canvas Kinematics</text>
     </g>
 
     <!-- Card 2: Server Architecture -->
     <g transform="translate(292, 0)">
-      <rect width="275" height="102" rx="12" fill="url(#tr-glass-card)" stroke="rgba(0,245,160,0.4)" stroke-width="1.2"/>
-      <path d="M 6 2 L 269 2" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+      <rect width="275" height="100" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
       
       <!-- Icon Container -->
-      <rect x="14" y="14" width="42" height="42" rx="10" fill="rgba(0,245,160,0.12)" stroke="rgba(0,245,160,0.5)" stroke-width="1"/>
-      <text x="35" y="42" text-anchor="middle" font-size="20">🖥️</text>
+      <rect x="14" y="14" width="38" height="38" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+      <text x="33" y="39" text-anchor="middle" font-size="18">🖥️</text>
       
       <!-- Top Tag -->
-      <rect x="175" y="14" width="86" height="16" rx="8" fill="rgba(0,245,160,0.15)"/>
-      <text x="218" y="25" text-anchor="middle" fill="#00f5a0" class="tr-mono" font-size="8" font-weight="700">★ BACKEND CORE</text>
+      <rect x="185" y="14" width="76" height="16" rx="4" fill="#21262d"/>
+      <text x="223" y="25" text-anchor="middle" fill="#3fb950" class="tr-mono" font-size="8" font-weight="600">BACKEND</text>
       
       <!-- Title & Details -->
-      <text x="66" y="32" fill="#ffffff" class="tr-title" font-size="12">SERVER ARCHITECT</text>
-      <text x="66" y="48" fill="#00f5a0" class="tr-mono" font-size="9.5">Node.js • Express • REST APIs</text>
+      <text x="62" y="30" fill="#f0f6fc" class="tr-title" font-size="12">SERVER ARCHITECT</text>
+      <text x="62" y="46" fill="#8b949e" class="tr-mono" font-size="9.5">Node.js • Express • APIs</text>
       
-      <!-- Bottom Status Pill -->
-      <line x1="14" y1="68" x2="261" y2="68" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
-      <circle cx="22" cy="84" r="3" fill="#00f5a0"/>
-      <text x="32" y="87" fill="rgba(255,255,255,0.75)" class="tr-mono" font-size="9">Asynchronous High-Throughput</text>
+      <!-- Bottom Status -->
+      <line x1="14" y1="64" x2="261" y2="64" stroke="#21262d" stroke-width="1"/>
+      <circle cx="20" cy="78" r="3" fill="#3fb950"/>
+      <text x="30" y="81" fill="#8b949e" class="tr-mono" font-size="9">Asynchronous REST Services</text>
     </g>
 
     <!-- Card 3: SQL & Database Schemas -->
     <g transform="translate(585, 0)">
-      <rect width="275" height="102" rx="12" fill="url(#tr-glass-card)" stroke="rgba(79,172,254,0.4)" stroke-width="1.2"/>
-      <path d="M 6 2 L 269 2" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+      <rect width="275" height="100" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
       
       <!-- Icon Container -->
-      <rect x="14" y="14" width="42" height="42" rx="10" fill="rgba(79,172,254,0.12)" stroke="rgba(79,172,254,0.5)" stroke-width="1"/>
-      <text x="35" y="42" text-anchor="middle" font-size="20">🗄️</text>
+      <rect x="14" y="14" width="38" height="38" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+      <text x="33" y="39" text-anchor="middle" font-size="18">🗄️</text>
       
       <!-- Top Tag -->
-      <rect x="175" y="14" width="86" height="16" rx="8" fill="rgba(79,172,254,0.15)"/>
-      <text x="218" y="25" text-anchor="middle" fill="#4facfe" class="tr-mono" font-size="8" font-weight="700">★ DATA ARCHITECT</text>
+      <rect x="185" y="14" width="76" height="16" rx="4" fill="#21262d"/>
+      <text x="223" y="25" text-anchor="middle" fill="#79c0ff" class="tr-mono" font-size="8" font-weight="600">DATABASE</text>
       
       <!-- Title & Details -->
-      <text x="66" y="32" fill="#ffffff" class="tr-title" font-size="12">SQL &amp; DB SCHEMAS</text>
-      <text x="66" y="48" fill="#4facfe" class="tr-mono" font-size="9.5">PostgreSQL • Complex Queries</text>
+      <text x="62" y="30" fill="#f0f6fc" class="tr-title" font-size="12">SQL &amp; DB SCHEMAS</text>
+      <text x="62" y="46" fill="#8b949e" class="tr-mono" font-size="9.5">PostgreSQL • Complex Queries</text>
       
-      <!-- Bottom Status Pill -->
-      <line x1="14" y1="68" x2="261" y2="68" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
-      <circle cx="22" cy="84" r="3" fill="#4facfe"/>
-      <text x="32" y="87" fill="rgba(255,255,255,0.75)" class="tr-mono" font-size="9">Normalized Relational Models</text>
+      <!-- Bottom Status -->
+      <line x1="14" y1="64" x2="261" y2="64" stroke="#21262d" stroke-width="1"/>
+      <circle cx="20" cy="78" r="3" fill="#3fb950"/>
+      <text x="30" y="81" fill="#8b949e" class="tr-mono" font-size="9">Normalized Relational Models</text>
     </g>
   </g>
 
-  <!-- Row 2 Cards (Y = 168) -->
-  <g transform="translate(20, 168)">
+  <!-- Row 2 Cards (Y = 166) -->
+  <g transform="translate(20, 166)">
     <!-- Card 4: C++ Computation -->
     <g transform="translate(0, 0)">
-      <rect width="275" height="102" rx="12" fill="url(#tr-glass-card)" stroke="rgba(121,40,202,0.4)" stroke-width="1.2"/>
-      <path d="M 6 2 L 269 2" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+      <rect width="275" height="100" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
       
       <!-- Icon Container -->
-      <rect x="14" y="14" width="42" height="42" rx="10" fill="rgba(121,40,202,0.12)" stroke="rgba(121,40,202,0.5)" stroke-width="1"/>
-      <text x="35" y="42" text-anchor="middle" font-size="20">⚡</text>
+      <rect x="14" y="14" width="38" height="38" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+      <text x="33" y="39" text-anchor="middle" font-size="18">⚡</text>
       
       <!-- Top Tag -->
-      <rect x="175" y="14" width="86" height="16" rx="8" fill="rgba(121,40,202,0.15)"/>
-      <text x="218" y="25" text-anchor="middle" fill="#c084fc" class="tr-mono" font-size="8" font-weight="700">★ SYSTEMS ENGINE</text>
+      <rect x="185" y="14" width="76" height="16" rx="4" fill="#21262d"/>
+      <text x="223" y="25" text-anchor="middle" fill="#d2a8ff" class="tr-mono" font-size="8" font-weight="600">SYSTEMS</text>
       
       <!-- Title & Details -->
-      <text x="66" y="32" fill="#ffffff" class="tr-title" font-size="12">C++ COMPUTATION</text>
-      <text x="66" y="48" fill="#c084fc" class="tr-mono" font-size="9.5">Compiled Logic • Python Math</text>
+      <text x="62" y="30" fill="#f0f6fc" class="tr-title" font-size="12">C++ COMPUTATION</text>
+      <text x="62" y="46" fill="#8b949e" class="tr-mono" font-size="9.5">Compiled Logic • Python Math</text>
       
-      <!-- Bottom Status Pill -->
-      <line x1="14" y1="68" x2="261" y2="68" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
-      <circle cx="22" cy="84" r="3" fill="#c084fc"/>
-      <text x="32" y="87" fill="rgba(255,255,255,0.75)" class="tr-mono" font-size="9">Low-Latency Predictive Math</text>
+      <!-- Bottom Status -->
+      <line x1="14" y1="64" x2="261" y2="64" stroke="#21262d" stroke-width="1"/>
+      <circle cx="20" cy="78" r="3" fill="#3fb950"/>
+      <text x="30" y="81" fill="#8b949e" class="tr-mono" font-size="9">Low-Latency Predictive Math</text>
     </g>
 
     <!-- Card 5: AWS & Google Play -->
     <g transform="translate(292, 0)">
-      <rect width="275" height="102" rx="12" fill="url(#tr-glass-card)" stroke="rgba(255,153,0,0.4)" stroke-width="1.2"/>
-      <path d="M 6 2 L 269 2" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+      <rect width="275" height="100" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
       
       <!-- Icon Container -->
-      <rect x="14" y="14" width="42" height="42" rx="10" fill="rgba(255,153,0,0.12)" stroke="rgba(255,153,0,0.5)" stroke-width="1"/>
-      <text x="35" y="42" text-anchor="middle" font-size="20">☁️</text>
+      <rect x="14" y="14" width="38" height="38" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+      <text x="33" y="39" text-anchor="middle" font-size="18">☁️</text>
       
       <!-- Top Tag -->
-      <rect x="175" y="14" width="86" height="16" rx="8" fill="rgba(255,153,0,0.15)"/>
-      <text x="218" y="25" text-anchor="middle" fill="#ffb84d" class="tr-mono" font-size="8" font-weight="700">★ CLOUD &amp; STORE</text>
+      <rect x="185" y="14" width="76" height="16" rx="4" fill="#21262d"/>
+      <text x="223" y="25" text-anchor="middle" fill="#e3b341" class="tr-mono" font-size="8" font-weight="600">CLOUD</text>
       
       <!-- Title & Details -->
-      <text x="66" y="32" fill="#ffffff" class="tr-title" font-size="12">AWS &amp; GOOGLE PLAY</text>
-      <text x="66" y="48" fill="#ffb84d" class="tr-mono" font-size="9.5">AWS Certified • Play Academy</text>
+      <text x="62" y="30" fill="#f0f6fc" class="tr-title" font-size="12">AWS &amp; GOOGLE PLAY</text>
+      <text x="62" y="46" fill="#8b949e" class="tr-mono" font-size="9.5">AWS Certified • Play Academy</text>
       
-      <!-- Bottom Status Pill -->
-      <line x1="14" y1="68" x2="261" y2="68" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
-      <circle cx="22" cy="84" r="3" fill="#ffb84d"/>
-      <text x="32" y="87" fill="rgba(255,255,255,0.75)" class="tr-mono" font-size="9">Enterprise Cloud Deployment</text>
+      <!-- Bottom Status -->
+      <line x1="14" y1="64" x2="261" y2="64" stroke="#21262d" stroke-width="1"/>
+      <circle cx="20" cy="78" r="3" fill="#3fb950"/>
+      <text x="30" y="81" fill="#8b949e" class="tr-mono" font-size="9">Enterprise Cloud Deployment</text>
     </g>
 
     <!-- Card 6: Cyber & ISRO Outreach -->
     <g transform="translate(585, 0)">
-      <rect width="275" height="102" rx="12" fill="url(#tr-glass-card)" stroke="rgba(255,0,122,0.4)" stroke-width="1.2"/>
-      <path d="M 6 2 L 269 2" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+      <rect width="275" height="100" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
       
       <!-- Icon Container -->
-      <rect x="14" y="14" width="42" height="42" rx="10" fill="rgba(255,0,122,0.12)" stroke="rgba(255,0,122,0.5)" stroke-width="1"/>
-      <text x="35" y="42" text-anchor="middle" font-size="20">🛡️</text>
+      <rect x="14" y="14" width="38" height="38" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+      <text x="33" y="39" text-anchor="middle" font-size="18">🛡️</text>
       
       <!-- Top Tag -->
-      <rect x="175" y="14" width="86" height="16" rx="8" fill="rgba(255,0,122,0.15)"/>
-      <text x="218" y="25" text-anchor="middle" fill="#ff76ac" class="tr-mono" font-size="8" font-weight="700">★ ENTERPRISE SIMS</text>
+      <rect x="185" y="14" width="76" height="16" rx="4" fill="#21262d"/>
+      <text x="223" y="25" text-anchor="middle" fill="#ff7b72" class="tr-mono" font-size="8" font-weight="600">HONORS</text>
       
       <!-- Title & Details -->
-      <text x="66" y="32" fill="#ffffff" class="tr-title" font-size="12">DELOITTE &amp; ISRO</text>
-      <text x="66" y="48" fill="#ff76ac" class="tr-mono" font-size="9.5">Deloitte Cyber • ISRO Space</text>
+      <text x="62" y="30" fill="#f0f6fc" class="tr-title" font-size="12">DELOITTE &amp; ISRO</text>
+      <text x="62" y="46" fill="#8b949e" class="tr-mono" font-size="9.5">Deloitte Cyber • ISRO Space</text>
       
-      <!-- Bottom Status Pill -->
-      <line x1="14" y1="68" x2="261" y2="68" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
-      <circle cx="22" cy="84" r="3" fill="#ff76ac"/>
-      <text x="32" y="87" fill="rgba(255,255,255,0.75)" class="tr-mono" font-size="9">Security &amp; Space Research</text>
+      <!-- Bottom Status -->
+      <line x1="14" y1="64" x2="261" y2="64" stroke="#21262d" stroke-width="1"/>
+      <circle cx="20" cy="78" r="3" fill="#3fb950"/>
+      <text x="30" y="81" fill="#8b949e" class="tr-mono" font-size="9">Security &amp; Space Research</text>
     </g>
   </g>
 </svg>

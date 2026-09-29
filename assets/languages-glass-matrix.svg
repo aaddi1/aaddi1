@@ -1,133 +1,104 @@
-<svg width="900" height="325" viewBox="0 0 900 325" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="320" viewBox="0 0 900 320" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Radial mesh glows -->
-    <radialGradient id="l-glow-1" cx="20%" cy="20%" r="55%">
-      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.22"/>
-      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="l-glow-2" cx="80%" cy="80%" r="55%">
-      <stop offset="0%" stop-color="#ff007a" stop-opacity="0.2"/>
-      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
-    </radialGradient>
-
-    <!-- Glass Gradients -->
-    <linearGradient id="l-glass-fill" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.08"/>
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.015"/>
-    </linearGradient>
-    <linearGradient id="l-border" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.6"/>
-      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.2"/>
-      <stop offset="100%" stop-color="#ff007a" stop-opacity="0.5"/>
-    </linearGradient>
-
-    <pattern id="lm-grid" width="24" height="24" patternUnits="userSpaceOnUse">
-      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="rgba(255,255,255,0.02)" stroke-width="1"/>
-    </pattern>
-
     <style>
-      .lm-mono { font-family: 'JetBrains Mono', 'SF Mono', Consolas, monospace; }
-      .lm-sans { font-family: -apple-system, BlinkMacSystemFont, 'Space Grotesk', 'Segoe UI', sans-serif; }
-      .lm-bold { font-family: -apple-system, BlinkMacSystemFont, 'Space Grotesk', sans-serif; font-weight: 700; }
+      .lm-mono { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; }
+      .lm-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+      .lm-bold { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 600; }
     </style>
   </defs>
 
   <!-- Background Base -->
-  <rect width="900" height="325" rx="18" fill="#06080e"/>
-  <rect width="900" height="325" rx="18" fill="url(#l-glow-1)"/>
-  <rect width="900" height="325" rx="18" fill="url(#l-glow-2)"/>
-  <rect width="900" height="325" rx="18" fill="url(#lm-grid)"/>
-  <rect width="900" height="325" rx="18" fill="none" stroke="url(#l-border)" stroke-width="1.5"/>
+  <rect width="900" height="320" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
 
-  <!-- Top Glass Header -->
-  <rect x="20" y="16" width="860" height="36" rx="10" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
-  <circle cx="38" cy="34" r="4" fill="#00f2fe"/>
-  <text x="50" y="38" fill="#00f2fe" class="lm-mono" font-size="11" font-weight="700" letter-spacing="1">CORE PROGRAMMING LANGUAGES // APPLIED ENGINEERING ARCHITECTURE</text>
-  <text x="735" y="38" fill="rgba(255,255,255,0.6)" class="lm-mono" font-size="10.5">POLYGLOT STACK ⚡</text>
+  <!-- Top Header -->
+  <rect x="20" y="16" width="860" height="34" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <circle cx="36" cy="33" r="4" fill="#58a6ff"/>
+  <text x="48" y="37" fill="#c9d1d9" class="lm-mono" font-size="11" font-weight="600">PROGRAMMING LANGUAGES &amp; TECHNICAL ECOSYSTEM</text>
+  <text x="740" y="37" fill="#8b949e" class="lm-mono" font-size="10.5">POLYGLOT STACK</text>
 
   <!-- Left Column: Core Backend, Systems & Logic -->
-  <g transform="translate(25, 66)">
+  <g transform="translate(25, 64)">
     <!-- JavaScript (ESNext) -->
     <g transform="translate(0, 0)">
-      <rect width="415" height="42" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(247,223,30,0.3)" stroke-width="1"/>
-      <circle cx="16" cy="21" r="5" fill="#f7df1e"/>
-      <text x="30" y="25" fill="#ffffff" class="lm-bold" font-size="12">JavaScript (ESNext)</text>
-      <text x="200" y="25" fill="#f7df1e" class="lm-mono" font-size="9.5">Async Servers &amp; 3D DOM Engine</text>
+      <rect width="415" height="40" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+      <circle cx="16" cy="20" r="4.5" fill="#f1e05a"/>
+      <text x="30" y="24" fill="#f0f6fc" class="lm-bold" font-size="12">JavaScript (ESNext)</text>
+      <text x="210" y="24" fill="#8b949e" class="lm-mono" font-size="9.5">Async Servers &amp; 3D Engine</text>
     </g>
 
     <!-- TypeScript -->
     <g transform="translate(0, 48)">
-      <rect width="415" height="42" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(49,120,198,0.3)" stroke-width="1"/>
-      <circle cx="16" cy="21" r="5" fill="#3178c6"/>
-      <text x="30" y="25" fill="#ffffff" class="lm-bold" font-size="12">TypeScript</text>
-      <text x="200" y="25" fill="#60a5fa" class="lm-mono" font-size="9.5">Type-Safe API Contracts &amp; Models</text>
+      <rect width="415" height="40" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+      <circle cx="16" cy="20" r="4.5" fill="#3178c6"/>
+      <text x="30" y="24" fill="#f0f6fc" class="lm-bold" font-size="12">TypeScript</text>
+      <text x="210" y="24" fill="#8b949e" class="lm-mono" font-size="9.5">Type-Safe API Contracts</text>
     </g>
 
     <!-- Python -->
     <g transform="translate(0, 96)">
-      <rect width="415" height="42" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(55,118,171,0.3)" stroke-width="1"/>
-      <circle cx="16" cy="21" r="5" fill="#3776ab"/>
-      <text x="30" y="25" fill="#ffffff" class="lm-bold" font-size="12">Python</text>
-      <text x="200" y="25" fill="#ffd43b" class="lm-mono" font-size="9.5">Predictive Business Analytics</text>
+      <rect width="415" height="40" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+      <circle cx="16" cy="20" r="4.5" fill="#3572A5"/>
+      <text x="30" y="24" fill="#f0f6fc" class="lm-bold" font-size="12">Python</text>
+      <text x="210" y="24" fill="#8b949e" class="lm-mono" font-size="9.5">Predictive Business Analytics</text>
     </g>
 
     <!-- C++ -->
     <g transform="translate(0, 144)">
-      <rect width="415" height="42" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(0,89,156,0.35)" stroke-width="1"/>
-      <circle cx="16" cy="21" r="5" fill="#00599c"/>
-      <text x="30" y="25" fill="#ffffff" class="lm-bold" font-size="12">C++</text>
-      <text x="200" y="25" fill="#4facfe" class="lm-mono" font-size="9.5">High-Speed Computation Modules</text>
+      <rect width="415" height="40" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+      <circle cx="16" cy="20" r="4.5" fill="#f34b7d"/>
+      <text x="30" y="24" fill="#f0f6fc" class="lm-bold" font-size="12">C++</text>
+      <text x="210" y="24" fill="#8b949e" class="lm-mono" font-size="9.5">Compiled High-Speed Modules</text>
     </g>
 
     <!-- Java -->
     <g transform="translate(0, 192)">
-      <rect width="415" height="42" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(237,139,0,0.35)" stroke-width="1"/>
-      <circle cx="16" cy="21" r="5" fill="#ed8b00"/>
-      <text x="30" y="25" fill="#ffffff" class="lm-bold" font-size="12">Java</text>
-      <text x="200" y="25" fill="#f58220" class="lm-mono" font-size="9.5">Oracle Certified OOP Foundations</text>
+      <rect width="415" height="40" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+      <circle cx="16" cy="20" r="4.5" fill="#b07219"/>
+      <text x="30" y="24" fill="#f0f6fc" class="lm-bold" font-size="12">Java</text>
+      <text x="210" y="24" fill="#8b949e" class="lm-mono" font-size="9.5">Oracle Certified OOP Logic</text>
     </g>
   </g>
 
   <!-- Right Column: Database, 3D Graphics & Web Tech -->
-  <g transform="translate(460, 66)">
+  <g transform="translate(460, 64)">
     <!-- SQL / PostgreSQL -->
     <g transform="translate(0, 0)">
-      <rect width="415" height="42" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(65,105,225,0.35)" stroke-width="1"/>
-      <circle cx="16" cy="21" r="5" fill="#4169e1"/>
-      <text x="30" y="25" fill="#ffffff" class="lm-bold" font-size="12">SQL / PostgreSQL</text>
-      <text x="200" y="25" fill="#00f2fe" class="lm-mono" font-size="9.5">Relational DB Schemas &amp; Queries</text>
+      <rect width="415" height="40" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+      <circle cx="16" cy="20" r="4.5" fill="#336791"/>
+      <text x="30" y="24" fill="#f0f6fc" class="lm-bold" font-size="12">SQL / PostgreSQL</text>
+      <text x="210" y="24" fill="#8b949e" class="lm-mono" font-size="9.5">Relational DB &amp; Schemas</text>
     </g>
 
     <!-- HTML5 & Canvas 2D/3D -->
     <g transform="translate(0, 48)">
-      <rect width="415" height="42" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(227,79,38,0.35)" stroke-width="1"/>
-      <circle cx="16" cy="21" r="5" fill="#e34f26"/>
-      <text x="30" y="25" fill="#ffffff" class="lm-bold" font-size="12">HTML5 &amp; Canvas</text>
-      <text x="200" y="25" fill="#f06529" class="lm-mono" font-size="9.5">2D/3D WebGL Canvas Rendering</text>
+      <rect width="415" height="40" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+      <circle cx="16" cy="20" r="4.5" fill="#e34c26"/>
+      <text x="30" y="24" fill="#f0f6fc" class="lm-bold" font-size="12">HTML5 &amp; Canvas</text>
+      <text x="210" y="24" fill="#8b949e" class="lm-mono" font-size="9.5">2D/3D Canvas Rendering</text>
     </g>
 
-    <!-- CSS3 & Liquid Glass UI -->
+    <!-- CSS3 -->
     <g transform="translate(0, 96)">
-      <rect width="415" height="42" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(21,114,182,0.35)" stroke-width="1"/>
-      <circle cx="16" cy="21" r="5" fill="#1572b6"/>
-      <text x="30" y="25" fill="#ffffff" class="lm-bold" font-size="12">CSS3 &amp; Liquid Glass</text>
-      <text x="200" y="25" fill="#33a9dc" class="lm-mono" font-size="9.5">Apple Glassmorphism UI Systems</text>
+      <rect width="415" height="40" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+      <circle cx="16" cy="20" r="4.5" fill="#563d7c"/>
+      <text x="30" y="24" fill="#f0f6fc" class="lm-bold" font-size="12">CSS3 &amp; SCSS</text>
+      <text x="210" y="24" fill="#8b949e" class="lm-mono" font-size="9.5">Responsive Design Systems</text>
     </g>
 
     <!-- GLSL & Shaders -->
     <g transform="translate(0, 144)">
-      <rect width="415" height="42" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(255,0,122,0.35)" stroke-width="1"/>
-      <circle cx="16" cy="21" r="5" fill="#ff007a"/>
-      <text x="30" y="25" fill="#ffffff" class="lm-bold" font-size="12">GLSL / Shaders</text>
-      <text x="200" y="25" fill="#ff76ac" class="lm-mono" font-size="9.5">Real-Time Lighting &amp; Raymarching</text>
+      <rect width="415" height="40" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+      <circle cx="16" cy="20" r="4.5" fill="#58a6ff"/>
+      <text x="30" y="24" fill="#f0f6fc" class="lm-bold" font-size="12">GLSL &amp; WebGL</text>
+      <text x="210" y="24" fill="#8b949e" class="lm-mono" font-size="9.5">Lighting &amp; Shaders Engine</text>
     </g>
 
     <!-- C# & Bash -->
     <g transform="translate(0, 192)">
-      <rect width="415" height="42" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(81,43,212,0.35)" stroke-width="1"/>
-      <circle cx="16" cy="21" r="5" fill="#512bd4"/>
-      <text x="30" y="25" fill="#ffffff" class="lm-bold" font-size="12">C# (.NET) &amp; Bash</text>
-      <text x="200" y="25" fill="#c084fc" class="lm-mono" font-size="9.5">Blazor WebAssembly &amp; Linux CLI</text>
+      <rect width="415" height="40" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+      <circle cx="16" cy="20" r="4.5" fill="#178600"/>
+      <text x="30" y="24" fill="#f0f6fc" class="lm-bold" font-size="12">C# &amp; Shell Scripting</text>
+      <text x="210" y="24" fill="#8b949e" class="lm-mono" font-size="9.5">Blazor WebAssembly &amp; CLI</text>
     </g>
   </g>
 </svg>
