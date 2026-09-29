@@ -101,6 +101,18 @@ Rather than relying on templates or pre-packaged abstractions, I build the core 
 
   <br />
 
+  <!-- ANIMATED GITHUB CONTRIBUTION SNAKE GAME -->
+  <h4>🐍 CONTRIBUTION SNAKE GAME</h4>
+  <p align="center">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aaddi1/aaddi1/output/github-contribution-grid-snake-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/aaddi1/aaddi1/output/github-contribution-grid-snake.svg" />
+      <img src="./assets/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake Animation" width="100%" />
+    </picture>
+  </p>
+
+  <br />
+
   <!-- GITHUB DARK TELEMETRY DASHBOARD -->
   <img src="./assets/telemetry-dashboard.svg" alt="Aryan Sharma Developer Telemetry Dashboard" width="100%" />
 
