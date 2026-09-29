@@ -74,7 +74,7 @@
     <text x="0" y="118" fill="rgba(255,255,255,0.4)" class="ar-mono" font-size="9">FOUNDATIONS</text>
     <text x="210" y="118" fill="rgba(255,255,255,0.4)" class="ar-mono" font-size="9">SYSTEM SIMULATIONS</text>
     <text x="420" y="118" fill="#00f2fe" class="ar-mono" font-size="9" font-weight="700">3D WEBGL &amp; SAAS</text>
-    <text x="630" y="118" fill="rgba(255,255,255,0.4)" class="ar-mono" font-size="9">CLAUDE AI &amp; CERTIFICATIONS</text>
+    <text x="610" y="118" fill="rgba(255,255,255,0.4)" class="ar-mono" font-size="9">ENTERPRISE SQL &amp; C++ ENGINE</text>
     <text x="800" y="118" fill="#00f5a0" class="ar-mono" font-size="9" font-weight="700">SCALE 🚀</text>
   </g>
 </svg>

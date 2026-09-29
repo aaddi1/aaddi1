@@ -1,141 +1,137 @@
-<svg width="900" height="280" viewBox="0 0 900 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="290" viewBox="0 0 900 290" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Background Gradient Mesh -->
-    <radialGradient id="bg-glow-1" cx="20%" cy="20%" r="60%">
-      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.35"/>
-      <stop offset="60%" stop-color="#4facfe" stop-opacity="0.1"/>
-      <stop offset="100%" stop-color="#0a0e17" stop-opacity="0"/>
+    <!-- Background Multi-Layer Radiant Mesh -->
+    <radialGradient id="h-glow-cyan" cx="15%" cy="25%" r="65%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.4"/>
+      <stop offset="60%" stop-color="#4facfe" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#06080e" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="bg-glow-2" cx="80%" cy="70%" r="55%">
-      <stop offset="0%" stop-color="#7928ca" stop-opacity="0.35"/>
-      <stop offset="50%" stop-color="#ff007a" stop-opacity="0.12"/>
-      <stop offset="100%" stop-color="#0a0e17" stop-opacity="0"/>
+    <radialGradient id="h-glow-purple" cx="85%" cy="75%" r="60%">
+      <stop offset="0%" stop-color="#7928ca" stop-opacity="0.38"/>
+      <stop offset="50%" stop-color="#ff007a" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#06080e" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="bg-glow-3" cx="50%" cy="50%" r="70%">
-      <stop offset="0%" stop-color="#0052d4" stop-opacity="0.25"/>
-      <stop offset="100%" stop-color="#070a12" stop-opacity="0.95"/>
+    <radialGradient id="h-glow-center" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#0052d4" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#05070d" stop-opacity="0.98"/>
     </radialGradient>
 
-    <!-- Glass Fill Gradient -->
-    <linearGradient id="glass-fill" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.09"/>
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02"/>
+    <!-- Liquid Glass Fill Gradient -->
+    <linearGradient id="h-glass-fill" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="25%" stop-color="#ffffff" stop-opacity="0.04"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.01"/>
     </linearGradient>
 
-    <!-- Glass Border Gradient -->
-    <linearGradient id="glass-border" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.6"/>
-      <stop offset="30%" stop-color="#ffffff" stop-opacity="0.3"/>
-      <stop offset="70%" stop-color="#7928ca" stop-opacity="0.3"/>
-      <stop offset="100%" stop-color="#ff007a" stop-opacity="0.5"/>
+    <!-- Liquid Glass Specular Border Gradient -->
+    <linearGradient id="h-glass-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.8"/>
+      <stop offset="30%" stop-color="#ffffff" stop-opacity="0.5"/>
+      <stop offset="70%" stop-color="#7928ca" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#ff007a" stop-opacity="0.65"/>
     </linearGradient>
 
-    <!-- Text Neon Gradient -->
-    <linearGradient id="text-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+    <!-- Title Metallic Neon Gradient -->
+    <linearGradient id="h-title-grad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#00f2fe"/>
-      <stop offset="50%" stop-color="#ffffff"/>
-      <stop offset="100%" stop-color="#4facfe"/>
-    </linearGradient>
-
-    <linearGradient id="sub-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ff007a"/>
-      <stop offset="50%" stop-color="#7928ca"/>
+      <stop offset="35%" stop-color="#ffffff"/>
+      <stop offset="70%" stop-color="#4facfe"/>
       <stop offset="100%" stop-color="#00f2fe"/>
     </linearGradient>
 
-    <!-- Drop Shadow Filter -->
-    <filter id="glass-shadow" x="-10%" y="-10%" width="120%" height="120%">
-      <feDropShadow dx="0" dy="16" stdDeviation="24" flood-color="#000000" flood-opacity="0.6"/>
-      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#00f2fe" flood-opacity="0.15"/>
+    <linearGradient id="h-sub-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f5a0"/>
+      <stop offset="50%" stop-color="#00d9f5"/>
+      <stop offset="100%" stop-color="#4facfe"/>
+    </linearGradient>
+
+    <!-- Glass Shadow Filter -->
+    <filter id="h-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="20" stdDeviation="30" flood-color="#000000" flood-opacity="0.75"/>
+      <feDropShadow dx="0" dy="4" stdDeviation="10" flood-color="#00f2fe" flood-opacity="0.2"/>
     </filter>
 
-    <!-- Cyber Grid Pattern -->
-    <pattern id="cyber-grid" width="30" height="30" patternUnits="userSpaceOnUse">
-      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
-      <circle cx="30" cy="0" r="1" fill="rgba(0,242,254,0.15)"/>
+    <!-- Cyberpunk Glass Grid Pattern -->
+    <pattern id="h-grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="rgba(255,255,255,0.035)" stroke-width="1"/>
+      <circle cx="30" cy="0" r="1.2" fill="rgba(0,242,254,0.2)"/>
     </pattern>
 
     <style>
-      @keyframes floatPulse {
-        0%, 100% { transform: translateY(0px); }
-        50% { transform: translateY(-4px); }
-      }
-      @keyframes glowShimmer {
-        0%, 100% { opacity: 0.8; }
-        50% { opacity: 1; filter: drop-shadow(0 0 8px #00f2fe); }
-      }
-      .hud-title {
-        font-family: -apple-system, BlinkMacSystemFont, 'Space Grotesk', 'Segoe UI', sans-serif;
+      .h-title {
+        font-family: -apple-system, BlinkMacSystemFont, 'Space Grotesk', 'Syne', sans-serif;
         font-weight: 900;
-        letter-spacing: 3px;
+        letter-spacing: 4px;
       }
-      .hud-sub {
-        font-family: -apple-system, BlinkMacSystemFont, 'Space Grotesk', 'Segoe UI', sans-serif;
+      .h-sub {
+        font-family: -apple-system, BlinkMacSystemFont, 'Space Grotesk', sans-serif;
         font-weight: 700;
         letter-spacing: 2px;
       }
-      .hud-mono {
+      .h-mono {
         font-family: 'JetBrains Mono', 'SF Mono', Consolas, monospace;
       }
-      .floating-glass {
-        animation: floatPulse 6s ease-in-out infinite;
+      .h-body {
+        font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', sans-serif;
       }
     </style>
   </defs>
 
   <!-- Canvas Deep Base -->
-  <rect width="900" height="280" rx="20" fill="#070a12"/>
-  <rect width="900" height="280" rx="20" fill="url(#bg-glow-3)"/>
-  <rect width="900" height="280" rx="20" fill="url(#bg-glow-1)"/>
-  <rect width="900" height="280" rx="20" fill="url(#bg-glow-2)"/>
-  <rect width="900" height="280" rx="20" fill="url(#cyber-grid)"/>
+  <rect width="900" height="290" rx="22" fill="#05070d"/>
+  <rect width="900" height="290" rx="22" fill="url(#h-glow-center)"/>
+  <rect width="900" height="290" rx="22" fill="url(#h-glow-cyan)"/>
+  <rect width="900" height="290" rx="22" fill="url(#h-glow-purple)"/>
+  <rect width="900" height="290" rx="22" fill="url(#h-grid)"/>
 
   <!-- Apple Liquid Glass Main Card Panel -->
-  <g class="floating-glass" filter="url(#glass-shadow)">
-    <!-- Frosted Panel Body -->
-    <rect x="25" y="20" width="850" height="240" rx="16" fill="url(#glass-fill)"/>
-    <rect x="25" y="20" width="850" height="240" rx="16" fill="none" stroke="url(#glass-border)" stroke-width="1.5"/>
+  <g filter="url(#h-shadow)">
+    <!-- Frosted Panel Base -->
+    <rect x="25" y="20" width="850" height="250" rx="18" fill="url(#h-glass-fill)"/>
+    <rect x="25" y="20" width="850" height="250" rx="18" fill="none" stroke="url(#h-glass-border)" stroke-width="1.8"/>
 
     <!-- Specular Gloss Highlight Top Edge -->
-    <path d="M 30 22 L 870 22" stroke="rgba(255,255,255,0.4)" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M 32 22 L 868 22" stroke="rgba(255,255,255,0.55)" stroke-width="1.5" stroke-linecap="round"/>
 
-    <!-- Window Controls (Apple Traffic Lights) -->
-    <circle cx="50" cy="42" r="5.5" fill="#ff5f56" stroke="rgba(0,0,0,0.2)" stroke-width="0.5"/>
-    <circle cx="68" cy="42" r="5.5" fill="#ffbd2e" stroke="rgba(0,0,0,0.2)" stroke-width="0.5"/>
-    <circle cx="86" cy="42" r="5.5" fill="#27c93f" stroke="rgba(0,0,0,0.2)" stroke-width="0.5"/>
+    <!-- Apple Traffic Lights with 3D Gloss -->
+    <circle cx="52" cy="42" r="6" fill="#ff5f56" stroke="rgba(255,255,255,0.4)" stroke-width="0.75"/>
+    <circle cx="72" cy="42" r="6" fill="#ffbd2e" stroke="rgba(255,255,255,0.4)" stroke-width="0.75"/>
+    <circle cx="92" cy="42" r="6" fill="#27c93f" stroke="rgba(255,255,255,0.4)" stroke-width="0.75"/>
 
     <!-- HUD System Header Text -->
-    <text x="110" y="46" fill="rgba(255,255,255,0.6)" class="hud-mono" font-size="11" font-weight="600" letter-spacing="1">ARYAN_OS // 3D_SPATIAL_KERNEL // v2.6</text>
-    <rect x="730" y="34" width="125" height="18" rx="9" fill="rgba(0,242,254,0.12)" stroke="rgba(0,242,254,0.4)" stroke-width="1"/>
-    <circle cx="742" cy="43" r="3" fill="#00f2fe"/>
-    <text x="752" y="46" fill="#00f2fe" class="hud-mono" font-size="9.5" font-weight="700">ONLINE • TUNDLA</text>
+    <text x="116" y="46" fill="rgba(255,255,255,0.7)" class="h-mono" font-size="11" font-weight="600" letter-spacing="1">ARYAN_OS // 3D_ENGINEERING_KERNEL // v3.0</text>
+    
+    <!-- Location Pill -->
+    <rect x="715" y="33" width="140" height="20" rx="10" fill="rgba(0,242,254,0.12)" stroke="rgba(0,242,254,0.45)" stroke-width="1"/>
+    <circle cx="727" cy="43" r="3.5" fill="#00f2fe"/>
+    <text x="737" y="46" fill="#00f2fe" class="h-mono" font-size="9.5" font-weight="700">ONLINE • TUNDLA, IN</text>
 
     <!-- Main Headline -->
-    <text x="50" y="105" fill="url(#text-gradient)" class="hud-title" font-size="40">ARYAN SHARMA</text>
-    <text x="50" y="132" fill="url(#sub-gradient)" class="hud-sub" font-size="14.5">3D CREATIVE ENGINEER  •  FULL-STACK ARCHITECT  •  AI SYSTEMS</text>
+    <text x="52" y="105" fill="url(#h-title-grad)" class="h-title" font-size="42">ARYAN SHARMA</text>
+    <text x="52" y="132" fill="url(#h-sub-grad)" class="h-sub" font-size="14">3D CREATIVE ENGINEER  •  FULL-STACK ARCHITECT  •  SYSTEMS DESIGNER</text>
 
-    <!-- Bio / Mission Subtitle -->
-    <text x="50" y="162" fill="rgba(255,255,255,0.85)" font-family="-apple-system, sans-serif" font-size="13" font-weight="400">
-      Crafting hyper-aesthetic 3D web experiences, Apple Liquid Glass UI, and enterprise-grade platforms.
+    <!-- Core Philosophy / Craft Narrative -->
+    <text x="52" y="162" fill="rgba(255,255,255,0.9)" class="h-body" font-size="13.5" font-weight="400">
+      Building custom backend servers, optimized SQL schemas, C++ analytics, and spatial 3D WebGL experiences from scratch.
     </text>
 
     <!-- Liquid Glass Feature Pills (Row) -->
-    <g transform="translate(50, 185)">
-      <!-- Pill 1: 3D Spatial Web -->
-      <rect x="0" y="0" width="165" height="34" rx="17" fill="rgba(0,242,254,0.08)" stroke="rgba(0,242,254,0.4)" stroke-width="1"/>
-      <text x="18" y="21" fill="#00f2fe" class="hud-mono" font-size="11" font-weight="600">⚡ Three.js / WebGL</text>
+    <g transform="translate(52, 188)">
+      <!-- Pill 1: 3D Spatial -->
+      <rect x="0" y="0" width="175" height="36" rx="18" fill="rgba(0,242,254,0.1)" stroke="rgba(0,242,254,0.5)" stroke-width="1.2"/>
+      <text x="16" y="22" fill="#00f2fe" class="h-mono" font-size="11" font-weight="600">🌐 Three.js &amp; WebGL 3D</text>
 
-      <!-- Pill 2: Full-Stack SaaS -->
-      <rect x="175" y="0" width="185" height="34" rx="17" fill="rgba(121,40,202,0.12)" stroke="rgba(121,40,202,0.5)" stroke-width="1"/>
-      <text x="193" y="21" fill="#c084fc" class="hud-mono" font-size="11" font-weight="600">🚀 Node • Python • C++</text>
+      <!-- Pill 2: Backend & Servers -->
+      <rect x="185" y="0" width="185" height="36" rx="18" fill="rgba(0,245,160,0.1)" stroke="rgba(0,245,160,0.5)" stroke-width="1.2"/>
+      <text x="16" y="22" transform="translate(185, 0)" fill="#00f5a0" class="h-mono" font-size="11" font-weight="600">🖥️ Custom Node Servers</text>
 
-      <!-- Pill 3: Claude Code AI -->
-      <rect x="370" y="0" width="185" height="34" rx="17" fill="rgba(255,0,122,0.1)" stroke="rgba(255,0,122,0.45)" stroke-width="1"/>
-      <text x="388" y="21" fill="#ff76ac" class="hud-mono" font-size="11" font-weight="600">🤖 Claude Code / Agentic</text>
+      <!-- Pill 3: SQL & Database Design -->
+      <rect x="380" y="0" width="195" height="36" rx="18" fill="rgba(79,172,254,0.12)" stroke="rgba(79,172,254,0.5)" stroke-width="1.2"/>
+      <text x="16" y="22" transform="translate(380, 0)" fill="#4facfe" class="h-mono" font-size="11" font-weight="600">🗄️ PostgreSQL &amp; SQL Arch</text>
 
-      <!-- Pill 4: 17+ Verified Certs -->
-      <rect x="565" y="0" width="185" height="34" rx="17" fill="rgba(79,172,254,0.1)" stroke="rgba(79,172,254,0.45)" stroke-width="1"/>
-      <text x="583" y="21" fill="#4facfe" class="hud-mono" font-size="11" font-weight="600">🏆 17+ Verified Credentials</text>
+      <!-- Pill 4: C++ High Performance -->
+      <rect x="585" y="0" width="190" height="36" rx="18" fill="rgba(121,40,202,0.14)" stroke="rgba(121,40,202,0.5)" stroke-width="1.2"/>
+      <text x="16" y="22" transform="translate(585, 0)" fill="#c084fc" class="h-mono" font-size="11" font-weight="600">⚡ C++ Engine Modules</text>
     </g>
   </g>
 </svg>

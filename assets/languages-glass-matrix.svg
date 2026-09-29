@@ -1,154 +1,133 @@
-<svg width="900" height="320" viewBox="0 0 900 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="325" viewBox="0 0 900 325" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <!-- Radial mesh glows -->
-    <radialGradient id="lang-glow-1" cx="20%" cy="20%" r="55%">
-      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.2"/>
+    <radialGradient id="l-glow-1" cx="20%" cy="20%" r="55%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.22"/>
       <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="lang-glow-2" cx="80%" cy="80%" r="55%">
-      <stop offset="0%" stop-color="#ff007a" stop-opacity="0.18"/>
+    <radialGradient id="l-glow-2" cx="80%" cy="80%" r="55%">
+      <stop offset="0%" stop-color="#ff007a" stop-opacity="0.2"/>
       <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
     </radialGradient>
 
     <!-- Glass Gradients -->
-    <linearGradient id="lang-glass-fill" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.06"/>
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.01"/>
+    <linearGradient id="l-glass-fill" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.015"/>
     </linearGradient>
-    <linearGradient id="lang-border" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.4"/>
-      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.1"/>
-      <stop offset="100%" stop-color="#ff007a" stop-opacity="0.4"/>
+    <linearGradient id="l-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#ff007a" stop-opacity="0.5"/>
     </linearGradient>
 
-    <!-- Language Color Fills -->
-    <linearGradient id="c-js" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#f7df1e"/><stop offset="100%" stop-color="#e5c800"/></linearGradient>
-    <linearGradient id="c-ts" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#3178c6"/><stop offset="100%" stop-color="#60a5fa"/></linearGradient>
-    <linearGradient id="c-py" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#3776ab"/><stop offset="100%" stop-color="#ffd43b"/></linearGradient>
-    <linearGradient id="c-cpp" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#00599c"/><stop offset="100%" stop-color="#4facfe"/></linearGradient>
-    <linearGradient id="c-java" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#ed8b00"/><stop offset="100%" stop-color="#f58220"/></linearGradient>
-    <linearGradient id="c-sql" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#4169e1"/><stop offset="100%" stop-color="#00f2fe"/></linearGradient>
-    <linearGradient id="c-csharp" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#239120"/><stop offset="100%" stop-color="#512bd4"/></linearGradient>
-    <linearGradient id="c-html" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#e34f26"/><stop offset="100%" stop-color="#f06529"/></linearGradient>
-    <linearGradient id="c-css" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#1572b6"/><stop offset="100%" stop-color="#33a9dc"/></linearGradient>
-    <linearGradient id="c-glsl" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#990000"/><stop offset="100%" stop-color="#ff007a"/></linearGradient>
-
-    <pattern id="l-grid" width="24" height="24" patternUnits="userSpaceOnUse">
+    <pattern id="lm-grid" width="24" height="24" patternUnits="userSpaceOnUse">
       <path d="M 24 0 L 0 0 0 24" fill="none" stroke="rgba(255,255,255,0.02)" stroke-width="1"/>
     </pattern>
 
     <style>
-      .l-mono { font-family: 'JetBrains Mono', 'SF Mono', Consolas, monospace; }
-      .l-sans { font-family: -apple-system, BlinkMacSystemFont, 'Space Grotesk', 'Segoe UI', sans-serif; }
+      .lm-mono { font-family: 'JetBrains Mono', 'SF Mono', Consolas, monospace; }
+      .lm-sans { font-family: -apple-system, BlinkMacSystemFont, 'Space Grotesk', 'Segoe UI', sans-serif; }
+      .lm-bold { font-family: -apple-system, BlinkMacSystemFont, 'Space Grotesk', sans-serif; font-weight: 700; }
     </style>
   </defs>
 
   <!-- Background Base -->
-  <rect width="900" height="320" rx="18" fill="#080b12"/>
-  <rect width="900" height="320" rx="18" fill="url(#lang-glow-1)"/>
-  <rect width="900" height="320" rx="18" fill="url(#lang-glow-2)"/>
-  <rect width="900" height="320" rx="18" fill="url(#l-grid)"/>
-  <rect width="900" height="320" rx="18" fill="none" stroke="url(#lang-border)" stroke-width="1.2"/>
+  <rect width="900" height="325" rx="18" fill="#06080e"/>
+  <rect width="900" height="325" rx="18" fill="url(#l-glow-1)"/>
+  <rect width="900" height="325" rx="18" fill="url(#l-glow-2)"/>
+  <rect width="900" height="325" rx="18" fill="url(#lm-grid)"/>
+  <rect width="900" height="325" rx="18" fill="none" stroke="url(#l-border)" stroke-width="1.5"/>
 
   <!-- Top Glass Header -->
-  <rect x="20" y="16" width="860" height="36" rx="10" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <rect x="20" y="16" width="860" height="36" rx="10" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
   <circle cx="38" cy="34" r="4" fill="#00f2fe"/>
-  <text x="50" y="38" fill="#00f2fe" class="l-mono" font-size="11" font-weight="700" letter-spacing="1">POLYGLOT CORE ENGINE // ALL PROGRAMMING LANGUAGES SHOWCASE</text>
-  <text x="735" y="38" fill="rgba(255,255,255,0.5)" class="l-mono" font-size="10.5">FULL SPECTRUM ⚡</text>
+  <text x="50" y="38" fill="#00f2fe" class="lm-mono" font-size="11" font-weight="700" letter-spacing="1">CORE PROGRAMMING LANGUAGES // APPLIED ENGINEERING ARCHITECTURE</text>
+  <text x="735" y="38" fill="rgba(255,255,255,0.6)" class="lm-mono" font-size="10.5">POLYGLOT STACK ⚡</text>
 
-  <!-- Left Column: Top Tier Languages -->
-  <g transform="translate(30, 68)">
-    <!-- JavaScript -->
+  <!-- Left Column: Core Backend, Systems & Logic -->
+  <g transform="translate(25, 66)">
+    <!-- JavaScript (ESNext) -->
     <g transform="translate(0, 0)">
-      <circle cx="6" cy="11" r="5" fill="#f7df1e"/>
-      <text x="20" y="15" fill="#ffffff" class="l-mono" font-size="11.5" font-weight="600">JavaScript (ESNext)</text>
-      <text x="360" y="15" fill="#f7df1e" class="l-mono" font-size="11" font-weight="700">98%</text>
-      <rect x="0" y="24" width="395" height="7" rx="3.5" fill="rgba(255,255,255,0.06)"/>
-      <rect x="0" y="24" width="387" height="7" rx="3.5" fill="url(#c-js)"/>
+      <rect width="415" height="42" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(247,223,30,0.3)" stroke-width="1"/>
+      <circle cx="16" cy="21" r="5" fill="#f7df1e"/>
+      <text x="30" y="25" fill="#ffffff" class="lm-bold" font-size="12">JavaScript (ESNext)</text>
+      <text x="200" y="25" fill="#f7df1e" class="lm-mono" font-size="9.5">Async Servers &amp; 3D DOM Engine</text>
     </g>
 
     <!-- TypeScript -->
     <g transform="translate(0, 48)">
-      <circle cx="6" cy="11" r="5" fill="#3178c6"/>
-      <text x="20" y="15" fill="#ffffff" class="l-mono" font-size="11.5" font-weight="600">TypeScript</text>
-      <text x="360" y="15" fill="#60a5fa" class="l-mono" font-size="11" font-weight="700">95%</text>
-      <rect x="0" y="24" width="395" height="7" rx="3.5" fill="rgba(255,255,255,0.06)"/>
-      <rect x="0" y="24" width="375" height="7" rx="3.5" fill="url(#c-ts)"/>
+      <rect width="415" height="42" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(49,120,198,0.3)" stroke-width="1"/>
+      <circle cx="16" cy="21" r="5" fill="#3178c6"/>
+      <text x="30" y="25" fill="#ffffff" class="lm-bold" font-size="12">TypeScript</text>
+      <text x="200" y="25" fill="#60a5fa" class="lm-mono" font-size="9.5">Type-Safe API Contracts &amp; Models</text>
     </g>
 
     <!-- Python -->
     <g transform="translate(0, 96)">
-      <circle cx="6" cy="11" r="5" fill="#3776ab"/>
-      <text x="20" y="15" fill="#ffffff" class="l-mono" font-size="11.5" font-weight="600">Python</text>
-      <text x="360" y="15" fill="#ffd43b" class="l-mono" font-size="11" font-weight="700">92%</text>
-      <rect x="0" y="24" width="395" height="7" rx="3.5" fill="rgba(255,255,255,0.06)"/>
-      <rect x="0" y="24" width="363" height="7" rx="3.5" fill="url(#c-py)"/>
+      <rect width="415" height="42" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(55,118,171,0.3)" stroke-width="1"/>
+      <circle cx="16" cy="21" r="5" fill="#3776ab"/>
+      <text x="30" y="25" fill="#ffffff" class="lm-bold" font-size="12">Python</text>
+      <text x="200" y="25" fill="#ffd43b" class="lm-mono" font-size="9.5">Predictive Business Analytics</text>
     </g>
 
     <!-- C++ -->
     <g transform="translate(0, 144)">
-      <circle cx="6" cy="11" r="5" fill="#00599c"/>
-      <text x="20" y="15" fill="#ffffff" class="l-mono" font-size="11.5" font-weight="600">C++ (Analytics &amp; Engine)</text>
-      <text x="360" y="15" fill="#4facfe" class="l-mono" font-size="11" font-weight="700">88%</text>
-      <rect x="0" y="24" width="395" height="7" rx="3.5" fill="rgba(255,255,255,0.06)"/>
-      <rect x="0" y="24" width="347" height="7" rx="3.5" fill="url(#c-cpp)"/>
+      <rect width="415" height="42" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(0,89,156,0.35)" stroke-width="1"/>
+      <circle cx="16" cy="21" r="5" fill="#00599c"/>
+      <text x="30" y="25" fill="#ffffff" class="lm-bold" font-size="12">C++</text>
+      <text x="200" y="25" fill="#4facfe" class="lm-mono" font-size="9.5">High-Speed Computation Modules</text>
     </g>
 
     <!-- Java -->
     <g transform="translate(0, 192)">
-      <circle cx="6" cy="11" r="5" fill="#ed8b00"/>
-      <text x="20" y="15" fill="#ffffff" class="l-mono" font-size="11.5" font-weight="600">Java (Oracle Certified)</text>
-      <text x="360" y="15" fill="#f58220" class="l-mono" font-size="11" font-weight="700">89%</text>
-      <rect x="0" y="24" width="395" height="7" rx="3.5" fill="rgba(255,255,255,0.06)"/>
-      <rect x="0" y="24" width="351" height="7" rx="3.5" fill="url(#c-java)"/>
+      <rect width="415" height="42" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(237,139,0,0.35)" stroke-width="1"/>
+      <circle cx="16" cy="21" r="5" fill="#ed8b00"/>
+      <text x="30" y="25" fill="#ffffff" class="lm-bold" font-size="12">Java</text>
+      <text x="200" y="25" fill="#f58220" class="lm-mono" font-size="9.5">Oracle Certified OOP Foundations</text>
     </g>
   </g>
 
-  <!-- Right Column: Specialized & Graphics Languages -->
-  <g transform="translate(475, 68)">
+  <!-- Right Column: Database, 3D Graphics & Web Tech -->
+  <g transform="translate(460, 66)">
     <!-- SQL / PostgreSQL -->
     <g transform="translate(0, 0)">
-      <circle cx="6" cy="11" r="5" fill="#4169e1"/>
-      <text x="20" y="15" fill="#ffffff" class="l-mono" font-size="11.5" font-weight="600">SQL / PostgreSQL</text>
-      <text x="360" y="15" fill="#00f2fe" class="l-mono" font-size="11" font-weight="700">94%</text>
-      <rect x="0" y="24" width="395" height="7" rx="3.5" fill="rgba(255,255,255,0.06)"/>
-      <rect x="0" y="24" width="371" height="7" rx="3.5" fill="url(#c-sql)"/>
+      <rect width="415" height="42" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(65,105,225,0.35)" stroke-width="1"/>
+      <circle cx="16" cy="21" r="5" fill="#4169e1"/>
+      <text x="30" y="25" fill="#ffffff" class="lm-bold" font-size="12">SQL / PostgreSQL</text>
+      <text x="200" y="25" fill="#00f2fe" class="lm-mono" font-size="9.5">Relational DB Schemas &amp; Queries</text>
     </g>
 
     <!-- HTML5 & Canvas 2D/3D -->
     <g transform="translate(0, 48)">
-      <circle cx="6" cy="11" r="5" fill="#e34f26"/>
-      <text x="20" y="15" fill="#ffffff" class="l-mono" font-size="11.5" font-weight="600">HTML5 Canvas (2D &amp; 3D)</text>
-      <text x="360" y="15" fill="#f06529" class="l-mono" font-size="11" font-weight="700">99%</text>
-      <rect x="0" y="24" width="395" height="7" rx="3.5" fill="rgba(255,255,255,0.06)"/>
-      <rect x="0" y="24" width="391" height="7" rx="3.5" fill="url(#c-html)"/>
+      <rect width="415" height="42" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(227,79,38,0.35)" stroke-width="1"/>
+      <circle cx="16" cy="21" r="5" fill="#e34f26"/>
+      <text x="30" y="25" fill="#ffffff" class="lm-bold" font-size="12">HTML5 &amp; Canvas</text>
+      <text x="200" y="25" fill="#f06529" class="lm-mono" font-size="9.5">2D/3D WebGL Canvas Rendering</text>
     </g>
 
-    <!-- CSS3 & Liquid Glass -->
+    <!-- CSS3 & Liquid Glass UI -->
     <g transform="translate(0, 96)">
-      <circle cx="6" cy="11" r="5" fill="#1572b6"/>
-      <text x="20" y="15" fill="#ffffff" class="l-mono" font-size="11.5" font-weight="600">CSS3 / Liquid Glass UI</text>
-      <text x="360" y="15" fill="#33a9dc" class="l-mono" font-size="11" font-weight="700">97%</text>
-      <rect x="0" y="24" width="395" height="7" rx="3.5" fill="rgba(255,255,255,0.06)"/>
-      <rect x="0" y="24" width="383" height="7" rx="3.5" fill="url(#c-css)"/>
+      <rect width="415" height="42" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(21,114,182,0.35)" stroke-width="1"/>
+      <circle cx="16" cy="21" r="5" fill="#1572b6"/>
+      <text x="30" y="25" fill="#ffffff" class="lm-bold" font-size="12">CSS3 &amp; Liquid Glass</text>
+      <text x="200" y="25" fill="#33a9dc" class="lm-mono" font-size="9.5">Apple Glassmorphism UI Systems</text>
     </g>
 
-    <!-- GLSL & WebGL Shaders -->
+    <!-- GLSL & Shaders -->
     <g transform="translate(0, 144)">
-      <circle cx="6" cy="11" r="5" fill="#ff007a"/>
-      <text x="20" y="15" fill="#ffffff" class="l-mono" font-size="11.5" font-weight="600">GLSL / WebGL Shaders</text>
-      <text x="360" y="15" fill="#ff007a" class="l-mono" font-size="11" font-weight="700">90%</text>
-      <rect x="0" y="24" width="395" height="7" rx="3.5" fill="rgba(255,255,255,0.06)"/>
-      <rect x="0" y="24" width="355" height="7" rx="3.5" fill="url(#c-glsl)"/>
+      <rect width="415" height="42" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(255,0,122,0.35)" stroke-width="1"/>
+      <circle cx="16" cy="21" r="5" fill="#ff007a"/>
+      <text x="30" y="25" fill="#ffffff" class="lm-bold" font-size="12">GLSL / Shaders</text>
+      <text x="200" y="25" fill="#ff76ac" class="lm-mono" font-size="9.5">Real-Time Lighting &amp; Raymarching</text>
     </g>
 
-    <!-- C# / Blazor & Bash -->
+    <!-- C# & Bash -->
     <g transform="translate(0, 192)">
-      <circle cx="6" cy="11" r="5" fill="#512bd4"/>
-      <text x="20" y="15" fill="#ffffff" class="l-mono" font-size="11.5" font-weight="600">C# (.NET) &amp; Bash Shell</text>
-      <text x="360" y="15" fill="#c084fc" class="l-mono" font-size="11" font-weight="700">91%</text>
-      <rect x="0" y="24" width="395" height="7" rx="3.5" fill="rgba(255,255,255,0.06)"/>
-      <rect x="0" y="24" width="359" height="7" rx="3.5" fill="url(#c-csharp)"/>
+      <rect width="415" height="42" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(81,43,212,0.35)" stroke-width="1"/>
+      <circle cx="16" cy="21" r="5" fill="#512bd4"/>
+      <text x="30" y="25" fill="#ffffff" class="lm-bold" font-size="12">C# (.NET) &amp; Bash</text>
+      <text x="200" y="25" fill="#c084fc" class="lm-mono" font-size="9.5">Blazor WebAssembly &amp; Linux CLI</text>
     </g>
   </g>
 </svg>

@@ -1,42 +1,24 @@
-<svg width="900" height="290" viewBox="0 0 900 290" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="295" viewBox="0 0 900 295" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <!-- Radial mesh glows -->
-    <radialGradient id="t-glow-1" cx="10%" cy="10%" r="50%">
+    <radialGradient id="t-glow-1" cx="15%" cy="15%" r="60%">
       <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.25"/>
       <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="t-glow-2" cx="90%" cy="90%" r="50%">
-      <stop offset="0%" stop-color="#7928ca" stop-opacity="0.25"/>
+    <radialGradient id="t-glow-2" cx="85%" cy="85%" r="60%">
+      <stop offset="0%" stop-color="#7928ca" stop-opacity="0.28"/>
       <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
     </radialGradient>
 
     <!-- Glass Gradients -->
     <linearGradient id="t-glass-fill" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.07"/>
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.1"/>
       <stop offset="100%" stop-color="#ffffff" stop-opacity="0.015"/>
     </linearGradient>
     <linearGradient id="t-glass-border" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.5"/>
-      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.15"/>
-      <stop offset="100%" stop-color="#7928ca" stop-opacity="0.4"/>
-    </linearGradient>
-
-    <!-- Progress bar gradients -->
-    <linearGradient id="prog-cyan" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00f2fe"/>
-      <stop offset="100%" stop-color="#4facfe"/>
-    </linearGradient>
-    <linearGradient id="prog-purple" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#7928ca"/>
-      <stop offset="100%" stop-color="#ff007a"/>
-    </linearGradient>
-    <linearGradient id="prog-green" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00f5a0"/>
-      <stop offset="100%" stop-color="#00d9f5"/>
-    </linearGradient>
-    <linearGradient id="prog-orange" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ff9900"/>
-      <stop offset="100%" stop-color="#ff5e62"/>
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.65"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#7928ca" stop-opacity="0.5"/>
     </linearGradient>
 
     <pattern id="t-grid" width="20" height="20" patternUnits="userSpaceOnUse">
@@ -47,95 +29,96 @@
       .t-mono { font-family: 'JetBrains Mono', 'SF Mono', Consolas, monospace; }
       .t-sans { font-family: -apple-system, BlinkMacSystemFont, 'Space Grotesk', 'Segoe UI', sans-serif; }
       .t-num { font-family: -apple-system, BlinkMacSystemFont, 'Space Grotesk', sans-serif; font-weight: 800; }
+      .t-bold { font-family: -apple-system, BlinkMacSystemFont, 'Space Grotesk', sans-serif; font-weight: 700; }
     </style>
   </defs>
 
   <!-- Deep Canvas Base -->
-  <rect width="900" height="290" rx="18" fill="#080b12"/>
-  <rect width="900" height="290" rx="18" fill="url(#t-glow-1)"/>
-  <rect width="900" height="290" rx="18" fill="url(#t-glow-2)"/>
-  <rect width="900" height="290" rx="18" fill="url(#t-grid)"/>
-  <rect width="900" height="290" rx="18" fill="none" stroke="url(#t-glass-border)" stroke-width="1.2"/>
+  <rect width="900" height="295" rx="18" fill="#06080e"/>
+  <rect width="900" height="295" rx="18" fill="url(#t-glow-1)"/>
+  <rect width="900" height="295" rx="18" fill="url(#t-glow-2)"/>
+  <rect width="900" height="295" rx="18" fill="url(#t-grid)"/>
+  <rect width="900" height="295" rx="18" fill="none" stroke="url(#t-glass-border)" stroke-width="1.5"/>
 
   <!-- Top Glass Header Bar -->
-  <rect x="20" y="16" width="860" height="36" rx="10" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <rect x="20" y="16" width="860" height="36" rx="10" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
   <circle cx="38" cy="34" r="4" fill="#00f2fe"/>
-  <text x="50" y="38" fill="#00f2fe" class="t-mono" font-size="11" font-weight="700" letter-spacing="1">LIVE TELEMETRY // DEVELOPER DASHBOARD // ARYAN SHARMA</text>
-  <text x="730" y="38" fill="rgba(255,255,255,0.5)" class="t-mono" font-size="10.5">METRICS SYNCED ⚡</text>
+  <text x="50" y="38" fill="#00f2fe" class="t-mono" font-size="11" font-weight="700" letter-spacing="1">SYSTEM TELEMETRY // CORE ENGINEERING CAPABILITIES // ARYAN SHARMA</text>
+  <text x="730" y="38" fill="rgba(255,255,255,0.6)" class="t-mono" font-size="10.5">FULL-STACK CORE ⚡</text>
 
   <!-- 4 Stat Glass Cards (Grid) -->
   <g transform="translate(20, 64)">
-    <!-- Stat Card 1: Verified Certifications -->
+    <!-- Stat Card 1: Verified Credentials -->
     <g transform="translate(0, 0)">
-      <rect width="205" height="100" rx="12" fill="url(#t-glass-fill)" stroke="rgba(0,242,254,0.3)" stroke-width="1"/>
-      <path d="M 5 2 L 200 2" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
-      <text x="16" y="28" fill="rgba(255,255,255,0.6)" class="t-mono" font-size="9.5" font-weight="600">CREDENTIALS VAULT</text>
+      <rect width="205" height="100" rx="12" fill="url(#t-glass-fill)" stroke="rgba(0,242,254,0.35)" stroke-width="1"/>
+      <path d="M 6 2 L 199 2" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+      <text x="16" y="28" fill="rgba(255,255,255,0.65)" class="t-mono" font-size="9.5" font-weight="600">CREDENTIALS VAULT</text>
       <text x="16" y="65" fill="#00f2fe" class="t-num" font-size="32">17+</text>
-      <text x="16" y="85" fill="rgba(255,255,255,0.75)" class="t-sans" font-size="10.5">Verified Certifications</text>
+      <text x="16" y="85" fill="rgba(255,255,255,0.85)" class="t-sans" font-size="10.5">Verified Certifications</text>
     </g>
 
     <!-- Stat Card 2: Enterprise Job Simulations -->
     <g transform="translate(218, 0)">
-      <rect width="205" height="100" rx="12" fill="url(#t-glass-fill)" stroke="rgba(121,40,202,0.3)" stroke-width="1"/>
-      <path d="M 5 2 L 200 2" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
-      <text x="16" y="28" fill="rgba(255,255,255,0.6)" class="t-mono" font-size="9.5" font-weight="600">ENTERPRISE SIMS</text>
+      <rect width="205" height="100" rx="12" fill="url(#t-glass-fill)" stroke="rgba(121,40,202,0.35)" stroke-width="1"/>
+      <path d="M 6 2 L 199 2" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+      <text x="16" y="28" fill="rgba(255,255,255,0.65)" class="t-mono" font-size="9.5" font-weight="600">ENTERPRISE SIMS</text>
       <text x="16" y="65" fill="#c084fc" class="t-num" font-size="32">4</text>
-      <text x="16" y="85" fill="rgba(255,255,255,0.75)" class="t-sans" font-size="10.5">BCG, Deloitte, BofA, MC</text>
+      <text x="16" y="85" fill="rgba(255,255,255,0.85)" class="t-sans" font-size="10.5">BCG, Deloitte, BofA, MC</text>
     </g>
 
-    <!-- Stat Card 3: Featured Repositories -->
+    <!-- Stat Card 3: Production Repositories -->
     <g transform="translate(436, 0)">
-      <rect width="205" height="100" rx="12" fill="url(#t-glass-fill)" stroke="rgba(255,0,122,0.3)" stroke-width="1"/>
-      <path d="M 5 2 L 200 2" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
-      <text x="16" y="28" fill="rgba(255,255,255,0.6)" class="t-mono" font-size="9.5" font-weight="600">PRODUCTION BUILDS</text>
-      <text x="16" y="65" fill="#ff76ac" class="t-num" font-size="32">7+</text>
-      <text x="16" y="85" fill="rgba(255,255,255,0.75)" class="t-sans" font-size="10.5">Full-Stack &amp; 3D Apps</text>
+      <rect width="205" height="100" rx="12" fill="url(#t-glass-fill)" stroke="rgba(0,245,160,0.35)" stroke-width="1"/>
+      <path d="M 6 2 L 199 2" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+      <text x="16" y="28" fill="rgba(255,255,255,0.65)" class="t-mono" font-size="9.5" font-weight="600">PRODUCTION BUILDS</text>
+      <text x="16" y="65" fill="#00f5a0" class="t-num" font-size="32">7+</text>
+      <text x="16" y="85" fill="rgba(255,255,255,0.85)" class="t-sans" font-size="10.5">Full-Stack &amp; 3D Apps</text>
     </g>
 
-    <!-- Stat Card 4: Architecture Quality -->
+    <!-- Stat Card 4: Architecture Standards -->
     <g transform="translate(654, 0)">
-      <rect width="205" height="100" rx="12" fill="url(#t-glass-fill)" stroke="rgba(0,245,160,0.3)" stroke-width="1"/>
-      <path d="M 5 2 L 200 2" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
-      <text x="16" y="28" fill="rgba(255,255,255,0.6)" class="t-mono" font-size="9.5" font-weight="600">CODE INTEGRITY</text>
-      <text x="16" y="65" fill="#00f5a0" class="t-num" font-size="32">100%</text>
-      <text x="16" y="85" fill="rgba(255,255,255,0.75)" class="t-sans" font-size="10.5">Production Standards</text>
+      <rect width="205" height="100" rx="12" fill="url(#t-glass-fill)" stroke="rgba(255,0,122,0.35)" stroke-width="1"/>
+      <path d="M 6 2 L 199 2" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+      <text x="16" y="28" fill="rgba(255,255,255,0.65)" class="t-mono" font-size="9.5" font-weight="600">ENGINEERING SCOPE</text>
+      <text x="16" y="65" fill="#ff76ac" class="t-num" font-size="32">E2E</text>
+      <text x="16" y="85" fill="rgba(255,255,255,0.85)" class="t-sans" font-size="10.5">Design, Server, DB, Deploy</text>
     </g>
   </g>
 
-  <!-- Lower Telemetry Dials & Activity Bars -->
+  <!-- Lower Architectural Tiers Panel (Clean Concrete Systems - No Fake Percentages) -->
   <g transform="translate(20, 178)">
-    <rect width="860" height="96" rx="12" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    <rect width="860" height="102" rx="12" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
 
-    <!-- Bar 1: 3D Spatial & Liquid Glass -->
-    <g transform="translate(25, 20)">
-      <text x="0" y="0" fill="#ffffff" class="t-mono" font-size="10.5" font-weight="600">3D SPATIAL &amp; LIQUID GLASS UI (Three.js / WebGL)</text>
-      <text x="350" y="0" fill="#00f2fe" class="t-mono" font-size="10.5" font-weight="700">98%</text>
-      <rect x="0" y="10" width="380" height="8" rx="4" fill="rgba(255,255,255,0.06)"/>
-      <rect x="0" y="10" width="372" height="8" rx="4" fill="url(#prog-cyan)"/>
+    <!-- Pillar 1: Custom Servers -->
+    <g transform="translate(20, 18)">
+      <rect width="195" height="66" rx="8" fill="rgba(0,242,254,0.06)" stroke="rgba(0,242,254,0.3)" stroke-width="1"/>
+      <text x="12" y="22" fill="#00f2fe" class="t-bold" font-size="11.5">🖥️ SERVER ENGINES</text>
+      <text x="12" y="40" fill="rgba(255,255,255,0.85)" class="t-mono" font-size="9">Node.js • Express</text>
+      <text x="12" y="54" fill="rgba(255,255,255,0.55)" class="t-mono" font-size="8.5">REST APIs • Microservices</text>
     </g>
 
-    <!-- Bar 2: Full-Stack Platform Architecture -->
-    <g transform="translate(25, 54)">
-      <text x="0" y="0" fill="#ffffff" class="t-mono" font-size="10.5" font-weight="600">FULL-STACK PLATFORMS (Node • Postgres • Python)</text>
-      <text x="350" y="0" fill="#00f5a0" class="t-mono" font-size="10.5" font-weight="700">95%</text>
-      <rect x="0" y="10" width="380" height="8" rx="4" fill="rgba(255,255,255,0.06)"/>
-      <rect x="0" y="10" width="361" height="8" rx="4" fill="url(#prog-green)"/>
+    <!-- Pillar 2: Relational SQL -->
+    <g transform="translate(230, 18)">
+      <rect width="195" height="66" rx="8" fill="rgba(0,245,160,0.06)" stroke="rgba(0,245,160,0.3)" stroke-width="1"/>
+      <text x="12" y="22" fill="#00f5a0" class="t-bold" font-size="11.5">🗄️ SQL &amp; SCHEMAS</text>
+      <text x="12" y="40" fill="rgba(255,255,255,0.85)" class="t-mono" font-size="9">PostgreSQL • Complex SQL</text>
+      <text x="12" y="54" fill="rgba(255,255,255,0.55)" class="t-mono" font-size="8.5">Relational DB Architecture</text>
     </g>
 
-    <!-- Bar 3: AI Agents & Claude Code -->
-    <g transform="translate(450, 20)">
-      <text x="0" y="0" fill="#ffffff" class="t-mono" font-size="10.5" font-weight="600">AI AGENTIC PIPELINES (Claude Code • Prompt Eng)</text>
-      <text x="350" y="0" fill="#ff76ac" class="t-mono" font-size="10.5" font-weight="700">96%</text>
-      <rect x="0" y="10" width="380" height="8" rx="4" fill="rgba(255,255,255,0.06)"/>
-      <rect x="0" y="10" width="365" height="8" rx="4" fill="url(#prog-purple)"/>
+    <!-- Pillar 3: C++ & Python Analytics -->
+    <g transform="translate(440, 18)">
+      <rect width="195" height="66" rx="8" fill="rgba(121,40,202,0.06)" stroke="rgba(121,40,202,0.3)" stroke-width="1"/>
+      <text x="12" y="22" fill="#c084fc" class="t-bold" font-size="11.5">⚡ C++ &amp; ANALYTICS</text>
+      <text x="12" y="40" fill="rgba(255,255,255,0.85)" class="t-mono" font-size="9">Compiled C++ Modules</text>
+      <text x="12" y="54" fill="rgba(255,255,255,0.55)" class="t-mono" font-size="8.5">Python Predictive Logic</text>
     </g>
 
-    <!-- Bar 4: Cloud Infrastructure & AWS -->
-    <g transform="translate(450, 54)">
-      <text x="0" y="0" fill="#ffffff" class="t-mono" font-size="10.5" font-weight="600">CLOUD &amp; SYSTEMS (AWS • Linux • C++ Acceleration)</text>
-      <text x="350" y="0" fill="#ff9900" class="t-mono" font-size="10.5" font-weight="700">92%</text>
-      <rect x="0" y="10" width="380" height="8" rx="4" fill="rgba(255,255,255,0.06)"/>
-      <rect x="0" y="10" width="350" height="8" rx="4" fill="url(#prog-orange)"/>
+    <!-- Pillar 4: 3D Spatial & Liquid Glass -->
+    <g transform="translate(650, 18)">
+      <rect width="190" height="66" rx="8" fill="rgba(255,0,122,0.06)" stroke="rgba(255,0,122,0.3)" stroke-width="1"/>
+      <text x="12" y="22" fill="#ff76ac" class="t-bold" font-size="11.5">🌐 3D SPATIAL UI</text>
+      <text x="12" y="40" fill="rgba(255,255,255,0.85)" class="t-mono" font-size="9">Three.js • WebGL</text>
+      <text x="12" y="54" fill="rgba(255,255,255,0.55)" class="t-mono" font-size="8.5">Liquid Glass UI Shaders</text>
     </g>
   </g>
 </svg>
