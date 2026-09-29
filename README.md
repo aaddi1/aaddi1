@@ -2,7 +2,7 @@
 
   <!-- BESPOKE GITHUB DARK HERO BANNER -->
   <a href="https://aaddi1.github.io/My-Portfolio/">
-    <img src="./assets/hero-banner.svg" alt="Aryan Sharma - 3D Creative Engineer & Full-Stack Architect" width="100%" />
+    <img src="./assets/hero-banner.svg?v=2" alt="Aryan Sharma - 3D Creative Engineer & Full-Stack Architect" width="100%" />
   </a>
 
   <!-- DYNAMIC TYPING SUBHEADER (GITHUB ACCENT) -->
@@ -102,19 +102,118 @@ Rather than relying on templates or pre-packaged abstractions, I build the core 
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aaddi1/aaddi1/output/github-contribution-grid-snake-dark.svg" />
       <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/aaddi1/aaddi1/output/github-contribution-grid-snake.svg" />
-      <img src="./assets/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake Animation" width="100%" />
+      <img src="./assets/github-contribution-grid-snake.svg?v=2" alt="GitHub Contribution Snake Animation" width="100%" />
     </picture>
   </p>
 
   <br />
 
   <!-- GITHUB DARK TELEMETRY DASHBOARD -->
-  <img src="./assets/telemetry-dashboard.svg" alt="Aryan Sharma Developer Telemetry Dashboard" width="100%" />
+  <img src="./assets/telemetry-dashboard.svg?v=2" alt="Aryan Sharma Developer Telemetry Dashboard" width="100%" />
+</div>
 
-  <br /><br />
+---
 
-  <!-- VERIFIED HONORS & TROPHY VAULT -->
-  <img src="./assets/trophies-vault-glass.svg" alt="GitHub Dark Trophy Vault" width="100%" />
+### 🎖️ Verified Specializations & Honors
+
+<div align="center">
+  <table width="100%" border="0">
+    <tr>
+      <td width="33%" valign="top" align="center">
+        <a href="https://threejs.org/">
+          <img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white" />
+        </a>
+        <br />
+        <strong>3D Spatial Engine</strong>
+        <p align="left">
+          • Custom GLSL shaders & real-time light<br />
+          • 24fps scroll canvas & 3D kinematics
+        </p>
+        <p align="center">
+          <img src="https://img.shields.io/badge/WebGL-990000?style=flat-square&logo=webgl&logoColor=white" />
+          <img src="https://img.shields.io/badge/Canvas-E34F26?style=flat-square&logo=html5&logoColor=white" />
+        </p>
+      </td>
+      <td width="33%" valign="top" align="center">
+        <a href="https://nodejs.org/">
+          <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
+        </a>
+        <br />
+        <strong>Server Architect</strong>
+        <p align="left">
+          • Asynchronous REST API architecture<br />
+          • Multi-tenant token security pipelines
+        </p>
+        <p align="center">
+          <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" />
+          <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white" />
+        </p>
+      </td>
+      <td width="33%" valign="top" align="center">
+        <a href="https://www.postgresql.org/">
+          <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+        </a>
+        <br />
+        <strong>SQL & DB Schemas</strong>
+        <p align="left">
+          • Normalized relational schema design<br />
+          • Index optimization & complex joins
+        </p>
+        <p align="center">
+          <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
+          <img src="https://img.shields.io/badge/Schemas-21262d?style=flat-square&logo=database&logoColor=white" />
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td width="33%" valign="top" align="center">
+        <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
+        <br />
+        <strong>C++ Computation</strong>
+        <p align="left">
+          • High-speed compiled binary modules<br />
+          • Python & C++ interop math pipelines
+        </p>
+        <p align="center">
+          <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+          <img src="https://img.shields.io/badge/Java_OOP-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
+        </p>
+      </td>
+      <td width="33%" valign="top" align="center">
+        <a href="https://aws.amazon.com/">
+          <img src="https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" />
+        </a>
+        <br />
+        <strong>AWS & Cloud Systems</strong>
+        <p align="left">
+          • AWS Developer Learning Plan certified<br />
+          • Google Play Store listing optimization
+        </p>
+        <p align="center">
+          <img src="https://img.shields.io/badge/Google_Play-414141?style=flat-square&logo=google-play&logoColor=white" />
+          <img src="https://img.shields.io/badge/Scaler-FF9900?style=flat-square&logo=amazon-aws&logoColor=white" />
+        </p>
+      </td>
+      <td width="33%" valign="top" align="center">
+        <img src="https://img.shields.io/badge/Deloitte-86BC25?style=for-the-badge&logo=deloitte&logoColor=white" />
+        <br />
+        <strong>Deloitte & ISRO</strong>
+        <p align="left">
+          • Deloitte Cyber Security Simulation<br />
+          • ISRO / IIRS space outreach credential
+        </p>
+        <p align="center">
+          <img src="https://img.shields.io/badge/ISRO-FF6F00?style=flat-square&logo=nasa&logoColor=white" />
+          <img src="https://img.shields.io/badge/Bank_of_Am-012169?style=flat-square&logo=bankofamerica&logoColor=white" />
+        </p>
+      </td>
+    </tr>
+  </table>
+
+  <br />
+
+  <!-- VERIFIED HONORS & TROPHY VAULT SVG -->
+  <img src="./assets/trophies-vault-glass.svg?v=2" alt="GitHub Dark Trophy Vault" width="100%" />
 </div>
 
 ---
@@ -123,7 +222,7 @@ Rather than relying on templates or pre-packaged abstractions, I build the core 
 
 <div align="center">
   <!-- FULL PROGRAMMING LANGUAGES MATRIX -->
-  <img src="./assets/languages-glass-matrix.svg" alt="All Programming Languages Showcase" width="100%" />
+  <img src="./assets/languages-glass-matrix.svg?v=2" alt="All Programming Languages Showcase" width="100%" />
 </div>
 
 <br />
@@ -148,7 +247,7 @@ Rather than relying on templates or pre-packaged abstractions, I build the core 
 
 <div align="center">
   <!-- 3D ANIMATED SPATIAL PIPELINE CARD -->
-  <img src="./assets/spatial-engine-3d.svg" alt="3D Spatial Kinematics Engine" width="100%" />
+  <img src="./assets/spatial-engine-3d.svg?v=2" alt="3D Spatial Kinematics Engine" width="100%" />
 </div>
 
 ---
