@@ -103,10 +103,11 @@ Rather than relying on templates or pre-packaged abstractions, I build the core 
     </a>
   </p>
 
-  <!-- MERGED LIFETIME CONTRIBUTION ACTIVITY GRAPH & CONTRIBUTION SNAKE -->
+  <!-- 1,155+ LIFETIME CONTRIBUTIONS & ACTIVITY GRAPH -->
+  <h4>⚡ 1,155+ Total Contributions (Live Synchronized)</h4>
   <p align="center">
     <a href="https://github.com/aaddi1">
-      <img src="https://ghchart.rshah.org/2ea043/aaddi1" alt="Aryan Sharma's Live GitHub Contribution Graph" width="100%" />
+      <img src="https://ghchart.rshah.org/2ea043/aaddi1" alt="Aryan Sharma's Live GitHub Contribution Graph — 1,155+ Contributions" width="100%" />
     </a>
   </p>
 
@@ -114,7 +115,7 @@ Rather than relying on templates or pre-packaged abstractions, I build the core 
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aaddi1/aaddi1/output/github-contribution-grid-snake-dark.svg" />
       <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/aaddi1/aaddi1/output/github-contribution-grid-snake.svg" />
-      <img src="https://raw.githubusercontent.com/aaddi1/aaddi1/main/assets/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake Animation" width="100%" />
+      <img src="https://raw.githubusercontent.com/aaddi1/aaddi1/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake Animation" width="100%" />
     </picture>
   </p>
 
@@ -128,30 +129,6 @@ Rather than relying on templates or pre-packaged abstractions, I build the core 
         <source media="(prefers-color-scheme: light)" srcset="https://github-profile-trophy-zeta.vercel.app/?username=aaddi1&theme=flat&no-frame=true&no-bg=true&margin_w=6" />
         <img src="https://github-profile-trophy-zeta.vercel.app/?username=aaddi1&theme=gitdimmed&no-frame=true&no-bg=true&margin_w=6" alt="Aryan Sharma's GitHub Trophies" />
       </picture>
-    </a>
-  </p>
-
-  <br />
-
-  <!-- OFFICIAL GITHUB PROFILE ACHIEVEMENTS SHOWROOM -->
-  <p align="center">
-    <a href="https://github.com/aaddi1?tab=achievements">
-      <img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" width="64" alt="Pull Shark" title="Pull Shark — Multiple Merged Pull Requests" />
-    </a>
-    <a href="https://github.com/aaddi1?tab=achievements">
-      <img src="https://github.githubassets.com/images/modules/profile/achievements/quickdraw-default.png" width="64" alt="Quickdraw" title="Quickdraw — Closed Issue/PR within 5 Minutes" />
-    </a>
-    <a href="https://github.com/aaddi1?tab=achievements">
-      <img src="https://github.githubassets.com/images/modules/profile/achievements/pair-extraordinaire-default.png" width="64" alt="Pair Extraordinaire" title="Pair Extraordinaire — Coauthored in Merged Pull Requests" />
-    </a>
-    <a href="https://github.com/aaddi1?tab=achievements">
-      <img src="https://github.githubassets.com/images/modules/profile/achievements/yolo-default.png" width="64" alt="YOLO" title="YOLO — Merged Pull Request Without Review" />
-    </a>
-    <a href="https://github.com/aaddi1?tab=achievements">
-      <img src="https://github.githubassets.com/images/modules/profile/achievements/heart-on-your-sleeve-default.png" width="64" alt="Heart On Your Sleeve" title="Heart On Your Sleeve — Reacted with ❤️" />
-    </a>
-    <a href="https://github.com/aaddi1?tab=achievements">
-      <img src="https://github.githubassets.com/images/modules/profile/achievements/open-sourcerer-default.png" width="64" alt="Open Sourcerer" title="Open Sourcerer — PRs Merged Across Multiple Repositories" />
     </a>
   </p>
 
