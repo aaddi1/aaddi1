@@ -1,41 +1,38 @@
 <div align="center">
 
-  <!-- DYNAMIC TYPING SVG HEADER -->
+  <!-- BESPOKE APPLE LIQUID GLASS HERO BANNER -->
   <a href="https://aaddi1.github.io/My-Portfolio/">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Space+Grotesk&weight=700&size=30&duration=3500&pause=1000&color=00F2FE&center=true&vCenter=true&multiline=true&width=850&height=110&lines=%E2%9A%A1+HI%2C+I'M+ARYAN+SHARMA+%E2%9A%A1;3D+Creative+Engineer+%E2%80%A2+Full-Stack+Architect;Crafting+Futuristic+Web+Experiences+%26+Intelligent+Systems" alt="Aryan Sharma - Typist Header" />
+    <img src="./assets/hero-banner.svg" alt="Aryan Sharma - 3D Creative Engineer & Full-Stack Architect" width="100%" />
+  </a>
+
+  <!-- DYNAMIC TYPING SVG SUBHEADER -->
+  <a href="https://aaddi1.github.io/My-Portfolio/">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Space+Grotesk&weight=700&size=24&duration=3500&pause=1000&color=00F2FE&center=true&vCenter=true&multiline=true&width=850&height=75&lines=%E2%9A%A1+3D+Spatial+Web+Experiences+%E2%80%A2+Apple+Liquid+Glass+UI;%F0%9F%9A%80+Full-Stack+Enterprise+Platforms+%26+Predictive+Analytics;%F0%9F%A4%96+Autonomous+Agentic+Workflows+%26+Anthropic+Claude+Code" alt="Dynamic Typing Subheader" />
   </a>
 
   <p align="center">
-    <strong>📍 Pune, India &bull; 🌐 Global Remote &bull; 🚀 Available for High-Impact Roles & Projects</strong>
-  </p>
-
-  <!-- STATUS & IDENTITY BADGES -->
-  <p align="center">
-    <img src="https://img.shields.io/badge/STATUS-AVAILABLE_FOR_WORK-00F2FE?style=for-the-badge&logo=statuspage&logoColor=black" alt="Status Available" />
-    <img src="https://img.shields.io/badge/PORTFOLIO-3D_EXPERIENCE-4FACFE?style=for-the-badge&logo=three.js&logoColor=white" alt="Portfolio Badge" />
-    <img src="https://img.shields.io/badge/CERTIFICATIONS-17+_VERIFIED-6C5CE7?style=for-the-badge&logo=credly&logoColor=white" alt="17+ Certifications" />
-    <img src="https://img.shields.io/badge/ROLE-CREATIVE_ENGINEER-FF007A?style=for-the-badge&logo=codewars&logoColor=white" alt="Role Badge" />
+    <strong>📍 Pune, Maharashtra, India 🇮🇳 &bull; 🌐 Global Remote &bull; 🚀 Available for High-Impact Roles & Contracts</strong>
   </p>
 
   <!-- SOCIAL & DIRECT CONNECT MATRIX -->
   <p align="center">
     <a href="mailto:aaddisharmarkczw@gmail.com">
-      <img src="https://img.shields.io/badge/Email-aaddisharmarkczw%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Aryan" />
+      <img src="https://img.shields.io/badge/Direct_Email-aaddisharmarkczw%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Aryan" />
     </a>
     <a href="https://www.linkedin.com/in/aryan-sharma11/" target="_blank">
-      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+      <img src="https://img.shields.io/badge/LinkedIn-Aryan_Sharma-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
     </a>
     <a href="https://x.com/aryan56710" target="_blank">
-      <img src="https://img.shields.io/badge/X_(Twitter)-000000?style=for-the-badge&logo=x&logoColor=white" alt="X / Twitter" />
+      <img src="https://img.shields.io/badge/X_(Twitter)-@aryan56710-000000?style=for-the-badge&logo=x&logoColor=white" alt="X / Twitter" />
     </a>
     <a href="https://www.instagram.com/aryansharma.dev/" target="_blank">
-      <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+      <img src="https://img.shields.io/badge/Instagram-@aryansharma.dev-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
     </a>
     <a href="https://github.com/aaddi1" target="_blank">
-      <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+      <img src="https://img.shields.io/badge/GitHub-@aaddi1-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
     </a>
     <a href="https://aaddi1.github.io/My-Portfolio/" target="_blank">
-      <img src="https://img.shields.io/badge/3D_Portfolio-00F2FE?style=for-the-badge&logo=safari&logoColor=black" alt="3D Portfolio" />
+      <img src="https://img.shields.io/badge/3D_Portfolio-Experience_Live-00F2FE?style=for-the-badge&logo=three.js&logoColor=black" alt="3D Portfolio" />
     </a>
   </p>
 
@@ -52,7 +49,8 @@ identity:
   location: "Pune, Maharashtra, India 🇮🇳"
   email: "aaddisharmarkczw@gmail.com"
   core_domain: "3D Spatial Web, Full-Stack Architecture, Polyglot Engineering & Agentic AI"
-  architecture_style: "Apple Clear Liquid Glass UI • High-Performance WebGL • Reactive Microservices"
+  design_paradigm: "Apple Clear Liquid Glass UI • High-Performance WebGL • Reactive Systems"
+  credentials_count: "17+ Verified Industry Certifications & 4 Enterprise Job Simulations"
   status: "Open for high-velocity engineering roles, contracts & ambitious builds"
 ```
 
@@ -69,50 +67,30 @@ I am a certified creative engineer and web developer bridging the frontier betwe
 ### 📊 DEVELOPER TELEMETRY & LIFETIME STATS
 
 <div align="center">
-  <table border="0" style="border: none;">
-    <tr style="border: none;">
-      <td width="50%" align="center" style="border: none;">
-        <a href="https://github.com/aaddi1">
-          <img src="https://github-readme-stats.vercel.app/api?username=aaddi1&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=00F2FE&icon_color=4FACFE&text_color=E2E8F0" alt="Aryan's GitHub Lifetime Stats" width="100%" />
-        </a>
-      </td>
-      <td width="50%" align="center" style="border: none;">
-        <a href="https://github.com/aaddi1">
-          <img src="https://github-readme-streak-stats.herokuapp.com/?user=aaddi1&theme=tokyonight&hide_border=true&background=0D1117&ring=00F2FE&fire=4FACFE&currStreakLabel=00F2FE" alt="Aryan's GitHub Streak" width="100%" />
-        </a>
-      </td>
-    </tr>
-  </table>
+  <!-- LIQUID GLASS DEVELOPER TELEMETRY DASHBOARD -->
+  <img src="./assets/telemetry-dashboard.svg" alt="Aryan Sharma Developer Telemetry Dashboard" width="100%" />
 
-  <!-- TOP LANGUAGES & ACTIVITY -->
-  <table border="0" style="border: none;">
-    <tr style="border: none;">
-      <td width="50%" align="center" style="border: none;">
-        <a href="https://github.com/aaddi1">
-          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aaddi1&layout=compact&langs_count=10&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F2FE&text_color=E2E8F0" alt="Top Languages Showcase" width="100%" />
-        </a>
-      </td>
-      <td width="50%" align="center" style="border: none;">
-        <a href="https://github.com/aaddi1">
-          <img src="https://github-readme-activity-graph.vercel.app/graph?username=aaddi1&bg_color=0D1117&color=00F2FE&line=4FACFE&point=00F2FE&area=true&hide_border=true" alt="Contribution Graph" width="100%" />
-        </a>
-      </td>
-    </tr>
-  </table>
+  <br /><br />
 
-  <!-- GITHUB TROPHIES -->
-  <p align="center">
-    <a href="https://github.com/aaddi1">
-      <img src="https://github-profile-trophy.vercel.app/?username=aaddi1&theme=tokyonight&no-frame=true&no-bg=true&margin_w=6&column=6" alt="GitHub Trophies" />
-    </a>
-  </p>
+  <!-- HIGH VELOCITY CONTRIBUTION WAVE RADAR -->
+  <img src="./assets/activity-radar-glass.svg" alt="Contribution Wave Radar" width="100%" />
+
+  <br /><br />
+
+  <!-- VERIFIED HONORS & LIQUID GLASS TROPHY VAULT -->
+  <img src="./assets/trophies-vault-glass.svg" alt="Liquid Glass Trophy Vault" width="100%" />
 </div>
 
 ---
 
-### 💻 POLYGLOT SPECTRUM // ALL PROGRAMMING LANGUAGES & PROFICIENCIES
+### 💻 POLYGLOT SPECTRUM // ALL PROGRAMMING LANGUAGES SHOWCASE
 
-A complete breakdown of programming and scripting languages applied across my 3D rendering engines, enterprise platforms, analytics backends, and full-stack systems:
+<div align="center">
+  <!-- FULL PROGRAMMING LANGUAGES MATRIX -->
+  <img src="./assets/languages-glass-matrix.svg" alt="All Programming Languages Showcase" width="100%" />
+</div>
+
+<br />
 
 | Language | Primary Focus & Domain | Applied In | Ecosystem Badges |
 | :--- | :--- | :--- | :---: |
@@ -323,11 +301,7 @@ A complete breakdown of programming and scripting languages applied across my 3D
 
   <br /><br />
 
-  <a href="https://github.com/aaddi1">
-    <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dynamic Tech Quote" />
-  </a>
-
   <p align="center">
-    <sub>Crafted with ⚡ and precision by <strong>Aryan Sharma</strong> &bull; Contact: <strong><a href="mailto:aaddisharmarkczw@gmail.com">aaddisharmarkczw@gmail.com</a></strong></sub>
+    <sub>Crafted with ⚡ and precision by <strong>Aryan Sharma</strong> &bull; Direct Contact: <strong><a href="mailto:aaddisharmarkczw@gmail.com">aaddisharmarkczw@gmail.com</a></strong></sub>
   </p>
 </div>

@@ -1,0 +1,97 @@
+<svg width="900" height="170" viewBox="0 0 900 170" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <radialGradient id="tr-glow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.15"/>
+      <stop offset="50%" stop-color="#7928ca" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#080b12" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Glass Gradients -->
+    <linearGradient id="tr-glass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02"/>
+    </linearGradient>
+    <linearGradient id="tr-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.5"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#ff007a" stop-opacity="0.5"/>
+    </linearGradient>
+
+    <pattern id="tr-grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="rgba(255,255,255,0.02)" stroke-width="1"/>
+    </pattern>
+
+    <style>
+      .tr-mono { font-family: 'JetBrains Mono', 'SF Mono', Consolas, monospace; }
+      .tr-title { font-family: -apple-system, BlinkMacSystemFont, 'Space Grotesk', sans-serif; font-weight: 700; }
+    </style>
+  </defs>
+
+  <!-- Deep Canvas Base -->
+  <rect width="900" height="170" rx="16" fill="#080b12"/>
+  <rect width="900" height="170" rx="16" fill="url(#tr-glow)"/>
+  <rect width="900" height="170" rx="16" fill="url(#tr-grid)"/>
+  <rect width="900" height="170" rx="16" fill="none" stroke="url(#tr-border)" stroke-width="1.2"/>
+
+  <!-- Top Title -->
+  <text x="30" y="30" fill="#00f2fe" class="tr-mono" font-size="11" font-weight="700" letter-spacing="1">VERIFIED HONORS &amp; DISTINCTIONS // LIQUID GLASS VAULT</text>
+  <text x="740" y="30" fill="rgba(255,255,255,0.5)" class="tr-mono" font-size="10.5">ELITE TIER 🏆</text>
+
+  <!-- 6 Glass Trophy Badges -->
+  <g transform="translate(20, 45)">
+    <!-- Badge 1 -->
+    <g transform="translate(0, 0)">
+      <rect width="135" height="105" rx="12" fill="url(#tr-glass)" stroke="rgba(0,242,254,0.3)" stroke-width="1"/>
+      <text x="67" y="38" text-anchor="middle" font-size="24">🌐</text>
+      <text x="67" y="66" text-anchor="middle" fill="#00f2fe" class="tr-title" font-size="11">3D SPATIAL</text>
+      <text x="67" y="82" text-anchor="middle" fill="rgba(255,255,255,0.7)" class="tr-mono" font-size="8.5">Three.js / WebGL</text>
+      <text x="67" y="94" text-anchor="middle" fill="#00f2fe" class="tr-mono" font-size="8">GRADE S+</text>
+    </g>
+
+    <!-- Badge 2 -->
+    <g transform="translate(145, 0)">
+      <rect width="135" height="105" rx="12" fill="url(#tr-glass)" stroke="rgba(255,0,122,0.3)" stroke-width="1"/>
+      <text x="67" y="38" text-anchor="middle" font-size="24">🤖</text>
+      <text x="67" y="66" text-anchor="middle" fill="#ff76ac" class="tr-title" font-size="11">CLAUDE AI</text>
+      <text x="67" y="82" text-anchor="middle" fill="rgba(255,255,255,0.7)" class="tr-mono" font-size="8.5">Anthropic Certified</text>
+      <text x="67" y="94" text-anchor="middle" fill="#ff76ac" class="tr-mono" font-size="8">GRADE S+</text>
+    </g>
+
+    <!-- Badge 3 -->
+    <g transform="translate(290, 0)">
+      <rect width="135" height="105" rx="12" fill="url(#tr-glass)" stroke="rgba(121,40,202,0.3)" stroke-width="1"/>
+      <text x="67" y="38" text-anchor="middle" font-size="24">⚡</text>
+      <text x="67" y="66" text-anchor="middle" fill="#c084fc" class="tr-title" font-size="11">FULL-STACK</text>
+      <text x="67" y="82" text-anchor="middle" fill="rgba(255,255,255,0.7)" class="tr-mono" font-size="8.5">Node • C++ • Py</text>
+      <text x="67" y="94" text-anchor="middle" fill="#c084fc" class="tr-mono" font-size="8">GRADE S+</text>
+    </g>
+
+    <!-- Badge 4 -->
+    <g transform="translate(435, 0)">
+      <rect width="135" height="105" rx="12" fill="url(#tr-glass)" stroke="rgba(255,153,0,0.3)" stroke-width="1"/>
+      <text x="67" y="38" text-anchor="middle" font-size="24">☁️</text>
+      <text x="67" y="66" text-anchor="middle" fill="#ffb84d" class="tr-title" font-size="11">CLOUD &amp; AWS</text>
+      <text x="67" y="82" text-anchor="middle" fill="rgba(255,255,255,0.7)" class="tr-mono" font-size="8.5">AWS &amp; Play Store</text>
+      <text x="67" y="94" text-anchor="middle" fill="#ffb84d" class="tr-mono" font-size="8">GRADE S+</text>
+    </g>
+
+    <!-- Badge 5 -->
+    <g transform="translate(580, 0)">
+      <rect width="135" height="105" rx="12" fill="url(#tr-glass)" stroke="rgba(0,245,160,0.3)" stroke-width="1"/>
+      <text x="67" y="38" text-anchor="middle" font-size="24">🛡️</text>
+      <text x="67" y="66" text-anchor="middle" fill="#00f5a0" class="tr-title" font-size="11">CYBER &amp; FIN</text>
+      <text x="67" y="82" text-anchor="middle" fill="rgba(255,255,255,0.7)" class="tr-mono" font-size="8.5">Deloitte &amp; BofA</text>
+      <text x="67" y="94" text-anchor="middle" fill="#00f5a0" class="tr-mono" font-size="8">GRADE S+</text>
+    </g>
+
+    <!-- Badge 6 -->
+    <g transform="translate(725, 0)">
+      <rect width="135" height="105" rx="12" fill="url(#tr-glass)" stroke="rgba(79,172,254,0.3)" stroke-width="1"/>
+      <text x="67" y="38" text-anchor="middle" font-size="24">🛰️</text>
+      <text x="67" y="66" text-anchor="middle" fill="#4facfe" class="tr-title" font-size="11">ISRO SPACE</text>
+      <text x="67" y="82" text-anchor="middle" fill="rgba(255,255,255,0.7)" class="tr-mono" font-size="8.5">IIRS Outreach</text>
+      <text x="67" y="94" text-anchor="middle" fill="#4facfe" class="tr-mono" font-size="8">GRADE S+</text>
+    </g>
+  </g>
+</svg>
