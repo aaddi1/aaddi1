@@ -1,6 +1,6 @@
-<svg width="900" height="200" viewBox="0 0 900 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="850" height="190" viewBox="0 0 850 190" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Rainbow Border Gradient -->
+    <!-- Chromatic Rainbow Iridescent Border Gradient -->
     <linearGradient id="sp-rainbow-border" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#ff007a"/>
       <stop offset="25%" stop-color="#7928ca"/>
@@ -10,20 +10,6 @@
     </linearGradient>
 
     <style>
-      :root {
-        --text-p: #f0f6fc;
-        --text-s: #8b949e;
-        --glass-bg: rgba(255, 255, 255, 0.04);
-        --glass-card: rgba(255, 255, 255, 0.05);
-      }
-      @media (prefers-color-scheme: light) {
-        :root {
-          --text-p: #1f2328;
-          --text-s: #59636e;
-          --glass-bg: rgba(0, 0, 0, 0.02);
-          --glass-card: rgba(0, 0, 0, 0.035);
-        }
-      }
       @keyframes rainbowShift {
         0% { filter: hue-rotate(0deg); }
         50% { filter: hue-rotate(180deg); }
@@ -34,81 +20,80 @@
         100% { transform: rotate(360deg); }
       }
       @keyframes pulseNode {
-        0%, 100% { r: 3; fill: #0969da; opacity: 1; }
-        50% { r: 4.5; fill: #1a7f37; opacity: 0.8; }
+        0%, 100% { r: 3; fill: #58a6ff; opacity: 1; }
+        50% { r: 4.5; fill: #3fb950; opacity: 0.8; }
       }
       @keyframes orbitFlow {
         0% { stroke-dashoffset: 0; }
         100% { stroke-dashoffset: 100; }
       }
-      .sp-rainbow { animation: rainbowShift 10s linear infinite; }
-      .sp-mono { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; fill: var(--text-s); }
-      .sp-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 700; fill: var(--text-p); }
-      .sp-body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: var(--text-s); }
-      .rotating-mesh { transform-origin: 90px 100px; animation: spinWireframe 24s linear infinite; }
-      .node-pulse { animation: pulseNode 3s infinite ease-in-out; }
+      .sp-rainbow { animation: rainbowShift 8s linear infinite; }
+      .sp-mono { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; }
+      .sp-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-weight: 700; }
+      .sp-body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+      .rotating-mesh { transform-origin: 90px 95px; animation: spinWireframe 20s linear infinite; }
+      .node-pulse { animation: pulseNode 2.5s infinite ease-in-out; }
       .flow-stream { stroke-dasharray: 6 4; animation: orbitFlow 4s linear infinite; }
-      .g-outer { fill: var(--glass-bg); }
-      .g-card { fill: var(--glass-card); }
     </style>
   </defs>
 
-  <!-- Outer Liquid Glass Frame -->
-  <rect x="5" y="5" width="890" height="190" rx="14" class="g-outer"/>
-  <rect x="5" y="5" width="890" height="190" fill="none" stroke="url(#sp-rainbow-border)" stroke-width="2" class="sp-rainbow"/>
+  <!-- High-Contrast Glassmorphic Card Frame -->
+  <g transform="translate(10, 10)">
+    <rect width="830" height="170" rx="12" fill="#0d1117" stroke="url(#sp-rainbow-border)" stroke-width="2" class="sp-rainbow"/>
 
-  <!-- Left: Animated 3D Isometric Wireframe Engine -->
-  <g class="rotating-mesh">
-    <circle cx="90" cy="100" r="58" stroke="rgba(128,128,128,0.2)" stroke-width="1.2" fill="none"/>
-    <circle cx="90" cy="100" r="46" stroke="#0969da" stroke-opacity="0.5" stroke-width="1" fill="none" class="flow-stream"/>
+    <!-- Left: Animated 3D Isometric Wireframe Engine -->
+    <g class="rotating-mesh">
+      <circle cx="90" cy="85" r="52" stroke="#30363d" stroke-width="1.2" fill="none"/>
+      <circle cx="90" cy="85" r="42" stroke="#58a6ff" stroke-opacity="0.5" stroke-width="1" fill="none" class="flow-stream"/>
 
-    <polygon points="90,45 135,75 135,125 90,155 45,125 45,75" stroke="#0969da" stroke-width="1.5" fill="rgba(9,105,218,0.06)"/>
-    <line x1="90" y1="45" x2="90" y2="155" stroke="#1a7f37" stroke-width="1" stroke-opacity="0.7"/>
-    <line x1="45" y1="75" x2="135" y2="125" stroke="#58a6ff" stroke-width="1" stroke-opacity="0.6"/>
-    <line x1="45" y1="125" x2="135" y2="75" stroke="#8250df" stroke-width="1" stroke-opacity="0.6"/>
+      <polygon points="90,38 130,65 130,105 90,132 50,105 50,65" stroke="#58a6ff" stroke-width="1.5" fill="rgba(88,166,255,0.06)"/>
+      <line x1="90" y1="38" x2="90" y2="132" stroke="#3fb950" stroke-width="1" stroke-opacity="0.8"/>
+      <line x1="50" y1="65" x2="130" y2="105" stroke="#79c0ff" stroke-width="1" stroke-opacity="0.6"/>
+      <line x1="50" y1="105" x2="130" y2="65" stroke="#d2a8ff" stroke-width="1" stroke-opacity="0.6"/>
 
-    <circle cx="90" cy="100" r="5" fill="#1a7f37"/>
-  </g>
+      <circle cx="90" cy="85" r="4.5" fill="#3fb950"/>
+    </g>
 
-  <!-- Vertices Pulsing Nodes -->
-  <circle cx="90" cy="45" r="3.5" class="node-pulse"/>
-  <circle cx="135" cy="75" r="3.5" class="node-pulse"/>
-  <circle cx="135" cy="125" r="3.5" class="node-pulse"/>
-  <circle cx="90" cy="155" r="3.5" class="node-pulse"/>
-  <circle cx="45" cy="125" r="3.5" class="node-pulse"/>
-  <circle cx="45" cy="75" r="3.5" class="node-pulse"/>
+    <!-- Vertices Pulsing Nodes -->
+    <circle cx="90" cy="38" r="3" fill="#58a6ff" class="node-pulse"/>
+    <circle cx="130" cy="65" r="3" fill="#58a6ff" class="node-pulse"/>
+    <circle cx="130" cy="105" r="3" fill="#58a6ff" class="node-pulse"/>
+    <circle cx="90" cy="132" r="3" fill="#58a6ff" class="node-pulse"/>
+    <circle cx="50" cy="105" r="3" fill="#58a6ff" class="node-pulse"/>
+    <circle cx="50" cy="65" r="3" fill="#58a6ff" class="node-pulse"/>
 
-  <!-- Right: 3D Spatial Pipeline Narrative & Steps -->
-  <g transform="translate(180, 20)">
-    <rect x="0" y="0" width="165" height="20" rx="4" class="g-card" stroke="url(#sp-rainbow-border)" stroke-width="1" class="sp-rainbow"/>
-    <text x="82" y="14" text-anchor="middle" fill="#0969da" class="sp-mono" font-size="9" font-weight="700">3D SPATIAL KINEMATICS</text>
+    <!-- Right: 3D Spatial Pipeline Narrative & Steps -->
+    <g transform="translate(170, 16)">
+      <rect x="0" y="0" width="165" height="20" rx="4" fill="#161b22" stroke="#30363d" stroke-width="0.8"/>
+      <text x="82" y="14" text-anchor="middle" fill="#58a6ff" class="sp-mono" font-size="9" font-weight="700">3D SPATIAL KINEMATICS</text>
 
-    <text x="0" y="44" class="sp-title" font-size="16">Three.js &amp; WebGL Real-Time Graphics Engine</text>
-    <text x="0" y="66" class="sp-body" font-size="12.5">
-      Developing custom 3D web applications with low-latency GPU rendering, GLSL shaders, camera matrix math, and liquid glass styling.
-    </text>
+      <text x="0" y="42" fill="#f0f6fc" class="sp-title" font-size="15">Three.js &amp; WebGL Real-Time Graphics Engine</text>
+      <text x="0" y="60" fill="#8b949e" class="sp-body" font-size="12">
+        Developing custom 3D web applications with GPU rendering, GLSL shaders, camera matrix math, and spatial UI.
+      </text>
 
-    <!-- 4 Pipeline Step Pills -->
-    <g transform="translate(0, 90)">
-      <!-- Step 1 -->
-      <rect x="0" y="0" width="160" height="42" rx="6" class="g-card" stroke="url(#sp-rainbow-border)" stroke-width="0.8" class="sp-rainbow"/>
-      <text x="12" y="18" fill="#0969da" class="sp-mono" font-size="9.5" font-weight="600">01 // SCENE GRAPH</text>
-      <text x="12" y="32" class="sp-body" font-size="10">Custom 3D Mesh &amp; Buffers</text>
+      <!-- 4 Pipeline Step Pills -->
+      <g transform="translate(0, 78)">
+        <!-- Step 1 -->
+        <rect x="0" y="0" width="150" height="40" rx="6" fill="#161b22" stroke="#30363d" stroke-width="0.8"/>
+        <text x="10" y="17" fill="#58a6ff" class="sp-mono" font-size="9" font-weight="600">01 // SCENE GRAPH</text>
+        <text x="10" y="30" fill="#8b949e" class="sp-body" font-size="9.5">Custom 3D Mesh &amp; Buffers</text>
 
-      <!-- Step 2 -->
-      <rect x="172" y="0" width="160" height="42" rx="6" class="g-card" stroke="url(#sp-rainbow-border)" stroke-width="0.8" class="sp-rainbow"/>
-      <text x="12" y="18" fill="#1a7f37" class="sp-mono" font-size="9.5" font-weight="600">02 // GLSL SHADERS</text>
-      <text x="12" y="32" class="sp-body" font-size="10">Raymarching &amp; Real-Time Light</text>
+        <!-- Step 2 -->
+        <rect x="158" y="0" width="150" height="40" rx="6" fill="#161b22" stroke="#30363d" stroke-width="0.8"/>
+        <text x="10" y="17" fill="#3fb950" class="sp-mono" font-size="9" font-weight="600">02 // GLSL SHADERS</text>
+        <text x="10" y="30" fill="#8b949e" class="sp-body" font-size="9.5">Raymarching &amp; Real-Time Light</text>
 
-      <!-- Step 3 -->
-      <rect x="344" y="0" width="160" height="42" rx="6" class="g-card" stroke="url(#sp-rainbow-border)" stroke-width="0.8" class="sp-rainbow"/>
-      <text x="12" y="18" fill="#0969da" class="sp-mono" font-size="9.5" font-weight="600">03 // 24FPS CANVAS</text>
-      <text x="12" y="32" class="sp-body" font-size="10">Smooth Scroll Interpolation</text>
+        <!-- Step 3 -->
+        <rect x="316" y="0" width="150" height="40" rx="6" fill="#161b22" stroke="#30363d" stroke-width="0.8"/>
+        <text x="10" y="17" fill="#79c0ff" class="sp-mono" font-size="9" font-weight="600">03 // 24FPS CANVAS</text>
+        <text x="10" y="30" fill="#8b949e" class="sp-body" font-size="9.5">Smooth Scroll Kinematics</text>
 
-      <!-- Step 4 -->
-      <rect x="516" y="0" width="170" height="42" rx="6" class="g-card" stroke="url(#sp-rainbow-border)" stroke-width="0.8" class="sp-rainbow"/>
-      <text x="12" y="18" fill="#8250df" class="sp-mono" font-size="9.5" font-weight="600">04 // LIQUID GLASS UI</text>
-      <text x="12" y="32" class="sp-body" font-size="10">Spatial Viewport &amp; Shaders</text>
+        <!-- Step 4 -->
+        <rect x="474" y="0" width="160" height="40" rx="6" fill="#161b22" stroke="#30363d" stroke-width="0.8"/>
+        <text x="10" y="17" fill="#d2a8ff" class="sp-mono" font-size="9" font-weight="600">04 // LIQUID GLASS UI</text>
+        <text x="10" y="30" fill="#8b949e" class="sp-body" font-size="9.5">Spatial Viewport &amp; Shaders</text>
+      </g>
     </g>
   </g>
 </svg>
