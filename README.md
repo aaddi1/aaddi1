@@ -70,16 +70,39 @@ Rather than relying on templates or pre-packaged abstractions, I build the core 
 
 ---
 
-### 📊 DEVELOPER TELEMETRY & LIFETIME STATS
+### 📊 LIVE GITHUB TELEMETRY & LIFETIME STATS
 
 <div align="center">
+
+  <!-- LIVE GITHUB STATS & STREAK CARDS -->
+  <p align="center">
+    <a href="https://github.com/aaddi1">
+      <img src="https://github-readme-stats-fast.vercel.app/api?username=aaddi1&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=00F2FE&icon_color=4FACFE&text_color=E2E8F0" alt="Aryan Sharma's Live GitHub Stats" />
+    </a>
+    <a href="https://github.com/aaddi1">
+      <img src="https://streak-stats.demolab.com/?user=aaddi1&theme=tokyonight&hide_border=true&background=0D1117&ring=00F2FE&fire=4FACFE&currStreakLabel=00F2FE" alt="Aryan Sharma's GitHub Streak" />
+    </a>
+  </p>
+
+  <!-- LIVE TOP LANGUAGES CARD -->
+  <p align="center">
+    <a href="https://github.com/aaddi1">
+      <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=aaddi1&layout=compact&langs_count=10&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F2FE&text_color=E2E8F0" alt="Aryan Sharma's Live Most Used Languages" />
+    </a>
+  </p>
+
+  <!-- LIVE 365-DAY GITHUB CONTRIBUTION GRAPH -->
+  <h4>⚡ LIVE LIFETIME CONTRIBUTION ACTIVITY GRAPH</h4>
+  <p align="center">
+    <a href="https://github.com/aaddi1">
+      <img src="https://ghchart.rshah.org/00f2fe/aaddi1" alt="Aryan Sharma's Live GitHub Contribution Graph" width="100%" />
+    </a>
+  </p>
+
+  <br />
+
   <!-- LIQUID GLASS DEVELOPER TELEMETRY DASHBOARD -->
   <img src="./assets/telemetry-dashboard.svg" alt="Aryan Sharma Developer Telemetry Dashboard" width="100%" />
-
-  <br /><br />
-
-  <!-- HIGH VELOCITY CONTRIBUTION WAVE RADAR -->
-  <img src="./assets/activity-radar-glass.svg" alt="Contribution Wave Radar" width="100%" />
 
   <br /><br />
 
