@@ -5,9 +5,9 @@
     <img src="https://raw.githubusercontent.com/aaddi1/aaddi1/main/assets/hero-banner.svg" alt="Aryan Sharma - 3D Creative Engineer & Full-Stack Architect" width="100%" />
   </a>
 
-  <!-- DYNAMIC TYPING SUBHEADER -->
+  <!-- DYNAMIC TYPING SUBHEADER (SINGLE-LINE SEQUENTIAL) -->
   <a href="https://aaddi1.github.io/My-Portfolio/">
-    <img src="https://readme-typing-svg.herokuapp.com?font=-apple-system,BlinkMacSystemFont,Segoe+UI,Helvetica,Arial,sans-serif&weight=600&size=22&duration=3500&pause=1000&color=0969DA&center=true&vCenter=true&multiline=true&width=850&height=75&lines=3D+Spatial+Web+Experiences+%E2%80%A2+Creative+Engineering;Custom+Node.js+Servers+%26+PostgreSQL+Database+Architecture;Compiled+C%2B%2B+Acceleration+%26+Full-Stack+Platforms" alt="Dynamic Typing Subheader" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=-apple-system,BlinkMacSystemFont,Segoe+UI,Helvetica,Arial,sans-serif&weight=600&size=20&duration=3500&pause=1000&color=58A6FF&center=true&vCenter=true&width=850&height=45&lines=3D+Spatial+Web+Experiences+%E2%80%A2+Creative+Engineering;Custom+Node.js+Servers+%26+PostgreSQL+Database+Architecture;Compiled+C%2B%2B+Acceleration+%26+Full-Stack+Platforms" alt="Dynamic Typing Subheader" />
   </a>
 
   <p align="center">
