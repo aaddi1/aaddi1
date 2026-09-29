@@ -40,7 +40,7 @@
 
 ---
 
-### 🛰️ SYSTEM OVERVIEW // ABOUT ME
+### 🛰️ System Overview
 
 ```yaml
 identity:
@@ -70,7 +70,7 @@ Rather than relying on templates or pre-packaged abstractions, I build the core 
 
 ---
 
-### 📊 LIVE GITHUB TELEMETRY & LIFETIME STATS
+### 📊 GitHub Telemetry & Stats
 
 <div align="center">
 
@@ -91,18 +91,13 @@ Rather than relying on templates or pre-packaged abstractions, I build the core 
     </a>
   </p>
 
-  <!-- LIVE 365-DAY GITHUB CONTRIBUTION GRAPH (CLASSIC GITHUB GREEN) -->
-  <h4>⚡ LIVE LIFETIME CONTRIBUTION ACTIVITY GRAPH</h4>
+  <!-- MERGED LIFETIME CONTRIBUTION ACTIVITY GRAPH & CONTRIBUTION SNAKE -->
   <p align="center">
     <a href="https://github.com/aaddi1">
       <img src="https://ghchart.rshah.org/2ea043/aaddi1" alt="Aryan Sharma's Live GitHub Contribution Graph" width="100%" />
     </a>
   </p>
 
-  <br />
-
-  <!-- ANIMATED GITHUB CONTRIBUTION SNAKE GAME -->
-  <h4>🐍 CONTRIBUTION SNAKE GAME</h4>
   <p align="center">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aaddi1/aaddi1/output/github-contribution-grid-snake-dark.svg" />
@@ -124,7 +119,7 @@ Rather than relying on templates or pre-packaged abstractions, I build the core 
 
 ---
 
-### 💻 POLYGLOT SPECTRUM // APPLIED PROGRAMMING LANGUAGES
+### 💻 Core Languages
 
 <div align="center">
   <!-- FULL PROGRAMMING LANGUAGES MATRIX -->
@@ -149,7 +144,7 @@ Rather than relying on templates or pre-packaged abstractions, I build the core 
 
 ---
 
-### 🌐 3D SPATIAL COMPUTING & REAL-TIME GRAPHICS ENGINE
+### 🌐 3D Spatial Engine
 
 <div align="center">
   <!-- 3D ANIMATED SPATIAL PIPELINE CARD -->
@@ -158,7 +153,7 @@ Rather than relying on templates or pre-packaged abstractions, I build the core 
 
 ---
 
-### 🛠️ TECHNICAL ARSENAL & TOOLING ECOSYSTEM
+### 🛠️ Technical Stack
 
 <table>
   <tr>
@@ -210,7 +205,7 @@ Rather than relying on templates or pre-packaged abstractions, I build the core 
 
 ---
 
-### 🚀 FEATURED FLAGSHIP PROJECTS // IN-DEPTH ARCHITECTURE
+### 🚀 Featured Projects
 
 Here is an architectural breakdown of major production platforms designed and developed independently:
 
@@ -310,7 +305,7 @@ Here is an architectural breakdown of major production platforms designed and de
 
 ---
 
-### 🎖️ VERIFIED CREDENTIALS & INDUSTRY HONORS VAULT
+### 🎖️ Verified Credentials
 
 <div align="center">
   <p>Official certifications, accredited credentials, and enterprise simulations awarded to <strong>Aryan Sharma</strong>.</p>
@@ -338,7 +333,7 @@ Here is an architectural breakdown of major production platforms designed and de
 
 ---
 
-### 💬 INITIATE COLLABORATION // CONTACT HUD
+### 💬 Connect & Collaborate
 
 <div align="center">
   <p>Got an ambitious full-stack build, 3D spatial web experience, or engineering role? Let's connect directly.</p>
