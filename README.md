@@ -120,13 +120,13 @@ Rather than relying on templates or pre-packaged abstractions, I build the core 
 
   <br />
 
-  <!-- OFFICIAL GITHUB TROPHIES (6 KEY EARNED & SECRET TITLES) -->
+  <!-- OFFICIAL LIVE GITHUB TROPHIES (FULL COMPLETE SET) -->
   <p align="center">
-    <a href="https://github.com/aaddi1">
+    <a href="https://github.com/ryo-ma/github-profile-trophy">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy-zeta.vercel.app/?username=aaddi1&title=LongTimeUser,AncientUser,Commits,Issues,PullRequest,Repositories&theme=gitdimmed&column=6&margin_w=6&no-bg=true" />
-        <source media="(prefers-color-scheme: light)" srcset="https://github-profile-trophy-zeta.vercel.app/?username=aaddi1&title=LongTimeUser,AncientUser,Commits,Issues,PullRequest,Repositories&theme=flat&column=6&margin_w=6&no-bg=true" />
-        <img src="https://github-profile-trophy-zeta.vercel.app/?username=aaddi1&title=LongTimeUser,AncientUser,Commits,Issues,PullRequest,Repositories&theme=gitdimmed&column=6&margin_w=6&no-bg=true" alt="Aryan Sharma's GitHub Trophies" />
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy-zeta.vercel.app/?username=aaddi1&theme=gitdimmed&no-frame=true&no-bg=true&margin_w=6" />
+        <source media="(prefers-color-scheme: light)" srcset="https://github-profile-trophy-zeta.vercel.app/?username=aaddi1&theme=flat&no-frame=true&no-bg=true&margin_w=6" />
+        <img src="https://github-profile-trophy-zeta.vercel.app/?username=aaddi1&theme=gitdimmed&no-frame=true&no-bg=true&margin_w=6" alt="Aryan Sharma's GitHub Trophies" />
       </picture>
     </a>
   </p>
