@@ -2,7 +2,7 @@
 
   <!-- BESPOKE GITHUB DARK HERO BANNER -->
   <a href="https://aaddi1.github.io/My-Portfolio/">
-    <img src="./assets/hero-banner.svg?v=4" alt="Aryan Sharma - 3D Creative Engineer & Full-Stack Architect" width="100%" />
+    <img src="./assets/hero-banner.svg?v=5" alt="Aryan Sharma - 3D Creative Engineer & Full-Stack Architect" width="100%" />
   </a>
 
   <!-- DYNAMIC TYPING SUBHEADER (GITHUB ACCENT) -->
@@ -74,31 +74,31 @@ Rather than relying on templates or pre-packaged abstractions, I build the core 
 
 <div align="center">
 
-  <!-- LIVE GITHUB STATS & STREAK (ADAPTIVE LIGHT/DARK PALETTE) -->
+  <!-- LIVE GITHUB STATS & STREAK (100% TRANSPARENT GLASS) -->
   <p align="center">
     <a href="https://github.com/aaddi1">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-fast.vercel.app/api?username=aaddi1&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=3FB950&text_color=C9D1D9" />
-        <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-fast.vercel.app/api?username=aaddi1&show_icons=true&theme=default&include_all_commits=true&count_private=true&hide_border=true&bg_color=FFFFFF&title_color=0969DA&icon_color=1A7F37&text_color=24292F" />
-        <img src="https://github-readme-stats-fast.vercel.app/api?username=aaddi1&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=3FB950&text_color=C9D1D9" alt="Aryan Sharma's Live GitHub Stats" />
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-fast.vercel.app/api?username=aaddi1&show_icons=true&bg_color=00000000&border_color=00000000&title_color=58A6FF&icon_color=3FB950&text_color=C9D1D9" />
+        <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-fast.vercel.app/api?username=aaddi1&show_icons=true&bg_color=00000000&border_color=00000000&title_color=0969DA&icon_color=1A7F37&text_color=24292F" />
+        <img src="https://github-readme-stats-fast.vercel.app/api?username=aaddi1&show_icons=true&bg_color=00000000&border_color=00000000&title_color=58A6FF&icon_color=3FB950&text_color=C9D1D9" alt="Aryan Sharma's Live GitHub Stats" />
       </picture>
     </a>
     <a href="https://github.com/aaddi1">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=aaddi1&theme=github-dark-dimmed&hide_border=true&background=0D1117&ring=3FB950&fire=58A6FF&currStreakLabel=3FB950" />
-        <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=aaddi1&theme=default&hide_border=true&background=FFFFFF&ring=1A7F37&fire=0969DA&currStreakLabel=1A7F37" />
-        <img src="https://streak-stats.demolab.com/?user=aaddi1&theme=github-dark-dimmed&hide_border=true&background=0D1117&ring=3FB950&fire=58A6FF&currStreakLabel=3FB950" alt="Aryan Sharma's GitHub Streak" />
+        <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=aaddi1&hide_border=true&background=00000000&ring=3FB950&fire=58A6FF&currStreakLabel=3FB950&currStreakNum=C9D1D9&sideNums=C9D1D9&sideLabels=8B949E&dates=8B949E" />
+        <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=aaddi1&hide_border=true&background=00000000&ring=1A7F37&fire=0969DA&currStreakLabel=1A7F37&currStreakNum=24292F&sideNums=24292F&sideLabels=59636E&dates=59636E" />
+        <img src="https://streak-stats.demolab.com/?user=aaddi1&hide_border=true&background=00000000&ring=3FB950&fire=58A6FF&currStreakLabel=3FB950" alt="Aryan Sharma's GitHub Streak" />
       </picture>
     </a>
   </p>
 
-  <!-- LIVE TOP LANGUAGES CARD (ADAPTIVE LIGHT/DARK) -->
+  <!-- LIVE TOP LANGUAGES CARD (100% TRANSPARENT GLASS) -->
   <p align="center">
     <a href="https://github.com/aaddi1">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=aaddi1&layout=compact&langs_count=10&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" />
-        <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=aaddi1&layout=compact&langs_count=10&theme=default&hide_border=true&bg_color=FFFFFF&title_color=0969DA&text_color=24292F" />
-        <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=aaddi1&layout=compact&langs_count=10&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" alt="Aryan Sharma's Live Most Used Languages" />
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=aaddi1&layout=compact&langs_count=10&bg_color=00000000&border_color=00000000&title_color=58A6FF&text_color=C9D1D9" />
+        <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=aaddi1&layout=compact&langs_count=10&bg_color=00000000&border_color=00000000&title_color=0969DA&text_color=24292F" />
+        <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=aaddi1&layout=compact&langs_count=10&bg_color=00000000&border_color=00000000&title_color=58A6FF&text_color=C9D1D9" alt="Aryan Sharma's Live Most Used Languages" />
       </picture>
     </a>
   </p>
@@ -114,7 +114,7 @@ Rather than relying on templates or pre-packaged abstractions, I build the core 
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aaddi1/aaddi1/output/github-contribution-grid-snake-dark.svg" />
       <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/aaddi1/aaddi1/output/github-contribution-grid-snake.svg" />
-      <img src="./assets/github-contribution-grid-snake.svg?v=4" alt="GitHub Contribution Snake Animation" width="100%" />
+      <img src="./assets/github-contribution-grid-snake.svg?v=5" alt="GitHub Contribution Snake Animation" width="100%" />
     </picture>
   </p>
 
@@ -134,7 +134,7 @@ Rather than relying on templates or pre-packaged abstractions, I build the core 
   <br />
 
   <!-- GITHUB LIQUID GLASS TELEMETRY DASHBOARD -->
-  <img src="./assets/telemetry-dashboard.svg?v=4" alt="Aryan Sharma Developer Telemetry Dashboard" width="100%" />
+  <img src="./assets/telemetry-dashboard.svg?v=5" alt="Aryan Sharma Developer Telemetry Dashboard" width="100%" />
 </div>
 
 ---
@@ -238,7 +238,7 @@ Rather than relying on templates or pre-packaged abstractions, I build the core 
   <br />
 
   <!-- VERIFIED HONORS & TROPHY VAULT SVG -->
-  <img src="./assets/trophies-vault-glass.svg?v=4" alt="GitHub Dark Trophy Vault" width="100%" />
+  <img src="./assets/trophies-vault-glass.svg?v=5" alt="GitHub Dark Trophy Vault" width="100%" />
 </div>
 
 ---
@@ -247,7 +247,7 @@ Rather than relying on templates or pre-packaged abstractions, I build the core 
 
 <div align="center">
   <!-- FULL PROGRAMMING LANGUAGES MATRIX -->
-  <img src="./assets/languages-glass-matrix.svg?v=4" alt="All Programming Languages Showcase" width="100%" />
+  <img src="./assets/languages-glass-matrix.svg?v=5" alt="All Programming Languages Showcase" width="100%" />
 </div>
 
 <br />
@@ -272,7 +272,7 @@ Rather than relying on templates or pre-packaged abstractions, I build the core 
 
 <div align="center">
   <!-- 3D ANIMATED SPATIAL PIPELINE CARD -->
-  <img src="./assets/spatial-engine-3d.svg?v=4" alt="3D Spatial Kinematics Engine" width="100%" />
+  <img src="./assets/spatial-engine-3d.svg?v=5" alt="3D Spatial Kinematics Engine" width="100%" />
 </div>
 
 ---

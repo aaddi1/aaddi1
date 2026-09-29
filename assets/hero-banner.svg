@@ -29,16 +29,16 @@
       :root {
         --text-primary: #f0f6fc;
         --text-secondary: #8b949e;
-        --glass-bg: rgba(255, 255, 255, 0.05);
-        --glass-pill: rgba(255, 255, 255, 0.06);
+        --glass-bg: rgba(255, 255, 255, 0.04);
+        --glass-pill: rgba(255, 255, 255, 0.05);
         --glass-line: rgba(255, 255, 255, 0.1);
       }
       @media (prefers-color-scheme: light) {
         :root {
           --text-primary: #1f2328;
           --text-secondary: #59636e;
-          --glass-bg: rgba(0, 0, 0, 0.025);
-          --glass-pill: rgba(0, 0, 0, 0.04);
+          --glass-bg: rgba(0, 0, 0, 0.02);
+          --glass-pill: rgba(0, 0, 0, 0.035);
           --glass-line: rgba(0, 0, 0, 0.08);
         }
       }
@@ -81,9 +81,8 @@
     </style>
   </defs>
 
-  <!-- Transparent Liquid Glass Card Panel -->
+  <!-- Fully Transparent Liquid Glass Card Panel -->
   <g class="glass-float" transform="translate(15, 15)">
-    <!-- Fully Transparent Liquid Glass Body -->
     <rect width="870" height="250" rx="16" class="glass-card"/>
     <rect width="870" height="250" rx="16" fill="none" stroke="url(#rainbow-border)" stroke-width="2.2" class="rainbow-edge"/>
 
@@ -96,7 +95,7 @@
     <circle cx="64" cy="26" r="5.5" fill="#27c93f" stroke="rgba(255,255,255,0.4)" stroke-width="0.5"/>
 
     <!-- System Header Text -->
-    <text x="86" y="30" class="txt-mono" font-size="11" font-weight="600">ARYAN_SHARMA // LIQUID_GLASS_KERNEL // v3.2</text>
+    <text x="86" y="30" class="txt-mono" font-size="11" font-weight="600">ARYAN_SHARMA // LIQUID_GLASS_KERNEL // v3.3</text>
 
     <!-- Location Pill -->
     <rect x="715" y="15" width="140" height="22" rx="11" class="glass-pill-bg" stroke="url(#rainbow-border)" stroke-width="1.2" class="rainbow-edge"/>
