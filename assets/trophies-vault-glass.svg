@@ -1,156 +1,231 @@
-<svg width="900" height="280" viewBox="0 0 900 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="360" viewBox="0 0 900 360" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
+    <!-- Background Ambient Gradients -->
+    <radialGradient id="tr-glow-1" cx="20%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="tr-glow-2" cx="80%" cy="80%" r="60%">
+      <stop offset="0%" stop-color="#238636" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Card Fill -->
+    <linearGradient id="card-grad-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c2128"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+
+    <linearGradient id="card-border-gh" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#484f58"/>
+      <stop offset="50%" stop-color="#30363d"/>
+      <stop offset="100%" stop-color="#21262d"/>
+    </linearGradient>
+
+    <!-- Shimmer Animation -->
+    <linearGradient id="shimmer-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
     <style>
-      .tr-mono { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; }
-      .tr-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 700; }
-      .tr-body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+      @keyframes floatIso {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(-3px) rotate(1deg); }
+      }
+      @keyframes pulseGreen {
+        0%, 100% { opacity: 1; filter: drop-shadow(0 0 2px #3fb950); }
+        50% { opacity: 0.5; }
+      }
+      @keyframes shimmerSweep {
+        0% { transform: translateX(-100%); }
+        100% { transform: translateX(200%); }
+      }
+      .t-mono { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; }
+      .t-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-weight: 700; letter-spacing: 0.5px; }
+      .t-body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+      .pulse-dot { animation: pulseGreen 2s infinite ease-in-out; }
+      .floating-card { animation: floatIso 5s ease-in-out infinite; }
     </style>
   </defs>
 
   <!-- Deep Canvas Base -->
-  <rect width="900" height="280" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+  <rect width="900" height="360" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+  <rect width="900" height="360" rx="12" fill="url(#tr-glow-1)"/>
+  <rect width="900" height="360" rx="12" fill="url(#tr-glow-2)"/>
 
-  <!-- Top Title Bar -->
+  <!-- Top Header Title Bar -->
   <rect x="20" y="14" width="860" height="34" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
-  <circle cx="36" cy="31" r="4" fill="#3fb950"/>
-  <text x="48" y="35" fill="#c9d1d9" class="tr-mono" font-size="11" font-weight="600">VERIFIED CREDENTIALS &amp; DOMAIN SPECIALIZATIONS</text>
-  <text x="740" y="35" fill="#8b949e" class="tr-mono" font-size="10.5">HONORS VAULT</text>
+  <circle cx="36" cy="31" r="4" fill="#3fb950" class="pulse-dot"/>
+  <text x="48" y="35" fill="#c9d1d9" class="t-mono" font-size="11" font-weight="600">VERIFIED HONORS &amp; SPECIALIZATION VAULT // 6 KEY DOMAINS</text>
+  <text x="735" y="35" fill="#8b949e" class="t-mono" font-size="10.5">ACCREDITED TIERS 🏆</text>
 
-  <!-- Row 1 Cards (Y = 58) -->
-  <g transform="translate(20, 58)">
+  <!-- Row 1: 3 Cards (Y = 56) -->
+  <g transform="translate(20, 56)">
     <!-- Card 1: 3D Spatial Graphics -->
     <g transform="translate(0, 0)">
-      <rect width="275" height="100" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+      <rect width="275" height="138" rx="8" fill="url(#card-grad-bg)" stroke="url(#card-border-gh)" stroke-width="1.2"/>
+      <path d="M 6 1 L 269 1" stroke="#58a6ff" stroke-opacity="0.6" stroke-width="1.5"/>
       
-      <!-- Icon Container -->
-      <rect x="14" y="14" width="38" height="38" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
-      <text x="33" y="39" text-anchor="middle" font-size="18">🌐</text>
+      <!-- Top Header Row -->
+      <rect x="12" y="12" width="36" height="36" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+      <text x="30" y="36" text-anchor="middle" font-size="18">🌐</text>
       
-      <!-- Top Tag -->
-      <rect x="185" y="14" width="76" height="16" rx="4" fill="#21262d"/>
-      <text x="223" y="25" text-anchor="middle" fill="#58a6ff" class="tr-mono" font-size="8" font-weight="600">GRAPHICS</text>
+      <rect x="175" y="12" width="88" height="18" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.8"/>
+      <text x="219" y="24" text-anchor="middle" fill="#58a6ff" class="t-mono" font-size="8.5" font-weight="700">3D GRAPHICS</text>
       
-      <!-- Title & Details -->
-      <text x="62" y="30" fill="#f0f6fc" class="tr-title" font-size="12">3D SPATIAL ENGINE</text>
-      <text x="62" y="46" fill="#8b949e" class="tr-mono" font-size="9.5">Three.js • WebGL</text>
-      
-      <!-- Bottom Status -->
-      <line x1="14" y1="64" x2="261" y2="64" stroke="#21262d" stroke-width="1"/>
-      <circle cx="20" cy="78" r="3" fill="#3fb950"/>
-      <text x="30" y="81" fill="#8b949e" class="tr-mono" font-size="9">Real-Time Canvas Kinematics</text>
+      <text x="56" y="27" fill="#f0f6fc" class="t-title" font-size="12.5">3D SPATIAL ENGINE</text>
+      <text x="56" y="42" fill="#58a6ff" class="t-mono" font-size="9.5">Three.js &amp; WebGL 3D</text>
+
+      <!-- Content Body Lines -->
+      <text x="14" y="68" fill="#c9d1d9" class="t-body" font-size="10.5">• Custom GLSL Shaders &amp; Lighting</text>
+      <text x="14" y="84" fill="#c9d1d9" class="t-body" font-size="10.5">• Real-time Canvas 3D Kinematics</text>
+      <text x="14" y="100" fill="#8b949e" class="t-mono" font-size="9">Cinder House &amp; 3D Portfolio</text>
+
+      <!-- Bottom Verification Pill -->
+      <line x1="12" y1="112" x2="263" y2="112" stroke="#21262d" stroke-width="1"/>
+      <circle cx="20" cy="125" r="3" fill="#3fb950" class="pulse-dot"/>
+      <text x="28" y="128" fill="#8b949e" class="t-mono" font-size="8.5">VERIFIED S+ TIER</text>
+      <text x="200" y="128" fill="#58a6ff" class="t-mono" font-size="8.5" font-weight="600">MASTER</text>
     </g>
 
     <!-- Card 2: Server Architecture -->
     <g transform="translate(292, 0)">
-      <rect width="275" height="100" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+      <rect width="275" height="138" rx="8" fill="url(#card-grad-bg)" stroke="url(#card-border-gh)" stroke-width="1.2"/>
+      <path d="M 6 1 L 269 1" stroke="#3fb950" stroke-opacity="0.6" stroke-width="1.5"/>
       
-      <!-- Icon Container -->
-      <rect x="14" y="14" width="38" height="38" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
-      <text x="33" y="39" text-anchor="middle" font-size="18">🖥️</text>
+      <!-- Top Header Row -->
+      <rect x="12" y="12" width="36" height="36" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+      <text x="30" y="36" text-anchor="middle" font-size="18">🖥️</text>
       
-      <!-- Top Tag -->
-      <rect x="185" y="14" width="76" height="16" rx="4" fill="#21262d"/>
-      <text x="223" y="25" text-anchor="middle" fill="#3fb950" class="tr-mono" font-size="8" font-weight="600">BACKEND</text>
+      <rect x="175" y="12" width="88" height="18" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.8"/>
+      <text x="219" y="24" text-anchor="middle" fill="#3fb950" class="t-mono" font-size="8.5" font-weight="700">BACKEND CORE</text>
       
-      <!-- Title & Details -->
-      <text x="62" y="30" fill="#f0f6fc" class="tr-title" font-size="12">SERVER ARCHITECT</text>
-      <text x="62" y="46" fill="#8b949e" class="tr-mono" font-size="9.5">Node.js • Express • APIs</text>
-      
-      <!-- Bottom Status -->
-      <line x1="14" y1="64" x2="261" y2="64" stroke="#21262d" stroke-width="1"/>
-      <circle cx="20" cy="78" r="3" fill="#3fb950"/>
-      <text x="30" y="81" fill="#8b949e" class="tr-mono" font-size="9">Asynchronous REST Services</text>
+      <text x="56" y="27" fill="#f0f6fc" class="t-title" font-size="12.5">SERVER ARCHITECT</text>
+      <text x="56" y="42" fill="#3fb950" class="t-mono" font-size="9.5">Node.js &amp; Express</text>
+
+      <!-- Content Body Lines -->
+      <text x="14" y="68" fill="#c9d1d9" class="t-body" font-size="10.5">• High-Concurrency REST Routing</text>
+      <text x="14" y="84" fill="#c9d1d9" class="t-body" font-size="10.5">• Multi-Tenant Token Security</text>
+      <text x="14" y="100" fill="#8b949e" class="t-mono" font-size="9">NEXUS Platform Core Server</text>
+
+      <!-- Bottom Verification Pill -->
+      <line x1="12" y1="112" x2="263" y2="112" stroke="#21262d" stroke-width="1"/>
+      <circle cx="20" cy="125" r="3" fill="#3fb950" class="pulse-dot"/>
+      <text x="28" y="128" fill="#8b949e" class="t-mono" font-size="8.5">VERIFIED S+ TIER</text>
+      <text x="200" y="128" fill="#3fb950" class="t-mono" font-size="8.5" font-weight="600">MASTER</text>
     </g>
 
-    <!-- Card 3: SQL & Database Schemas -->
+    <!-- Card 3: SQL & Database -->
     <g transform="translate(585, 0)">
-      <rect width="275" height="100" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+      <rect width="275" height="138" rx="8" fill="url(#card-grad-bg)" stroke="url(#card-border-gh)" stroke-width="1.2"/>
+      <path d="M 6 1 L 269 1" stroke="#79c0ff" stroke-opacity="0.6" stroke-width="1.5"/>
       
-      <!-- Icon Container -->
-      <rect x="14" y="14" width="38" height="38" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
-      <text x="33" y="39" text-anchor="middle" font-size="18">🗄️</text>
+      <!-- Top Header Row -->
+      <rect x="12" y="12" width="36" height="36" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+      <text x="30" y="36" text-anchor="middle" font-size="18">🗄️</text>
       
-      <!-- Top Tag -->
-      <rect x="185" y="14" width="76" height="16" rx="4" fill="#21262d"/>
-      <text x="223" y="25" text-anchor="middle" fill="#79c0ff" class="tr-mono" font-size="8" font-weight="600">DATABASE</text>
+      <rect x="175" y="12" width="88" height="18" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.8"/>
+      <text x="219" y="24" text-anchor="middle" fill="#79c0ff" class="t-mono" font-size="8.5" font-weight="700">DATA ARCH</text>
       
-      <!-- Title & Details -->
-      <text x="62" y="30" fill="#f0f6fc" class="tr-title" font-size="12">SQL &amp; DB SCHEMAS</text>
-      <text x="62" y="46" fill="#8b949e" class="tr-mono" font-size="9.5">PostgreSQL • Complex Queries</text>
-      
-      <!-- Bottom Status -->
-      <line x1="14" y1="64" x2="261" y2="64" stroke="#21262d" stroke-width="1"/>
-      <circle cx="20" cy="78" r="3" fill="#3fb950"/>
-      <text x="30" y="81" fill="#8b949e" class="tr-mono" font-size="9">Normalized Relational Models</text>
+      <text x="56" y="27" fill="#f0f6fc" class="t-title" font-size="12.5">SQL &amp; DB SCHEMAS</text>
+      <text x="56" y="42" fill="#79c0ff" class="t-mono" font-size="9.5">PostgreSQL Database</text>
+
+      <!-- Content Body Lines -->
+      <text x="14" y="68" fill="#c9d1d9" class="t-body" font-size="10.5">• Normalized Multi-Table Schemas</text>
+      <text x="14" y="84" fill="#c9d1d9" class="t-body" font-size="10.5">• Query Optimization &amp; Indexes</text>
+      <text x="14" y="100" fill="#8b949e" class="t-mono" font-size="9">Certified SQL Data Specialization</text>
+
+      <!-- Bottom Verification Pill -->
+      <line x1="12" y1="112" x2="263" y2="112" stroke="#21262d" stroke-width="1"/>
+      <circle cx="20" cy="125" r="3" fill="#3fb950" class="pulse-dot"/>
+      <text x="28" y="128" fill="#8b949e" class="t-mono" font-size="8.5">VERIFIED S+ TIER</text>
+      <text x="200" y="128" fill="#79c0ff" class="t-mono" font-size="8.5" font-weight="600">MASTER</text>
     </g>
   </g>
 
-  <!-- Row 2 Cards (Y = 166) -->
-  <g transform="translate(20, 166)">
+  <!-- Row 2: 3 Cards (Y = 206) -->
+  <g transform="translate(20, 206)">
     <!-- Card 4: C++ Computation -->
     <g transform="translate(0, 0)">
-      <rect width="275" height="100" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+      <rect width="275" height="138" rx="8" fill="url(#card-grad-bg)" stroke="url(#card-border-gh)" stroke-width="1.2"/>
+      <path d="M 6 1 L 269 1" stroke="#d2a8ff" stroke-opacity="0.6" stroke-width="1.5"/>
       
-      <!-- Icon Container -->
-      <rect x="14" y="14" width="38" height="38" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
-      <text x="33" y="39" text-anchor="middle" font-size="18">⚡</text>
+      <!-- Top Header Row -->
+      <rect x="12" y="12" width="36" height="36" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+      <text x="30" y="36" text-anchor="middle" font-size="18">⚡</text>
       
-      <!-- Top Tag -->
-      <rect x="185" y="14" width="76" height="16" rx="4" fill="#21262d"/>
-      <text x="223" y="25" text-anchor="middle" fill="#d2a8ff" class="tr-mono" font-size="8" font-weight="600">SYSTEMS</text>
+      <rect x="175" y="12" width="88" height="18" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.8"/>
+      <text x="219" y="24" text-anchor="middle" fill="#d2a8ff" class="t-mono" font-size="8.5" font-weight="700">SYSTEMS</text>
       
-      <!-- Title & Details -->
-      <text x="62" y="30" fill="#f0f6fc" class="tr-title" font-size="12">C++ COMPUTATION</text>
-      <text x="62" y="46" fill="#8b949e" class="tr-mono" font-size="9.5">Compiled Logic • Python Math</text>
-      
-      <!-- Bottom Status -->
-      <line x1="14" y1="64" x2="261" y2="64" stroke="#21262d" stroke-width="1"/>
-      <circle cx="20" cy="78" r="3" fill="#3fb950"/>
-      <text x="30" y="81" fill="#8b949e" class="tr-mono" font-size="9">Low-Latency Predictive Math</text>
+      <text x="56" y="27" fill="#f0f6fc" class="t-title" font-size="12.5">C++ COMPUTATION</text>
+      <text x="56" y="42" fill="#d2a8ff" class="t-mono" font-size="9.5">Compiled Math &amp; Logic</text>
+
+      <!-- Content Body Lines -->
+      <text x="14" y="68" fill="#c9d1d9" class="t-body" font-size="10.5">• Low-Latency Execution Modules</text>
+      <text x="14" y="84" fill="#c9d1d9" class="t-body" font-size="10.5">• High-Speed Margin Analytics</text>
+      <text x="14" y="100" fill="#8b949e" class="t-mono" font-size="9">Python &amp; C++ Interop Engine</text>
+
+      <!-- Bottom Verification Pill -->
+      <line x1="12" y1="112" x2="263" y2="112" stroke="#21262d" stroke-width="1"/>
+      <circle cx="20" cy="125" r="3" fill="#3fb950" class="pulse-dot"/>
+      <text x="28" y="128" fill="#8b949e" class="t-mono" font-size="8.5">VERIFIED S+ TIER</text>
+      <text x="200" y="128" fill="#d2a8ff" class="t-mono" font-size="8.5" font-weight="600">MASTER</text>
     </g>
 
     <!-- Card 5: AWS & Google Play -->
     <g transform="translate(292, 0)">
-      <rect width="275" height="100" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+      <rect width="275" height="138" rx="8" fill="url(#card-grad-bg)" stroke="url(#card-border-gh)" stroke-width="1.2"/>
+      <path d="M 6 1 L 269 1" stroke="#e3b341" stroke-opacity="0.6" stroke-width="1.5"/>
       
-      <!-- Icon Container -->
-      <rect x="14" y="14" width="38" height="38" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
-      <text x="33" y="39" text-anchor="middle" font-size="18">☁️</text>
+      <!-- Top Header Row -->
+      <rect x="12" y="12" width="36" height="36" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+      <text x="30" y="36" text-anchor="middle" font-size="18">☁️</text>
       
-      <!-- Top Tag -->
-      <rect x="185" y="14" width="76" height="16" rx="4" fill="#21262d"/>
-      <text x="223" y="25" text-anchor="middle" fill="#e3b341" class="tr-mono" font-size="8" font-weight="600">CLOUD</text>
+      <rect x="175" y="12" width="88" height="18" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.8"/>
+      <text x="219" y="24" text-anchor="middle" fill="#e3b341" class="t-mono" font-size="8.5" font-weight="700">CLOUD ARCH</text>
       
-      <!-- Title & Details -->
-      <text x="62" y="30" fill="#f0f6fc" class="tr-title" font-size="12">AWS &amp; GOOGLE PLAY</text>
-      <text x="62" y="46" fill="#8b949e" class="tr-mono" font-size="9.5">AWS Certified • Play Academy</text>
-      
-      <!-- Bottom Status -->
-      <line x1="14" y1="64" x2="261" y2="64" stroke="#21262d" stroke-width="1"/>
-      <circle cx="20" cy="78" r="3" fill="#3fb950"/>
-      <text x="30" y="81" fill="#8b949e" class="tr-mono" font-size="9">Enterprise Cloud Deployment</text>
+      <text x="56" y="27" fill="#f0f6fc" class="t-title" font-size="12.5">AWS &amp; PLAY STORE</text>
+      <text x="56" y="42" fill="#e3b341" class="t-mono" font-size="9.5">AWS Certified &amp; Google</text>
+
+      <!-- Content Body Lines -->
+      <text x="14" y="68" fill="#c9d1d9" class="t-body" font-size="10.5">• AWS Developer Learning Plan</text>
+      <text x="14" y="84" fill="#c9d1d9" class="t-body" font-size="10.5">• Google Play Store Optimization</text>
+      <text x="14" y="100" fill="#8b949e" class="t-mono" font-size="9">Official Verified Credentials</text>
+
+      <!-- Bottom Verification Pill -->
+      <line x1="12" y1="112" x2="263" y2="112" stroke="#21262d" stroke-width="1"/>
+      <circle cx="20" cy="125" r="3" fill="#3fb950" class="pulse-dot"/>
+      <text x="28" y="128" fill="#8b949e" class="t-mono" font-size="8.5">VERIFIED S+ TIER</text>
+      <text x="200" y="128" fill="#e3b341" class="t-mono" font-size="8.5" font-weight="600">MASTER</text>
     </g>
 
-    <!-- Card 6: Cyber & ISRO Outreach -->
+    <!-- Card 6: Deloitte & ISRO -->
     <g transform="translate(585, 0)">
-      <rect width="275" height="100" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+      <rect width="275" height="138" rx="8" fill="url(#card-grad-bg)" stroke="url(#card-border-gh)" stroke-width="1.2"/>
+      <path d="M 6 1 L 269 1" stroke="#ff7b72" stroke-opacity="0.6" stroke-width="1.5"/>
       
-      <!-- Icon Container -->
-      <rect x="14" y="14" width="38" height="38" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
-      <text x="33" y="39" text-anchor="middle" font-size="18">🛡️</text>
+      <!-- Top Header Row -->
+      <rect x="12" y="12" width="36" height="36" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+      <text x="30" y="36" text-anchor="middle" font-size="18">🛡️</text>
       
-      <!-- Top Tag -->
-      <rect x="185" y="14" width="76" height="16" rx="4" fill="#21262d"/>
-      <text x="223" y="25" text-anchor="middle" fill="#ff7b72" class="tr-mono" font-size="8" font-weight="600">HONORS</text>
+      <rect x="175" y="12" width="88" height="18" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.8"/>
+      <text x="219" y="24" text-anchor="middle" fill="#ff7b72" class="t-mono" font-size="8.5" font-weight="700">ENTERPRISE</text>
       
-      <!-- Title & Details -->
-      <text x="62" y="30" fill="#f0f6fc" class="tr-title" font-size="12">DELOITTE &amp; ISRO</text>
-      <text x="62" y="46" fill="#8b949e" class="tr-mono" font-size="9.5">Deloitte Cyber • ISRO Space</text>
-      
-      <!-- Bottom Status -->
-      <line x1="14" y1="64" x2="261" y2="64" stroke="#21262d" stroke-width="1"/>
-      <circle cx="20" cy="78" r="3" fill="#3fb950"/>
-      <text x="30" y="81" fill="#8b949e" class="tr-mono" font-size="9">Security &amp; Space Research</text>
+      <text x="56" y="27" fill="#f0f6fc" class="t-title" font-size="12.5">DELOITTE &amp; ISRO</text>
+      <text x="56" y="42" fill="#ff7b72" class="t-mono" font-size="9.5">Deloitte Cyber &amp; Space</text>
+
+      <!-- Content Body Lines -->
+      <text x="14" y="68" fill="#c9d1d9" class="t-body" font-size="10.5">• Deloitte Cyber Security Sim</text>
+      <text x="14" y="84" fill="#c9d1d9" class="t-body" font-size="10.5">• ISRO / IIRS Outreach Program</text>
+      <text x="14" y="100" fill="#8b949e" class="t-mono" font-size="9">Bank of America &amp; Mastercard</text>
+
+      <!-- Bottom Verification Pill -->
+      <line x1="12" y1="112" x2="263" y2="112" stroke="#21262d" stroke-width="1"/>
+      <circle cx="20" cy="125" r="3" fill="#3fb950" class="pulse-dot"/>
+      <text x="28" y="128" fill="#8b949e" class="t-mono" font-size="8.5">VERIFIED S+ TIER</text>
+      <text x="200" y="128" fill="#ff7b72" class="t-mono" font-size="8.5" font-weight="600">MASTER</text>
     </g>
   </g>
 </svg>

@@ -137,6 +137,15 @@ Rather than relying on templates or pre-packaged abstractions, I build the core 
 
 ---
 
+### 🌐 3D SPATIAL COMPUTING & REAL-TIME GRAPHICS ENGINE
+
+<div align="center">
+  <!-- 3D ANIMATED SPATIAL PIPELINE CARD -->
+  <img src="./assets/spatial-engine-3d.svg" alt="3D Spatial Kinematics Engine" width="100%" />
+</div>
+
+---
+
 ### 🛠️ TECHNICAL ARSENAL & TOOLING ECOSYSTEM
 
 <table>
