@@ -131,6 +131,30 @@ Rather than relying on templates or pre-packaged abstractions, I build the core 
     </a>
   </p>
 
+  <br />
+
+  <!-- OFFICIAL GITHUB PROFILE ACHIEVEMENTS SHOWROOM -->
+  <p align="center">
+    <a href="https://github.com/aaddi1?tab=achievements">
+      <img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" width="64" alt="Pull Shark" title="Pull Shark — Multiple Merged Pull Requests" />
+    </a>
+    <a href="https://github.com/aaddi1?tab=achievements">
+      <img src="https://github.githubassets.com/images/modules/profile/achievements/quickdraw-default.png" width="64" alt="Quickdraw" title="Quickdraw — Closed Issue/PR within 5 Minutes" />
+    </a>
+    <a href="https://github.com/aaddi1?tab=achievements">
+      <img src="https://github.githubassets.com/images/modules/profile/achievements/pair-extraordinaire-default.png" width="64" alt="Pair Extraordinaire" title="Pair Extraordinaire — Coauthored in Merged Pull Requests" />
+    </a>
+    <a href="https://github.com/aaddi1?tab=achievements">
+      <img src="https://github.githubassets.com/images/modules/profile/achievements/yolo-default.png" width="64" alt="YOLO" title="YOLO — Merged Pull Request Without Review" />
+    </a>
+    <a href="https://github.com/aaddi1?tab=achievements">
+      <img src="https://github.githubassets.com/images/modules/profile/achievements/heart-on-your-sleeve-default.png" width="64" alt="Heart On Your Sleeve" title="Heart On Your Sleeve — Reacted with ❤️" />
+    </a>
+    <a href="https://github.com/aaddi1?tab=achievements">
+      <img src="https://github.githubassets.com/images/modules/profile/achievements/open-sourcerer-default.png" width="64" alt="Open Sourcerer" title="Open Sourcerer — PRs Merged Across Multiple Repositories" />
+    </a>
+  </p>
+
 </div>
 
 ---
