@@ -17,8 +17,11 @@
     <img src="https://img.shields.io/badge/ROLE-CREATIVE_ENGINEER-FF007A?style=for-the-badge&logo=codewars&logoColor=white" alt="Role Badge" />
   </p>
 
-  <!-- SOCIAL CONNECT MATRIX -->
+  <!-- SOCIAL & DIRECT CONNECT MATRIX -->
   <p align="center">
+    <a href="mailto:aaddisharmarkczw@gmail.com">
+      <img src="https://img.shields.io/badge/Email-aaddisharmarkczw%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Aryan" />
+    </a>
     <a href="https://www.linkedin.com/in/aryan-sharma11/" target="_blank">
       <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
     </a>
@@ -47,14 +50,16 @@ identity:
   name: "Aryan Sharma"
   title: "3D Designer & Creative Full-Stack Engineer"
   location: "Pune, Maharashtra, India 🇮🇳"
-  core_domain: "3D Spatial Web, Full-Stack Architecture, Agentic AI & Human-Interface Systems"
+  email: "aaddisharmarkczw@gmail.com"
+  core_domain: "3D Spatial Web, Full-Stack Architecture, Polyglot Engineering & Agentic AI"
   architecture_style: "Apple Clear Liquid Glass UI • High-Performance WebGL • Reactive Microservices"
-  status: "Ready for high-velocity engineering, contract innovation & ambitious builds"
+  status: "Open for high-velocity engineering roles, contracts & ambitious builds"
 ```
 
 I am a certified creative engineer and web developer bridging the frontier between **hyper-aesthetic 3D interaction design** and **scalable enterprise engineering**. I don't just build websites; I engineer memorable digital ecosystems—ranging from luxury spatial 3D experiences with custom WebGL shaders to data-intensive business intelligence backends.
 
 * **🎨 3D & Creative Engineering:** Specializing in Three.js, WebGL canvas rendering, spatial UX, Liquid Glass aesthetics, and smooth scroll kinematics.
+* **⚡ Polyglot Engine:** Proficient across multiple paradigms—from low-level performance with **C++** and **Java** to high-velocity full-stack builds in **JavaScript**, **TypeScript**, **Python**, and **SQL**.
 * **⚙️ Full-Stack Systems:** End-to-end platform design with Node.js, PostgreSQL, Python analytics acceleration, and modern C++.
 * **🤖 AI & Agentic Orchestration:** Certified across Anthropic Claude Code, Prompt Engineering, and IBM AI Fundamentals for autonomous development workflows.
 * **💼 Business Driven:** Engineering digital solutions that elevate brand valuation, convert users effortlessly, and automate complex workflows.
@@ -84,7 +89,7 @@ I am a certified creative engineer and web developer bridging the frontier betwe
     <tr style="border: none;">
       <td width="50%" align="center" style="border: none;">
         <a href="https://github.com/aaddi1">
-          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aaddi1&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F2FE&text_color=E2E8F0" alt="Top Languages" width="100%" />
+          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aaddi1&layout=compact&langs_count=10&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F2FE&text_color=E2E8F0" alt="Top Languages Showcase" width="100%" />
         </a>
       </td>
       <td width="50%" align="center" style="border: none;">
@@ -102,6 +107,26 @@ I am a certified creative engineer and web developer bridging the frontier betwe
     </a>
   </p>
 </div>
+
+---
+
+### 💻 POLYGLOT SPECTRUM // ALL PROGRAMMING LANGUAGES & PROFICIENCIES
+
+A complete breakdown of programming and scripting languages applied across my 3D rendering engines, enterprise platforms, analytics backends, and full-stack systems:
+
+| Language | Primary Focus & Domain | Applied In | Ecosystem Badges |
+| :--- | :--- | :--- | :---: |
+| **JavaScript (ESNext)** | Asynchronous Architectures, Three.js 3D Viewports, Full-Stack DOM & Node Runtime | Full-Stack SaaS & 3D Web | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
+| **TypeScript** | Type-Safe Architecture, Interfaces, Generics, Scalable Web Applications | Frontend & API Engines | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
+| **Python** | Predictive Analytics, Data Modeling, Automation & AI Agent Orchestration | NEXUS Analytics & BCG X | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
+| **C++** | High-Throughput Computation, Algorithmic Acceleration & Memory Optimization | NEXUS Engine & Core Logic | ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white) |
+| **Java** | Object-Oriented Design, JVM Runtime Principles, Enterprise Systems | Oracle Certified Foundations | ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) |
+| **SQL / PostgreSQL** | Relational Data Modeling, Complex Queries, Index Optimization & Telemetry | Enterprise Databases & CRM | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white) |
+| **C# / .NET** | Modern Component Architecture & WebAssembly Frameworks | Microsoft Blazor Systems | ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white) ![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white) |
+| **HTML5 & Canvas** | 2D/3D Canvas Rendering, Semantic Layouts, Web Graphics & Audio APIs | 3D Portfolio & Cinder House | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) |
+| **CSS3 / SCSS** | Liquid Glass UI, 3D CSS Matrix Transforms, Responsive Design Systems | Spatial UX & Themes | ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) |
+| **GLSL / Shaders** | WebGL Custom Shaders, Real-Time Lighting, Raymarching & Textures | 3D Interactive Experiences | ![WebGL](https://img.shields.io/badge/GLSL_WebGL-990000?style=flat-square&logo=webgl&logoColor=white) |
+| **Bash / Shell** | Terminal Automation, Claude Code Agentic Workflows, DevOps Pipelines | Linux CLI & Tooling | ![Bash](https://img.shields.io/badge/Bash_Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white) |
 
 ---
 
@@ -126,10 +151,12 @@ I am a certified creative engineer and web developer bridging the frontier betwe
   <tr>
     <td><strong>⚡ Core Languages</strong></td>
     <td>
-      <img src="https://img.shields.io/badge/JavaScript_(ESNext)-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
       <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
       <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
       <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" />
+      <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
+      <img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white" />
       <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
       <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
       <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
@@ -270,20 +297,23 @@ I am a certified creative engineer and web developer bridging the frontier betwe
 ### 💬 INITIATE COLLABORATION // CONTACT HUD
 
 <div align="center">
-  <p>Got an ambitious project, 3D experience, full-stack platform, or engineering role? Let's connect.</p>
+  <p>Got an ambitious project, 3D experience, full-stack platform, or engineering role? Reach out directly.</p>
 
   <p align="center">
+    <a href="mailto:aaddisharmarkczw@gmail.com">
+      <img src="https://img.shields.io/badge/Direct_Email-aaddisharmarkczw%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Aryan Sharma" />
+    </a>
     <a href="https://www.linkedin.com/in/aryan-sharma11/">
-      <img src="https://img.shields.io/badge/LinkedIn-Connect_with_Aryan-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+      <img src="https://img.shields.io/badge/LinkedIn-Connect_with_Aryan-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
     </a>
     <a href="https://x.com/aryan56710">
-      <img src="https://img.shields.io/badge/X-@aryan56710-000000?style=for-the-badge&logo=x&logoColor=white" />
+      <img src="https://img.shields.io/badge/X-@aryan56710-000000?style=for-the-badge&logo=x&logoColor=white" alt="X (Twitter)" />
     </a>
     <a href="https://www.instagram.com/aryansharma.dev/">
-      <img src="https://img.shields.io/badge/Instagram-@aryansharma.dev-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+      <img src="https://img.shields.io/badge/Instagram-@aryansharma.dev-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
     </a>
     <a href="https://aaddi1.github.io/My-Portfolio/">
-      <img src="https://img.shields.io/badge/Visit-Interactive_3D_Portfolio-00F2FE?style=for-the-badge&logo=three.js&logoColor=black" />
+      <img src="https://img.shields.io/badge/Visit-Interactive_3D_Portfolio-00F2FE?style=for-the-badge&logo=three.js&logoColor=black" alt="3D Portfolio" />
     </a>
   </p>
 
@@ -298,6 +328,6 @@ I am a certified creative engineer and web developer bridging the frontier betwe
   </a>
 
   <p align="center">
-    <sub>Crafted with ⚡ and precision by <strong>Aryan Sharma</strong></sub>
+    <sub>Crafted with ⚡ and precision by <strong>Aryan Sharma</strong> &bull; Contact: <strong><a href="mailto:aaddisharmarkczw@gmail.com">aaddisharmarkczw@gmail.com</a></strong></sub>
   </p>
 </div>
