@@ -1,106 +1,121 @@
 <svg width="900" height="280" viewBox="0 0 900 280" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Soft Ambient GitHub Dark Gradients -->
-    <radialGradient id="gh-glow-blue" cx="15%" cy="25%" r="60%">
-      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.12"/>
-      <stop offset="100%" stop-color="#0d1117" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="gh-glow-green" cx="85%" cy="75%" r="55%">
-      <stop offset="0%" stop-color="#238636" stop-opacity="0.12"/>
-      <stop offset="100%" stop-color="#0d1117" stop-opacity="0"/>
-    </radialGradient>
-
-    <!-- GitHub Glass Card Fill -->
-    <linearGradient id="gh-glass-fill" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#161b22" stop-opacity="0.85"/>
-      <stop offset="100%" stop-color="#0d1117" stop-opacity="0.95"/>
+    <!-- Chromatic Rainbow Liquid Glass Gradient -->
+    <linearGradient id="rainbow-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff007a"/>
+      <stop offset="25%" stop-color="#7928ca"/>
+      <stop offset="50%" stop-color="#00f2fe"/>
+      <stop offset="75%" stop-color="#00f5a0"/>
+      <stop offset="100%" stop-color="#ffd43b"/>
     </linearGradient>
 
-    <!-- GitHub Card Border -->
-    <linearGradient id="gh-glass-border" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#30363d"/>
-      <stop offset="50%" stop-color="#58a6ff" stop-opacity="0.3"/>
-      <stop offset="100%" stop-color="#30363d"/>
+    <!-- Liquid Specular Gradient -->
+    <linearGradient id="specular-gloss" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.7"/>
+      <stop offset="30%" stop-color="#00f2fe" stop-opacity="0.8"/>
+      <stop offset="70%" stop-color="#ff007a" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.7"/>
     </linearGradient>
 
-    <!-- Clean Title Gradient -->
-    <linearGradient id="gh-title-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <!-- Title Rainbow Metallic Gradient -->
+    <linearGradient id="title-rainbow" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#f0f6fc"/>
-      <stop offset="100%" stop-color="#c9d1d9"/>
+      <stop offset="40%" stop-color="#00f2fe"/>
+      <stop offset="70%" stop-color="#c084fc"/>
+      <stop offset="100%" stop-color="#ff76ac"/>
+    </linearGradient>
+
+    <!-- Glass Fill -->
+    <linearGradient id="liquid-glass-fill" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.08"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.03"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.06"/>
     </linearGradient>
 
     <style>
-      .gh-title {
+      @keyframes rainbowShift {
+        0% { filter: hue-rotate(0deg); }
+        50% { filter: hue-rotate(180deg); }
+        100% { filter: hue-rotate(360deg); }
+      }
+      @keyframes floatGlass {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-3px); }
+      }
+      .rainbow-edge {
+        animation: rainbowShift 10s linear infinite;
+      }
+      .glass-float {
+        animation: floatGlass 6s ease-in-out infinite;
+      }
+      .h-title {
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
-        font-weight: 700;
+        font-weight: 800;
         letter-spacing: 1px;
       }
-      .gh-sub {
+      .h-sub {
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
         font-weight: 600;
       }
-      .gh-mono {
+      .h-mono {
         font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace;
       }
-      .gh-body {
+      .h-body {
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
       }
     </style>
   </defs>
 
-  <!-- Deep Canvas Base -->
-  <rect width="900" height="280" rx="16" fill="#0d1117"/>
-  <rect width="900" height="280" rx="16" fill="url(#gh-glow-blue)"/>
-  <rect width="900" height="280" rx="16" fill="url(#gh-glow-green)"/>
-  <rect width="900" height="280" rx="16" fill="none" stroke="#30363d" stroke-width="1"/>
+  <!-- Transparent Liquid Glass Card Panel -->
+  <g class="glass-float" transform="translate(15, 15)">
+    <!-- Liquid Glass Body (Translucent in both light & dark mode) -->
+    <rect width="870" height="250" rx="16" fill="url(#liquid-glass-fill)"/>
+    <rect width="870" height="250" rx="16" fill="none" stroke="url(#rainbow-border)" stroke-width="2" class="rainbow-edge"/>
 
-  <!-- Main Card Panel -->
-  <g transform="translate(25, 20)">
-    <!-- Panel Base -->
-    <rect width="850" height="240" rx="12" fill="url(#gh-glass-fill)"/>
-    <rect width="850" height="240" rx="12" fill="none" stroke="url(#gh-glass-border)" stroke-width="1.2"/>
+    <!-- Specular Gloss Highlight Top Edge -->
+    <path d="M 20 2 L 850 2" stroke="url(#specular-gloss)" stroke-width="2" stroke-linecap="round" class="rainbow-edge"/>
 
-    <!-- Window Controls (Subtle Apple traffic lights) -->
-    <circle cx="28" cy="24" r="5" fill="#ff5f56"/>
-    <circle cx="44" cy="24" r="5" fill="#ffbd2e"/>
-    <circle cx="60" cy="24" r="5" fill="#27c93f"/>
+    <!-- Window Controls (Apple Traffic Lights) -->
+    <circle cx="32" cy="26" r="5.5" fill="#ff5f56" stroke="rgba(255,255,255,0.4)" stroke-width="0.5"/>
+    <circle cx="48" cy="26" r="5.5" fill="#ffbd2e" stroke="rgba(255,255,255,0.4)" stroke-width="0.5"/>
+    <circle cx="64" cy="26" r="5.5" fill="#27c93f" stroke="rgba(255,255,255,0.4)" stroke-width="0.5"/>
 
     <!-- System Header Text -->
-    <text x="80" y="28" fill="#8b949e" class="gh-mono" font-size="11" font-weight="500">aryan-sharma / profile</text>
+    <text x="86" y="30" fill="#8b949e" class="h-mono" font-size="11" font-weight="600">ARYAN_SHARMA // LIQUID_GLASS_KERNEL // v3.2</text>
 
     <!-- Location Pill -->
-    <rect x="705" y="14" width="130" height="20" rx="10" fill="#21262d" stroke="#30363d" stroke-width="1"/>
-    <circle cx="718" cy="24" r="3.5" fill="#3fb950"/>
-    <text x="728" y="27" fill="#8b949e" class="gh-mono" font-size="10" font-weight="600">TUNDLA, INDIA</text>
+    <rect x="715" y="15" width="140" height="22" rx="11" fill="rgba(255,255,255,0.06)" stroke="url(#rainbow-border)" stroke-width="1.2" class="rainbow-edge"/>
+    <circle cx="729" cy="26" r="3.5" fill="#3fb950"/>
+    <text x="739" y="30" fill="#c9d1d9" class="h-mono" font-size="9.5" font-weight="700">TUNDLA, INDIA</text>
 
-    <line x1="0" y1="42" x2="850" y2="42" stroke="#21262d" stroke-width="1"/>
+    <line x1="0" y1="46" x2="870" y2="46" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
 
     <!-- Main Headline -->
-    <text x="28" y="90" fill="url(#gh-title-grad)" class="gh-title" font-size="34">Aryan Sharma</text>
-    <text x="28" y="118" fill="#58a6ff" class="gh-sub" font-size="14">3D Creative Engineer &amp; Full-Stack Systems Architect</text>
+    <text x="32" y="98" fill="url(#title-rainbow)" class="h-title" font-size="38">Aryan Sharma</text>
+    <text x="32" y="126" fill="#58a6ff" class="h-sub" font-size="14.5">3D Creative Engineer  •  Full-Stack Systems Architect</text>
 
-    <!-- Bio / Craft Statement -->
-    <text x="28" y="148" fill="#8b949e" class="gh-body" font-size="13">
-      Engineering custom Node.js servers, PostgreSQL database schemas, C++ analytics, and Three.js 3D web experiences.
+    <!-- Craft Statement -->
+    <text x="32" y="156" fill="#8b949e" class="h-body" font-size="13">
+      Building custom Node.js servers, PostgreSQL database schemas, C++ analytics, and spatial 3D WebGL experiences.
     </text>
 
-    <!-- 4 Clean Tech Tags -->
-    <g transform="translate(28, 175)">
+    <!-- 4 Transparent Rainbow Glass Pills -->
+    <g transform="translate(32, 184)">
       <!-- Pill 1: Three.js -->
-      <rect x="0" y="0" width="180" height="32" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
-      <text x="14" y="20" fill="#58a6ff" class="gh-mono" font-size="11" font-weight="600">🌐 Three.js &amp; WebGL</text>
+      <rect x="0" y="0" width="185" height="34" rx="8" fill="rgba(255,255,255,0.05)" stroke="url(#rainbow-border)" stroke-width="1" class="rainbow-edge"/>
+      <text x="14" y="21" fill="#58a6ff" class="h-mono" font-size="11" font-weight="600">🌐 Three.js &amp; WebGL 3D</text>
 
       <!-- Pill 2: Backend -->
-      <rect x="192" y="0" width="180" height="32" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
-      <text x="14" y="20" transform="translate(192, 0)" fill="#3fb950" class="gh-mono" font-size="11" font-weight="600">🖥️ Node.js &amp; Express</text>
+      <rect x="198" y="0" width="185" height="34" rx="8" fill="rgba(255,255,255,0.05)" stroke="url(#rainbow-border)" stroke-width="1" class="rainbow-edge"/>
+      <text x="14" y="21" transform="translate(198, 0)" fill="#3fb950" class="h-mono" font-size="11" font-weight="600">🖥️ Node.js Servers</text>
 
       <!-- Pill 3: SQL -->
-      <rect x="384" y="0" width="190" height="32" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
-      <text x="14" y="20" transform="translate(384, 0)" fill="#79c0ff" class="gh-mono" font-size="11" font-weight="600">🗄️ PostgreSQL &amp; SQL</text>
+      <rect x="396" y="0" width="195" height="34" rx="8" fill="rgba(255,255,255,0.05)" stroke="url(#rainbow-border)" stroke-width="1" class="rainbow-edge"/>
+      <text x="14" y="21" transform="translate(396, 0)" fill="#79c0ff" class="h-mono" font-size="11" font-weight="600">🗄️ PostgreSQL &amp; SQL</text>
 
       <!-- Pill 4: C++ -->
-      <rect x="586" y="0" width="180" height="32" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
-      <text x="14" y="20" transform="translate(586, 0)" fill="#d2a8ff" class="gh-mono" font-size="11" font-weight="600">⚡ C++ Computation</text>
+      <rect x="604" y="0" width="185" height="34" rx="8" fill="rgba(255,255,255,0.05)" stroke="url(#rainbow-border)" stroke-width="1" class="rainbow-edge"/>
+      <text x="14" y="21" transform="translate(604, 0)" fill="#d2a8ff" class="h-mono" font-size="11" font-weight="600">⚡ C++ Computation</text>
     </g>
   </g>
 </svg>

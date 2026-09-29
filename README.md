@@ -2,7 +2,7 @@
 
   <!-- BESPOKE GITHUB DARK HERO BANNER -->
   <a href="https://aaddi1.github.io/My-Portfolio/">
-    <img src="./assets/hero-banner.svg?v=2" alt="Aryan Sharma - 3D Creative Engineer & Full-Stack Architect" width="100%" />
+    <img src="./assets/hero-banner.svg?v=3" alt="Aryan Sharma - 3D Creative Engineer & Full-Stack Architect" width="100%" />
   </a>
 
   <!-- DYNAMIC TYPING SUBHEADER (GITHUB ACCENT) -->
@@ -102,14 +102,23 @@ Rather than relying on templates or pre-packaged abstractions, I build the core 
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aaddi1/aaddi1/output/github-contribution-grid-snake-dark.svg" />
       <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/aaddi1/aaddi1/output/github-contribution-grid-snake.svg" />
-      <img src="./assets/github-contribution-grid-snake.svg?v=2" alt="GitHub Contribution Snake Animation" width="100%" />
+      <img src="./assets/github-contribution-grid-snake.svg?v=3" alt="GitHub Contribution Snake Animation" width="100%" />
     </picture>
   </p>
 
   <br />
 
+  <!-- OFFICIAL GITHUB TROPHIES (ACTIVE MIRROR) -->
+  <p align="center">
+    <a href="https://github.com/aaddi1">
+      <img src="https://github-profile-trophy-zeta.vercel.app/?username=aaddi1&theme=onedark&no-frame=true&no-bg=true&margin_w=4&column=7" alt="Aryan Sharma's GitHub Trophies" />
+    </a>
+  </p>
+
+  <br />
+
   <!-- GITHUB DARK TELEMETRY DASHBOARD -->
-  <img src="./assets/telemetry-dashboard.svg?v=2" alt="Aryan Sharma Developer Telemetry Dashboard" width="100%" />
+  <img src="./assets/telemetry-dashboard.svg?v=3" alt="Aryan Sharma Developer Telemetry Dashboard" width="100%" />
 </div>
 
 ---
@@ -213,7 +222,7 @@ Rather than relying on templates or pre-packaged abstractions, I build the core 
   <br />
 
   <!-- VERIFIED HONORS & TROPHY VAULT SVG -->
-  <img src="./assets/trophies-vault-glass.svg?v=2" alt="GitHub Dark Trophy Vault" width="100%" />
+  <img src="./assets/trophies-vault-glass.svg?v=3" alt="GitHub Dark Trophy Vault" width="100%" />
 </div>
 
 ---
@@ -222,7 +231,7 @@ Rather than relying on templates or pre-packaged abstractions, I build the core 
 
 <div align="center">
   <!-- FULL PROGRAMMING LANGUAGES MATRIX -->
-  <img src="./assets/languages-glass-matrix.svg?v=2" alt="All Programming Languages Showcase" width="100%" />
+  <img src="./assets/languages-glass-matrix.svg?v=3" alt="All Programming Languages Showcase" width="100%" />
 </div>
 
 <br />
@@ -247,7 +256,7 @@ Rather than relying on templates or pre-packaged abstractions, I build the core 
 
 <div align="center">
   <!-- 3D ANIMATED SPATIAL PIPELINE CARD -->
-  <img src="./assets/spatial-engine-3d.svg?v=2" alt="3D Spatial Kinematics Engine" width="100%" />
+  <img src="./assets/spatial-engine-3d.svg?v=3" alt="3D Spatial Kinematics Engine" width="100%" />
 </div>
 
 ---
