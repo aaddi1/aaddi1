@@ -252,10 +252,33 @@ Rather than relying on templates or pre-packaged abstractions, I build the core 
 
 ---
 
-### 🌐 3D Spatial Engine
+### 🌐 3D Spatial Engine Architecture
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/aaddi1/aaddi1/main/assets/spatial-engine-3d.svg" alt="3D Spatial Kinematics Engine" width="100%" />
+  <table width="100%">
+    <tr>
+      <td width="25%" align="center" valign="top">
+        <img src="https://img.shields.io/badge/01-SCENE_GRAPH-0969DA?style=for-the-badge&logo=three.js&logoColor=white" /><br /><br />
+        <strong>3D Mesh &amp; Buffers</strong>
+        <p align="left">Custom geometry buffers, vertex arrays, texture mapping &amp; spatial coordinate matrix transformations.</p>
+      </td>
+      <td width="25%" align="center" valign="top">
+        <img src="https://img.shields.io/badge/02-GLSL_SHADERS-1A7F37?style=for-the-badge&logo=webgl&logoColor=white" /><br /><br />
+        <strong>Lighting &amp; Shaders</strong>
+        <p align="left">Real-time raymarching, fresnel specular highlights, dynamic ambient reflections &amp; shadow maps.</p>
+      </td>
+      <td width="25%" align="center" valign="top">
+        <img src="https://img.shields.io/badge/03-24FPS_CANVAS-0969DA?style=for-the-badge&logo=html5&logoColor=white" /><br /><br />
+        <strong>Scroll Kinematics</strong>
+        <p align="left">Frame-interpolated camera path controllers, parallax scrolling &amp; zero-lag viewport rendering.</p>
+      </td>
+      <td width="25%" align="center" valign="top">
+        <img src="https://img.shields.io/badge/04-LIQUID_GLASS-8250DF?style=for-the-badge&logo=apple&logoColor=white" /><br /><br />
+        <strong>Spatial Glass UI</strong>
+        <p align="left">Apple-inspired liquid glassmorphic HUD overlays with responsive viewport adaptation.</p>
+      </td>
+    </tr>
+  </table>
 </div>
 
 ---
