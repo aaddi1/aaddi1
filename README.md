@@ -1,13 +1,13 @@
 <div align="center">
 
-  <!-- BESPOKE GITHUB DARK HERO BANNER -->
+  <!-- BESPOKE HIGH-CONTRAST HERO BANNER -->
   <a href="https://aaddi1.github.io/My-Portfolio/">
-    <img src="./assets/hero-banner.svg?v=5" alt="Aryan Sharma - 3D Creative Engineer & Full-Stack Architect" width="100%" />
+    <img src="https://raw.githubusercontent.com/aaddi1/aaddi1/main/assets/hero-banner.svg" alt="Aryan Sharma - 3D Creative Engineer & Full-Stack Architect" width="100%" />
   </a>
 
-  <!-- DYNAMIC TYPING SUBHEADER (GITHUB ACCENT) -->
+  <!-- DYNAMIC TYPING SUBHEADER -->
   <a href="https://aaddi1.github.io/My-Portfolio/">
-    <img src="https://readme-typing-svg.herokuapp.com?font=-apple-system,BlinkMacSystemFont,Segoe+UI,Helvetica,Arial,sans-serif&weight=600&size=22&duration=3500&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&width=850&height=75&lines=3D+Spatial+Web+Experiences+%E2%80%A2+Creative+Engineering;Custom+Node.js+Servers+%26+PostgreSQL+Database+Architecture;Compiled+C%2B%2B+Acceleration+%26+Full-Stack+Platforms" alt="Dynamic Typing Subheader" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=-apple-system,BlinkMacSystemFont,Segoe+UI,Helvetica,Arial,sans-serif&weight=600&size=22&duration=3500&pause=1000&color=0969DA&center=true&vCenter=true&multiline=true&width=850&height=75&lines=3D+Spatial+Web+Experiences+%E2%80%A2+Creative+Engineering;Custom+Node.js+Servers+%26+PostgreSQL+Database+Architecture;Compiled+C%2B%2B+Acceleration+%26+Full-Stack+Platforms" alt="Dynamic Typing Subheader" />
   </a>
 
   <p align="center">
@@ -74,7 +74,7 @@ Rather than relying on templates or pre-packaged abstractions, I build the core 
 
 <div align="center">
 
-  <!-- LIVE GITHUB STATS & STREAK (100% TRANSPARENT GLASS) -->
+  <!-- LIVE GITHUB STATS & STREAK (ADAPTIVE TRANSPARENT) -->
   <p align="center">
     <a href="https://github.com/aaddi1">
       <picture>
@@ -92,7 +92,7 @@ Rather than relying on templates or pre-packaged abstractions, I build the core 
     </a>
   </p>
 
-  <!-- LIVE TOP LANGUAGES CARD (100% TRANSPARENT GLASS) -->
+  <!-- LIVE TOP LANGUAGES CARD -->
   <p align="center">
     <a href="https://github.com/aaddi1">
       <picture>
@@ -114,7 +114,7 @@ Rather than relying on templates or pre-packaged abstractions, I build the core 
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aaddi1/aaddi1/output/github-contribution-grid-snake-dark.svg" />
       <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/aaddi1/aaddi1/output/github-contribution-grid-snake.svg" />
-      <img src="./assets/github-contribution-grid-snake.svg?v=5" alt="GitHub Contribution Snake Animation" width="100%" />
+      <img src="https://raw.githubusercontent.com/aaddi1/aaddi1/main/assets/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake Animation" width="100%" />
     </picture>
   </p>
 
@@ -131,10 +131,6 @@ Rather than relying on templates or pre-packaged abstractions, I build the core 
     </a>
   </p>
 
-  <br />
-
-  <!-- GITHUB LIQUID GLASS TELEMETRY DASHBOARD -->
-  <img src="./assets/telemetry-dashboard.svg?v=5" alt="Aryan Sharma Developer Telemetry Dashboard" width="100%" />
 </div>
 
 ---
@@ -142,7 +138,7 @@ Rather than relying on templates or pre-packaged abstractions, I build the core 
 ### 🎖️ Verified Specializations & Honors
 
 <div align="center">
-  <table width="100%" border="0">
+  <table width="100%">
     <tr>
       <td width="33%" valign="top" align="center">
         <a href="https://threejs.org/">
@@ -151,8 +147,8 @@ Rather than relying on templates or pre-packaged abstractions, I build the core 
         <br />
         <strong>3D Spatial Engine</strong>
         <p align="left">
-          • Custom GLSL shaders & real-time light<br />
-          • 24fps scroll canvas & 3D kinematics
+          • Custom GLSL shaders &amp; real-time lighting<br />
+          • 24fps scroll canvas &amp; 3D kinematics
         </p>
         <p align="center">
           <img src="https://img.shields.io/badge/WebGL-990000?style=flat-square&logo=webgl&logoColor=white" />
@@ -179,10 +175,10 @@ Rather than relying on templates or pre-packaged abstractions, I build the core 
           <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
         </a>
         <br />
-        <strong>SQL & DB Schemas</strong>
+        <strong>SQL &amp; DB Schemas</strong>
         <p align="left">
           • Normalized relational schema design<br />
-          • Index optimization & complex joins
+          • Index optimization &amp; complex joins
         </p>
         <p align="center">
           <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
@@ -197,7 +193,7 @@ Rather than relying on templates or pre-packaged abstractions, I build the core 
         <strong>C++ Computation</strong>
         <p align="left">
           • High-speed compiled binary modules<br />
-          • Python & C++ interop math pipelines
+          • Python &amp; C++ interop math pipelines
         </p>
         <p align="center">
           <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
@@ -209,7 +205,7 @@ Rather than relying on templates or pre-packaged abstractions, I build the core 
           <img src="https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" />
         </a>
         <br />
-        <strong>AWS & Cloud Systems</strong>
+        <strong>AWS &amp; Cloud Systems</strong>
         <p align="left">
           • AWS Developer Learning Plan certified<br />
           • Google Play Store listing optimization
@@ -222,7 +218,7 @@ Rather than relying on templates or pre-packaged abstractions, I build the core 
       <td width="33%" valign="top" align="center">
         <img src="https://img.shields.io/badge/Deloitte-86BC25?style=for-the-badge&logo=deloitte&logoColor=white" />
         <br />
-        <strong>Deloitte & ISRO</strong>
+        <strong>Deloitte &amp; ISRO</strong>
         <p align="left">
           • Deloitte Cyber Security Simulation<br />
           • ISRO / IIRS space outreach credential
@@ -234,23 +230,11 @@ Rather than relying on templates or pre-packaged abstractions, I build the core 
       </td>
     </tr>
   </table>
-
-  <br />
-
-  <!-- VERIFIED HONORS & TROPHY VAULT SVG -->
-  <img src="./assets/trophies-vault-glass.svg?v=5" alt="GitHub Dark Trophy Vault" width="100%" />
 </div>
 
 ---
 
 ### 💻 Core Languages
-
-<div align="center">
-  <!-- FULL PROGRAMMING LANGUAGES MATRIX -->
-  <img src="./assets/languages-glass-matrix.svg?v=5" alt="All Programming Languages Showcase" width="100%" />
-</div>
-
-<br />
 
 | Language | Applied Architecture & Domain | Production Usage in Projects | Official Technology Badge |
 | :--- | :--- | :--- | :---: |
@@ -271,8 +255,7 @@ Rather than relying on templates or pre-packaged abstractions, I build the core 
 ### 🌐 3D Spatial Engine
 
 <div align="center">
-  <!-- 3D ANIMATED SPATIAL PIPELINE CARD -->
-  <img src="./assets/spatial-engine-3d.svg?v=5" alt="3D Spatial Kinematics Engine" width="100%" />
+  <img src="https://raw.githubusercontent.com/aaddi1/aaddi1/main/assets/spatial-engine-3d.svg" alt="3D Spatial Kinematics Engine" width="100%" />
 </div>
 
 ---
