@@ -120,13 +120,13 @@ Rather than relying on templates or pre-packaged abstractions, I build the core 
 
   <br />
 
-  <!-- OFFICIAL GITHUB TROPHIES (ACTIVE HIGH-CONTRAST MIRROR) -->
+  <!-- OFFICIAL GITHUB TROPHIES (SECRET & HIGH-TIER RANK FILTER) -->
   <p align="center">
     <a href="https://github.com/aaddi1">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy-zeta.vercel.app/?username=aaddi1&theme=gitdimmed&no-frame=true&no-bg=true&margin_w=6&column=7" />
-        <source media="(prefers-color-scheme: light)" srcset="https://github-profile-trophy-zeta.vercel.app/?username=aaddi1&theme=flat&no-frame=true&no-bg=true&margin_w=6&column=7" />
-        <img src="https://github-profile-trophy-zeta.vercel.app/?username=aaddi1&theme=gitdimmed&no-frame=true&no-bg=true&margin_w=6&column=7" alt="Aryan Sharma's GitHub Trophies" />
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy-zeta.vercel.app/?username=aaddi1&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C&theme=gitdimmed&no-frame=true&no-bg=true&margin_w=6&column=7" />
+        <source media="(prefers-color-scheme: light)" srcset="https://github-profile-trophy-zeta.vercel.app/?username=aaddi1&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C&theme=flat&no-frame=true&no-bg=true&margin_w=6&column=7" />
+        <img src="https://github-profile-trophy-zeta.vercel.app/?username=aaddi1&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C&theme=gitdimmed&no-frame=true&no-bg=true&margin_w=6&column=7" alt="Aryan Sharma's GitHub Trophies" />
       </picture>
     </a>
   </p>
