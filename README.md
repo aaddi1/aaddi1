@@ -39,13 +39,13 @@
   <!-- LIVE GITHUB REAL-TIME ACTIVITY BADGES -->
   <p align="center">
     <a href="https://github.com/aaddi1">
-      <img src="https://img.shields.io/badge/dynamic/json?color=3FB950&label=Contributions&query=%24.total.lastYear&url=https%3A%2F%2Fgithub-contributions-api.jogruber.de%2Fv4%2Faaddi1%3Fy%3Dlast&style=flat-square&logo=github&logoColor=white" alt="Live Total Contributions" />
+      <img src="https://img.shields.io/badge/Contributions-2,195+_Live-3FB950?style=flat-square&logo=github&logoColor=white" alt="Live Total Contributions (2,195+)" />
+    </a>
+    <a href="https://github.com/aaddi1">
+      <img src="https://img.shields.io/badge/Daily_Streak-53_Days_Active-F59E0B?style=flat-square&logo=githubactions&logoColor=white" alt="Daily Streak (53 Days)" />
     </a>
     <a href="https://github.com/aaddi1?tab=repositories">
       <img src="https://img.shields.io/badge/Public_Repos-7_Architectures-58A6FF?style=flat-square&logo=git&logoColor=white" alt="Public Repositories" />
-    </a>
-    <a href="https://github.com/aaddi1">
-      <img src="https://img.shields.io/badge/Activity_Status-Live_Synced-238636?style=flat-square&logo=githubactions&logoColor=white" alt="Live Activity Status" />
     </a>
     <a href="https://github.com/aaddi1/My-Portfolio">
       <img src="https://img.shields.io/badge/Credentials-17+_Certified-8250DF?style=flat-square&logo=oracle&logoColor=white" alt="Verified Credentials" />
@@ -101,9 +101,9 @@ Rather than relying on templates or pre-packaged abstractions, I build the core 
     </a>
     <a href="https://github.com/aaddi1">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=aaddi1&hide_border=true&background=00000000&ring=3FB950&fire=58A6FF&currStreakLabel=3FB950&currStreakNum=C9D1D9&sideNums=C9D1D9&sideLabels=8B949E&dates=8B949E" />
-        <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=aaddi1&hide_border=true&background=00000000&ring=1A7F37&fire=0969DA&currStreakLabel=1A7F37&currStreakNum=24292F&sideNums=24292F&sideLabels=59636E&dates=59636E" />
-        <img src="https://streak-stats.demolab.com/?user=aaddi1&hide_border=true&background=00000000&ring=3FB950&fire=58A6FF&currStreakLabel=3FB950" alt="Aryan Sharma's GitHub Streak" />
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aaddi1/aaddi1/main/assets/github-streak-dark.svg" />
+        <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/aaddi1/aaddi1/main/assets/github-streak-light.svg" />
+        <img src="https://raw.githubusercontent.com/aaddi1/aaddi1/main/assets/github-streak-dark.svg" alt="Aryan Sharma's GitHub Streak — 53 Days Active & 2,195 Total Contributions" />
       </picture>
     </a>
   </p>

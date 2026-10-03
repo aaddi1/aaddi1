@@ -1,0 +1,94 @@
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'
+                style='isolation: isolate' viewBox='0 0 495 195' width='495px' height='195px' direction='ltr'>
+        <style>
+            @keyframes currstreak {
+                0% { font-size: 3px; opacity: 0.2; }
+                80% { font-size: 34px; opacity: 1; }
+                100% { font-size: 28px; opacity: 1; }
+            }
+            @keyframes fadein {
+                0% { opacity: 0; }
+                100% { opacity: 1; }
+            }
+        </style>
+        <defs>
+            <clipPath id='outer_rectangle'>
+                <rect width='495' height='195' rx='4.5'/>
+            </clipPath>
+            <mask id='mask_out_ring_behind_fire'>
+                <rect width='495' height='195' fill='white'/>
+                <ellipse id='mask-ellipse' cx='247.5' cy='32' rx='13' ry='18' fill='black'/>
+            </mask>
+        </defs>
+        <g clip-path='url(#outer_rectangle)'>
+            <g style='isolation: isolate'>
+                <rect stroke='#000000' stroke-opacity='0' fill='#000000' fill-opacity='0' rx='4.5' x='0.5' y='0.5' width='494' height='194'/>
+            </g>
+            <g style='isolation: isolate'>
+                <line x1='165' y1='28' x2='165' y2='170' vector-effect='non-scaling-stroke' stroke-width='1' stroke='#30363D' stroke-linejoin='miter' stroke-linecap='square' stroke-miterlimit='3'/>
+                <line x1='330' y1='28' x2='330' y2='170' vector-effect='non-scaling-stroke' stroke-width='1' stroke='#30363D' stroke-linejoin='miter' stroke-linecap='square' stroke-miterlimit='3'/>
+            </g>
+            <!-- Total Contributions Section -->
+            <g style='isolation: isolate'>
+                <g transform='translate(1,48)'>
+                    <text x='81.5' y='32' stroke-width='0' text-anchor='middle' fill='#C9D1D9' stroke='none' font-family='"Segoe UI", Ubuntu, sans-serif' font-weight='700' font-size='28px' font-style='normal' style='opacity: 0; animation: fadein 0.5s linear forwards 0.6s'>
+                        2,195
+                    </text>
+                </g>
+                <g transform='translate(1,84)'>
+                    <text x='81.5' y='40' stroke-width='0' text-anchor='middle' fill='#3FB950' stroke='none' font-family='"Segoe UI", Ubuntu, sans-serif' font-weight='700' font-size='14px' font-style='normal' style='opacity: 0; animation: fadein 0.5s linear forwards 0.7s'>
+                        Total Contributions
+                    </text>
+                </g>
+                <g transform='translate(1,114)'>
+                    <text x='81.5' y='40' stroke-width='0' text-anchor='middle' fill='#8B949E' stroke='none' font-family='"Segoe UI", Ubuntu, sans-serif' font-weight='400' font-size='12px' font-style='normal' style='opacity: 0; animation: fadein 0.5s linear forwards 0.8s'>
+                        May 24, 2022 - Present
+                    </text>
+                </g>
+            </g>
+            <!-- Current Streak Section (53) -->
+            <g style='isolation: isolate'>
+                <g transform='translate(166,48)'>
+                    <text x='81.5' y='32' stroke-width='0' text-anchor='middle' fill='#C9D1D9' stroke='none' font-family='"Segoe UI", Ubuntu, sans-serif' font-weight='700' font-size='28px' font-style='normal' style='animation: currstreak 0.6s linear forwards'>
+                        53
+                    </text>
+                </g>
+                <g transform='translate(166,84)'>
+                    <text x='81.5' y='40' stroke-width='0' text-anchor='middle' fill='#3FB950' stroke='none' font-family='"Segoe UI", Ubuntu, sans-serif' font-weight='700' font-size='14px' font-style='normal' style='opacity: 0; animation: fadein 0.5s linear forwards 0.9s'>
+                        Current Streak
+                    </text>
+                </g>
+                <g transform='translate(166,114)'>
+                    <text x='81.5' y='40' stroke-width='0' text-anchor='middle' fill='#8B949E' stroke='none' font-family='"Segoe UI", Ubuntu, sans-serif' font-weight='400' font-size='12px' font-style='normal' style='opacity: 0; animation: fadein 0.5s linear forwards 1.0s'>
+                        Aug 11 - Oct 3
+                    </text>
+                </g>
+                <!-- Ring & Fire -->
+                <g mask='url(#mask_out_ring_behind_fire)'>
+                    <circle cx='247.5' cy='71' r='40' fill='none' stroke='#3FB950' stroke-width='5' style='opacity: 0; animation: fadein 0.5s linear forwards 0.4s'/>
+                </g>
+                <g transform='translate(236, 18)'>
+                    <path d='M11.5 0C8.5 4.5 9 8 5.5 12C2.5 15.5 0 19 0 24C0 30.5 5.5 36 12 36C18.5 36 24 30.5 24 24C24 18 19 14.5 17 9.5C15 4.5 14.5 2.5 11.5 0Z' fill='#58A6FF' style='opacity: 0; animation: fadein 0.5s linear forwards 0.5s'/>
+                    <path d='M12 12C10 15 10 17 8 19.5C6 22 4.5 24 4.5 26.5C4.5 30.5 7.5 33.5 12 33.5C16.5 33.5 19.5 30.5 19.5 26.5C19.5 22.5 16.5 20.5 15 17.5C13.5 14.5 13.5 13 12 12Z' fill='#F59E0B' style='opacity: 0; animation: fadein 0.5s linear forwards 0.5s'/>
+                </g>
+            </g>
+            <!-- Longest Streak Section -->
+            <g style='isolation: isolate'>
+                <g transform='translate(331,48)'>
+                    <text x='81.5' y='32' stroke-width='0' text-anchor='middle' fill='#C9D1D9' stroke='none' font-family='"Segoe UI", Ubuntu, sans-serif' font-weight='700' font-size='28px' font-style='normal' style='opacity: 0; animation: fadein 0.5s linear forwards 1.1s'>
+                        220
+                    </text>
+                </g>
+                <g transform='translate(331,84)'>
+                    <text x='81.5' y='40' stroke-width='0' text-anchor='middle' fill='#3FB950' stroke='none' font-family='"Segoe UI", Ubuntu, sans-serif' font-weight='700' font-size='14px' font-style='normal' style='opacity: 0; animation: fadein 0.5s linear forwards 1.2s'>
+                        Longest Streak
+                    </text>
+                </g>
+                <g transform='translate(331,114)'>
+                    <text x='81.5' y='40' stroke-width='0' text-anchor='middle' fill='#8B949E' stroke='none' font-family='"Segoe UI", Ubuntu, sans-serif' font-weight='400' font-size='12px' font-style='normal' style='opacity: 0; animation: fadein 0.5s linear forwards 1.3s'>
+                        Sep 29, 2025 - May 6
+                    </text>
+                </g>
+            </g>
+        </g>
+    </svg>
