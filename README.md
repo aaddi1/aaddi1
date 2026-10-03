@@ -36,6 +36,22 @@
     </a>
   </p>
 
+  <!-- LIVE GITHUB REAL-TIME ACTIVITY BADGES -->
+  <p align="center">
+    <a href="https://github.com/aaddi1">
+      <img src="https://img.shields.io/badge/Contributions-1,155+_Live-3FB950?style=flat-square&logo=github&logoColor=white" alt="Live Contributions" />
+    </a>
+    <a href="https://github.com/aaddi1?tab=repositories">
+      <img src="https://img.shields.io/badge/Public_Repos-7_Architectures-58A6FF?style=flat-square&logo=git&logoColor=white" alt="Public Repositories" />
+    </a>
+    <a href="https://github.com/aaddi1">
+      <img src="https://img.shields.io/badge/Activity_Status-Live_Synced-238636?style=flat-square&logo=githubactions&logoColor=white" alt="Live Activity Status" />
+    </a>
+    <a href="https://github.com/aaddi1/My-Portfolio">
+      <img src="https://img.shields.io/badge/Credentials-17+_Certified-8250DF?style=flat-square&logo=oracle&logoColor=white" alt="Verified Credentials" />
+    </a>
+  </p>
+
 </div>
 
 ---
@@ -70,7 +86,7 @@ Rather than relying on templates or pre-packaged abstractions, I build the core 
 
 ---
 
-### 📊 GitHub Telemetry & Stats
+### 📊 GitHub Telemetry & Live Contributions
 
 <div align="center">
 
@@ -78,9 +94,9 @@ Rather than relying on templates or pre-packaged abstractions, I build the core 
   <p align="center">
     <a href="https://github.com/aaddi1">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-fast.vercel.app/api?username=aaddi1&show_icons=true&bg_color=00000000&border_color=00000000&title_color=58A6FF&icon_color=3FB950&text_color=C9D1D9" />
-        <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-fast.vercel.app/api?username=aaddi1&show_icons=true&bg_color=00000000&border_color=00000000&title_color=0969DA&icon_color=1A7F37&text_color=24292F" />
-        <img src="https://github-readme-stats-fast.vercel.app/api?username=aaddi1&show_icons=true&bg_color=00000000&border_color=00000000&title_color=58A6FF&icon_color=3FB950&text_color=C9D1D9" alt="Aryan Sharma's Live GitHub Stats" />
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-fast.vercel.app/api?username=aaddi1&show_icons=true&include_all_commits=true&count_private=true&bg_color=00000000&border_color=00000000&title_color=58A6FF&icon_color=3FB950&text_color=C9D1D9" />
+        <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-fast.vercel.app/api?username=aaddi1&show_icons=true&include_all_commits=true&count_private=true&bg_color=00000000&border_color=00000000&title_color=0969DA&icon_color=1A7F37&text_color=24292F" />
+        <img src="https://github-readme-stats-fast.vercel.app/api?username=aaddi1&show_icons=true&include_all_commits=true&count_private=true&bg_color=00000000&border_color=00000000&title_color=58A6FF&icon_color=3FB950&text_color=C9D1D9" alt="Aryan Sharma's Live GitHub Stats" />
       </picture>
     </a>
     <a href="https://github.com/aaddi1">
@@ -104,13 +120,15 @@ Rather than relying on templates or pre-packaged abstractions, I build the core 
   </p>
 
   <!-- 1,155+ LIFETIME CONTRIBUTIONS & ACTIVITY GRAPH -->
-  <h4>⚡ 1,155+ Total Contributions (Live Synchronized)</h4>
+  <h4>⚡ 1,155+ Total Contributions (Live Synchronized Heatmap)</h4>
   <p align="center">
     <a href="https://github.com/aaddi1">
-      <img src="https://ghchart.rshah.org/2ea043/aaddi1" alt="Aryan Sharma's Live GitHub Contribution Graph — 1,155+ Contributions" width="100%" />
+      <img src="https://ghchart.rshah.org/3FB950/aaddi1" alt="Aryan Sharma's Live GitHub Contribution Graph — 1,155+ Contributions" width="100%" />
     </a>
   </p>
 
+  <!-- CONTRIBUTION GRID SNAKE GAME -->
+  <h4>🐍 Live Contribution Grid Snake (Auto-Syncing)</h4>
   <p align="center">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aaddi1/aaddi1/output/github-contribution-grid-snake-dark.svg" />
@@ -122,6 +140,7 @@ Rather than relying on templates or pre-packaged abstractions, I build the core 
   <br />
 
   <!-- OFFICIAL LIVE GITHUB TROPHIES (FULL COMPLETE SET) -->
+  <h4>🏆 Official Live GitHub Profile Trophies</h4>
   <p align="center">
     <a href="https://github.com/ryo-ma/github-profile-trophy">
       <picture>
