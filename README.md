@@ -11,7 +11,7 @@
   </a>
 
   <p align="center">
-    <strong>📍 Tundla, Uttar Pradesh, India 🇮🇳 &bull; 🌐 Global Remote &bull; 🚀 Available for High-Impact Engineering Roles & Ambitious Builds</strong>
+    <strong>📍 Tundla, Uttar Pradesh, India 283204 🇮🇳 &bull; 🌐 Global Remote &bull; 🚀 Available for High-Impact Engineering Roles & Ambitious Builds</strong>
   </p>
 
   <!-- SOCIAL & DIRECT CONNECT MATRIX -->
@@ -62,7 +62,7 @@
 identity:
   engineer: "Aryan Sharma"
   role: "3D Creative Engineer & Full-Stack Systems Architect"
-  location: "Tundla, Uttar Pradesh, India 🇮🇳"
+  location: "Tundla, Uttar Pradesh, India 283204 🇮🇳"
   direct_inbox: "aaddisharmarkczw@gmail.com"
   core_engineering:
     - "3D Spatial WebGL & Interactive Graphics (Three.js / Canvas 2D & 3D)"
@@ -83,6 +83,38 @@ Rather than relying on templates or pre-packaged abstractions, I build the core 
 * **🗄️ Relational Database & SQL Design:** Designing normalized PostgreSQL databases, foreign key constraints, indexes, and complex analytical SQL queries.
 * **⚡ High-Throughput C++ & Python:** Writing compiled C++ modules and Python data pipelines for low-latency math, analytics acceleration, and business intelligence.
 * **🏆 Verified Industry Standards:** Backed by 17+ official credentials and 4 enterprise job simulations across AWS, Google Play, Oracle, IBM, Deloitte, and ISRO.
+
+---
+
+### 💻 Polyglot Programming Languages & Technical Arsenal
+
+<div align="center">
+
+  <!-- PROGRAMMING & COMPUTATIONAL LANGUAGES -->
+  <p align="center">
+    <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
+    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+    <img src="https://img.shields.io/badge/PostgreSQL_/_SQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL & SQL" />
+    <img src="https://img.shields.io/badge/JavaScript_(ESNext)-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript ESNext" />
+    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+    <img src="https://img.shields.io/badge/GLSL_Shaders-5586A4?style=for-the-badge&logo=opengl&logoColor=white" alt="GLSL Shaders" />
+    <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+    <img src="https://img.shields.io/badge/Shell_Scripting-121011?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Shell Scripting" />
+  </p>
+
+  <!-- 3D GRAPHICS, FRAMEWORKS & RUNTIMES -->
+  <p align="center">
+    <img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white" alt="Three.js" />
+    <img src="https://img.shields.io/badge/WebGL-990000?style=for-the-badge&logo=webgl&logoColor=white" alt="WebGL" />
+    <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
+    <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js" />
+    <img src="https://img.shields.io/badge/Apple_Liquid_Glass-8250DF?style=for-the-badge&logo=apple&logoColor=white" alt="Apple Liquid Glass" />
+    <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+    <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
+  </p>
+
+</div>
 
 ---
 
