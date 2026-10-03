@@ -39,7 +39,7 @@
   <!-- LIVE GITHUB REAL-TIME ACTIVITY BADGES -->
   <p align="center">
     <a href="https://github.com/aaddi1">
-      <img src="https://img.shields.io/badge/Contributions-1,155+_Live-3FB950?style=flat-square&logo=github&logoColor=white" alt="Live Contributions" />
+      <img src="https://img.shields.io/badge/dynamic/json?color=3FB950&label=Contributions&query=%24.total.lastYear&url=https%3A%2F%2Fgithub-contributions-api.jogruber.de%2Fv4%2Faaddi1%3Fy%3Dlast&style=flat-square&logo=github&logoColor=white" alt="Live Total Contributions" />
     </a>
     <a href="https://github.com/aaddi1?tab=repositories">
       <img src="https://img.shields.io/badge/Public_Repos-7_Architectures-58A6FF?style=flat-square&logo=git&logoColor=white" alt="Public Repositories" />
@@ -119,11 +119,11 @@ Rather than relying on templates or pre-packaged abstractions, I build the core 
     </a>
   </p>
 
-  <!-- 1,155+ LIFETIME CONTRIBUTIONS & ACTIVITY GRAPH -->
-  <h4>⚡ 1,155+ Total Contributions (Live Synchronized Heatmap)</h4>
+  <!-- 2,195+ LIVE CONTRIBUTIONS & ACTIVITY GRAPH -->
+  <h4>⚡ 2,195+ Total Contributions (Live Synchronized Heatmap)</h4>
   <p align="center">
     <a href="https://github.com/aaddi1">
-      <img src="https://ghchart.rshah.org/3FB950/aaddi1" alt="Aryan Sharma's Live GitHub Contribution Graph — 1,155+ Contributions" width="100%" />
+      <img src="https://ghchart.rshah.org/3FB950/aaddi1" alt="Aryan Sharma's Live GitHub Contribution Graph — 2,195+ Contributions" width="100%" />
     </a>
   </p>
 
